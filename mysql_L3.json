@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "윈도우 함수",
+    "meaning": "행 창에서 계산",
+    "usage_one_liner": "SUM(x) OVER(PARTITION BY d)",
+    "order_index": 151,
+    "tags": [
+      "core",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "ROW_NUMBER()",
+    "meaning": "순번 부여",
+    "usage_one_liner": "ROW_NUMBER() OVER(...)",
+    "order_index": 152,
+    "tags": [
+      "applied",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions.html#function_row-number"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "RANK()/DENSE_RANK()",
+    "meaning": "순위 부여",
+    "usage_one_liner": "RANK() OVER(...)",
+    "order_index": 153,
+    "tags": [
+      "applied",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions.html#function_rank"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "PARTITION BY",
+    "meaning": "윈도우 그룹",
+    "usage_one_liner": "OVER(PARTITION BY d)",
+    "order_index": 154,
+    "tags": [
+      "core",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions-usage.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "ORDER BY(OVER)",
+    "meaning": "윈도우 순서",
+    "usage_one_liner": "OVER(ORDER BY dt)",
+    "order_index": 155,
+    "tags": [
+      "core",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions-usage.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "CTE WITH",
+    "meaning": "공통 테이블식",
+    "usage_one_liner": "WITH c AS(SELECT ...) SELECT ...",
+    "order_index": 156,
+    "tags": [
+      "applied",
+      "cte"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "with.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "EXPLAIN",
+    "meaning": "실행 계획 보기",
+    "usage_one_liner": "EXPLAIN SELECT ...",
+    "order_index": 157,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "explain-output.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "INDEX",
+    "meaning": "검색 최적화",
+    "usage_one_liner": "CREATE INDEX ix ON t(col);",
+    "order_index": 158,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "indexes.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "PRIMARY KEY",
+    "meaning": "고유 식별자",
+    "usage_one_liner": "PRIMARY KEY(id)",
+    "order_index": 159,
+    "tags": [
+      "core",
+      "schema"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "constraints.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "FOREIGN KEY",
+    "meaning": "참조 무결성",
+    "usage_one_liner": "FOREIGN KEY (b) REFERENCES t2(id)",
+    "order_index": 160,
+    "tags": [
+      "applied",
+      "schema"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "foreign-keys.html"
+  }
+]

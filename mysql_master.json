@@ -1,0 +1,492 @@
+[
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "SELECT",
+    "meaning": "열 선택하여 행 조회",
+    "usage_one_liner": "SELECT col FROM t;",
+    "order_index": 126,
+    "tags": [
+      "core",
+      "query"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "FROM",
+    "meaning": "데이터 소스 지정",
+    "usage_one_liner": "SELECT * FROM t;",
+    "order_index": 127,
+    "tags": [
+      "core",
+      "query"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "WHERE",
+    "meaning": "행 조건 필터",
+    "usage_one_liner": "SELECT * FROM t WHERE id>10;",
+    "order_index": 128,
+    "tags": [
+      "core",
+      "filter"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html#where-clause"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "ORDER BY",
+    "meaning": "정렬",
+    "usage_one_liner": "SELECT * FROM t ORDER BY col DESC;",
+    "order_index": 129,
+    "tags": [
+      "core",
+      "sort"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html#order-by"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "LIMIT",
+    "meaning": "행 수 제한",
+    "usage_one_liner": "SELECT * FROM t LIMIT 10;",
+    "order_index": 130,
+    "tags": [
+      "core",
+      "paging"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html#limit-clause"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "DISTINCT",
+    "meaning": "중복 제거",
+    "usage_one_liner": "SELECT DISTINCT name FROM t;",
+    "order_index": 131,
+    "tags": [
+      "core",
+      "set"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html#distinct"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "COUNT()",
+    "meaning": "행 수 집계",
+    "usage_one_liner": "SELECT COUNT(*) FROM t;",
+    "order_index": 132,
+    "tags": [
+      "core",
+      "agg"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "aggregate-functions.html#function_count"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "SUM()",
+    "meaning": "합계",
+    "usage_one_liner": "SELECT SUM(x) FROM t;",
+    "order_index": 133,
+    "tags": [
+      "core",
+      "agg"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "aggregate-functions.html#function_sum"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "AVG()",
+    "meaning": "평균",
+    "usage_one_liner": "SELECT AVG(x) FROM t;",
+    "order_index": 134,
+    "tags": [
+      "core",
+      "agg"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "aggregate-functions.html#function_avg"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "GROUP BY",
+    "meaning": "그룹 집계",
+    "usage_one_liner": "SELECT d,COUNT(*) FROM t GROUP BY d;",
+    "order_index": 135,
+    "tags": [
+      "core",
+      "group"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "group-by-handling.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "HAVING",
+    "meaning": "집계 조건",
+    "usage_one_liner": "SELECT d,COUNT(*) c FROM t GROUP BY d HAVING c>1;",
+    "order_index": 136,
+    "tags": [
+      "core",
+      "group"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "select.html#having"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "LIKE",
+    "meaning": "패턴 매칭",
+    "usage_one_liner": "WHERE name LIKE 'A%'",
+    "order_index": 137,
+    "tags": [
+      "applied",
+      "pattern"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "pattern-matching.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "BETWEEN",
+    "meaning": "구간 포함",
+    "usage_one_liner": "WHERE x BETWEEN 1 AND 10",
+    "order_index": 138,
+    "tags": [
+      "applied",
+      "filter"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "functions.html#operator_between"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "IN",
+    "meaning": "집합 포함",
+    "usage_one_liner": "WHERE x IN (1,2,3)",
+    "order_index": 139,
+    "tags": [
+      "applied",
+      "filter"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "functions.html#operator_in"
+  },
+  {
+    "domain": "mysql",
+    "level": 1,
+    "keyword": "IS NULL",
+    "meaning": "NULL 검사",
+    "usage_one_liner": "WHERE col IS NULL",
+    "order_index": 140,
+    "tags": [
+      "core",
+      "null"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "is-null.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "JOIN(INNER)",
+    "meaning": "교집합 조인",
+    "usage_one_liner": "SELECT * FROM a JOIN b ON a.id=b.id;",
+    "order_index": 141,
+    "tags": [
+      "core",
+      "join"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "join.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "LEFT JOIN",
+    "meaning": "왼쪽 기준 조인",
+    "usage_one_liner": "SELECT * FROM a LEFT JOIN b ON ...;",
+    "order_index": 142,
+    "tags": [
+      "core",
+      "join"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "join.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "RIGHT JOIN",
+    "meaning": "오른쪽 기준 조인",
+    "usage_one_liner": "SELECT * FROM a RIGHT JOIN b ON ...;",
+    "order_index": 143,
+    "tags": [
+      "applied",
+      "join"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "join.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "ON",
+    "meaning": "조인 조건",
+    "usage_one_liner": "JOIN b ON a.id=b.id",
+    "order_index": 144,
+    "tags": [
+      "core",
+      "join"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "join.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "USING",
+    "meaning": "동일 컬럼 조인",
+    "usage_one_liner": "JOIN b USING(id)",
+    "order_index": 145,
+    "tags": [
+      "applied",
+      "join"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "join.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "CASE WHEN",
+    "meaning": "조건 분기",
+    "usage_one_liner": "CASE WHEN x>0 THEN 'P' END",
+    "order_index": 146,
+    "tags": [
+      "applied",
+      "expr"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "case.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "COALESCE()",
+    "meaning": "NULL 대체",
+    "usage_one_liner": "COALESCE(col,0)",
+    "order_index": 147,
+    "tags": [
+      "applied",
+      "null"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "function_nullif.html#function_coalesce"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "IFNULL()",
+    "meaning": "NULL 대체",
+    "usage_one_liner": "IFNULL(col,0)",
+    "order_index": 148,
+    "tags": [
+      "applied",
+      "null"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "function_nullif.html#function_ifnull"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "SUBQUERY",
+    "meaning": "서브쿼리",
+    "usage_one_liner": "WHERE x IN(SELECT ...)",
+    "order_index": 149,
+    "tags": [
+      "applied",
+      "subquery"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "subqueries.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 2,
+    "keyword": "UNION",
+    "meaning": "결과 집합 합치기",
+    "usage_one_liner": "SELECT ... UNION SELECT ...",
+    "order_index": 150,
+    "tags": [
+      "applied",
+      "setop"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "union.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "윈도우 함수",
+    "meaning": "행 창에서 계산",
+    "usage_one_liner": "SUM(x) OVER(PARTITION BY d)",
+    "order_index": 151,
+    "tags": [
+      "core",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "ROW_NUMBER()",
+    "meaning": "순번 부여",
+    "usage_one_liner": "ROW_NUMBER() OVER(...)",
+    "order_index": 152,
+    "tags": [
+      "applied",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions.html#function_row-number"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "RANK()/DENSE_RANK()",
+    "meaning": "순위 부여",
+    "usage_one_liner": "RANK() OVER(...)",
+    "order_index": 153,
+    "tags": [
+      "applied",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions.html#function_rank"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "PARTITION BY",
+    "meaning": "윈도우 그룹",
+    "usage_one_liner": "OVER(PARTITION BY d)",
+    "order_index": 154,
+    "tags": [
+      "core",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions-usage.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "ORDER BY(OVER)",
+    "meaning": "윈도우 순서",
+    "usage_one_liner": "OVER(ORDER BY dt)",
+    "order_index": 155,
+    "tags": [
+      "core",
+      "window"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "window-functions-usage.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "CTE WITH",
+    "meaning": "공통 테이블식",
+    "usage_one_liner": "WITH c AS(SELECT ...) SELECT ...",
+    "order_index": 156,
+    "tags": [
+      "applied",
+      "cte"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "with.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "EXPLAIN",
+    "meaning": "실행 계획 보기",
+    "usage_one_liner": "EXPLAIN SELECT ...",
+    "order_index": 157,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "explain-output.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "INDEX",
+    "meaning": "검색 최적화",
+    "usage_one_liner": "CREATE INDEX ix ON t(col);",
+    "order_index": 158,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "indexes.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "PRIMARY KEY",
+    "meaning": "고유 식별자",
+    "usage_one_liner": "PRIMARY KEY(id)",
+    "order_index": 159,
+    "tags": [
+      "core",
+      "schema"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "constraints.html"
+  },
+  {
+    "domain": "mysql",
+    "level": 3,
+    "keyword": "FOREIGN KEY",
+    "meaning": "참조 무결성",
+    "usage_one_liner": "FOREIGN KEY (b) REFERENCES t2(id)",
+    "order_index": 160,
+    "tags": [
+      "applied",
+      "schema"
+    ],
+    "doc_url": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "doc_section": "foreign-keys.html"
+  }
+]

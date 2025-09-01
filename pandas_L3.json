@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "groupby()",
+    "meaning": "그룹 연산 시작",
+    "usage_one_liner": "df.groupby('key')",
+    "order_index": 96,
+    "tags": [
+      "core",
+      "groupby"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "groupby.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "agg()",
+    "meaning": "집계 연산",
+    "usage_one_liner": "df.groupby('k').agg({'v':'mean'})",
+    "order_index": 97,
+    "tags": [
+      "core",
+      "groupby"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "groupby.html#aggregation"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "transform()",
+    "meaning": "형태 유지 변환",
+    "usage_one_liner": "df.groupby('k')['v'].transform('zscore')",
+    "order_index": 98,
+    "tags": [
+      "applied",
+      "groupby"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "groupby.html#transformation"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "apply()",
+    "meaning": "사용자 함수 적용",
+    "usage_one_liner": "df.groupby('k').apply(func)",
+    "order_index": 99,
+    "tags": [
+      "applied",
+      "groupby"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "groupby.html#apply"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "merge()",
+    "meaning": "관계 조인",
+    "usage_one_liner": "pd.merge(l,r,on='id')",
+    "order_index": 100,
+    "tags": [
+      "core",
+      "relational"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "merging.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "join()",
+    "meaning": "인덱스 기준 조인",
+    "usage_one_liner": "l.join(r, on='id')",
+    "order_index": 101,
+    "tags": [
+      "applied",
+      "relational"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "merging.html#joining"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "concat()",
+    "meaning": "연결(세로/가로)",
+    "usage_one_liner": "pd.concat([a,b])",
+    "order_index": 102,
+    "tags": [
+      "applied",
+      "reshape"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "merging.html#concatenation"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "pivot_table()",
+    "meaning": "피벗 집계 테이블",
+    "usage_one_liner": "pd.pivot_table(df, index='a', values='v')",
+    "order_index": 103,
+    "tags": [
+      "applied",
+      "pivot"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "reshaping.html#pivot-tables"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "melt()",
+    "meaning": "넓은→긴 변환",
+    "usage_one_liner": "pd.melt(df, id_vars=['id'])",
+    "order_index": 104,
+    "tags": [
+      "applied",
+      "reshape"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "reshaping.html#melt"
+  },
+  {
+    "domain": "pandas",
+    "level": 3,
+    "keyword": "stack()/unstack()",
+    "meaning": "계층 변환",
+    "usage_one_liner": "df.unstack()",
+    "order_index": 105,
+    "tags": [
+      "applied",
+      "reshape"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "reshaping.html#stack"
+  }
+]

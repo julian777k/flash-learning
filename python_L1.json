@@ -1,0 +1,352 @@
+[
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "숫자형(int)",
+    "meaning": "정수 값을 표현",
+    "usage_one_liner": "x = 42",
+    "order_index": 1,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "int"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "숫자형(float)",
+    "meaning": "부동소수점 수 표현",
+    "usage_one_liner": "pi = 3.14",
+    "order_index": 2,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "float"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "불(bool)",
+    "meaning": "참/거짓 논리값",
+    "usage_one_liner": "flag = True",
+    "order_index": 3,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "bool"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "문자열(str)",
+    "meaning": "문자 시퀀스",
+    "usage_one_liner": "s = 'hello'",
+    "order_index": 4,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "str"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "리스트(list)",
+    "meaning": "가변 시퀀스",
+    "usage_one_liner": "arr = [1,2,3]",
+    "order_index": 5,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "튜플(tuple)",
+    "meaning": "불변 시퀀스",
+    "usage_one_liner": "t = (1,2)",
+    "order_index": 6,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "tuple"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "딕셔너리(dict)",
+    "meaning": "키-값 매핑",
+    "usage_one_liner": "m = {'a':1}",
+    "order_index": 7,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "집합(set)",
+    "meaning": "중복 없는 집합",
+    "usage_one_liner": "s = {1,2,3}",
+    "order_index": 8,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "set"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "대입(=)",
+    "meaning": "변수에 값 저장",
+    "usage_one_liner": "x = 10",
+    "order_index": 9,
+    "tags": [
+      "core",
+      "syntax"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "assignment"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "산술 연산자",
+    "meaning": "수학적 계산",
+    "usage_one_liner": "a+b, a-b, a*b, a/b",
+    "order_index": 10,
+    "tags": [
+      "core",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "arithmetic"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "비교 연산자",
+    "meaning": "값 비교",
+    "usage_one_liner": "a == b, a < b",
+    "order_index": 11,
+    "tags": [
+      "core",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "comparisons"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "논리 연산자",
+    "meaning": "and/or/not",
+    "usage_one_liner": "a and b",
+    "order_index": 12,
+    "tags": [
+      "core",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "boolean"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "if",
+    "meaning": "조건 분기",
+    "usage_one_liner": "if x>0: print('pos')",
+    "order_index": 13,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "if"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "for",
+    "meaning": "시퀀스 반복",
+    "usage_one_liner": "for x in arr: ...",
+    "order_index": 14,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "for"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "while",
+    "meaning": "조건 반복",
+    "usage_one_liner": "while n>0: n-=1",
+    "order_index": 15,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "while"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "break",
+    "meaning": "반복 즉시 종료",
+    "usage_one_liner": "break",
+    "order_index": 16,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "break"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "continue",
+    "meaning": "다음 반복으로",
+    "usage_one_liner": "continue",
+    "order_index": 17,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "continue"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "range()",
+    "meaning": "연속 정수 생성",
+    "usage_one_liner": "for i in range(5): ...",
+    "order_index": 18,
+    "tags": [
+      "core",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "range"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "len()",
+    "meaning": "길이 구하기",
+    "usage_one_liner": "len(arr)",
+    "order_index": 19,
+    "tags": [
+      "core",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "len"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "print()",
+    "meaning": "표준 출력",
+    "usage_one_liner": "print('Hi')",
+    "order_index": 20,
+    "tags": [
+      "core",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "print"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "input()",
+    "meaning": "표준 입력",
+    "usage_one_liner": "name = input()",
+    "order_index": 21,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "input"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "주석(#)",
+    "meaning": "코드 설명",
+    "usage_one_liner": "# 이것은 주석",
+    "order_index": 22,
+    "tags": [
+      "core",
+      "syntax"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "comments"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "f-string",
+    "meaning": "문자열 포매팅",
+    "usage_one_liner": "f'Hi {name}'",
+    "order_index": 23,
+    "tags": [
+      "applied",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "fstring"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "인덱싱",
+    "meaning": "요소 접근",
+    "usage_one_liner": "arr[0]",
+    "order_index": 24,
+    "tags": [
+      "core",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "indexing"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "슬라이싱",
+    "meaning": "부분 시퀀스",
+    "usage_one_liner": "arr[1:4]",
+    "order_index": 25,
+    "tags": [
+      "core",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "slicing"
+  }
+]

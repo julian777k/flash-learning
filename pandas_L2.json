@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "loc",
+    "meaning": "레이블 기반 선택",
+    "usage_one_liner": "df.loc[0,'a']",
+    "order_index": 86,
+    "tags": [
+      "core",
+      "indexing"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "indexing.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "iloc",
+    "meaning": "정수 위치 선택",
+    "usage_one_liner": "df.iloc[0,0]",
+    "order_index": 87,
+    "tags": [
+      "core",
+      "indexing"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "indexing.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "sort_values()",
+    "meaning": "값 기준 정렬",
+    "usage_one_liner": "df.sort_values('a')",
+    "order_index": 88,
+    "tags": [
+      "applied",
+      "transform"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "sorting.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "value_counts()",
+    "meaning": "빈도표",
+    "usage_one_liner": "df['a'].value_counts()",
+    "order_index": 89,
+    "tags": [
+      "applied",
+      "stats"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "drop()",
+    "meaning": "행/열 제거",
+    "usage_one_liner": "df.drop(columns=['a'])",
+    "order_index": 90,
+    "tags": [
+      "applied",
+      "transform"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "merging.html#joining"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "rename()",
+    "meaning": "열/축 이름 변경",
+    "usage_one_liner": "df.rename(columns={'a':'A'})",
+    "order_index": 91,
+    "tags": [
+      "applied",
+      "transform"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#renaming"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "query()",
+    "meaning": "표현식 필터",
+    "usage_one_liner": "df.query('a>0')",
+    "order_index": 92,
+    "tags": [
+      "applied",
+      "filter"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "assign()",
+    "meaning": "새 열 추가",
+    "usage_one_liner": "df.assign(b=df['a']*2)",
+    "order_index": 93,
+    "tags": [
+      "applied",
+      "transform"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "duplicated()/drop_duplicates()",
+    "meaning": "중복 탐지/제거",
+    "usage_one_liner": "df.drop_duplicates()",
+    "order_index": 94,
+    "tags": [
+      "applied",
+      "clean"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#duplicate"
+  },
+  {
+    "domain": "pandas",
+    "level": 2,
+    "keyword": "sample()",
+    "meaning": "표본 추출",
+    "usage_one_liner": "df.sample(n=5, random_state=0)",
+    "order_index": 95,
+    "tags": [
+      "applied",
+      "sampling"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  }
+]

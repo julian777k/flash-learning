@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "to_datetime()",
+    "meaning": "날짜 변환",
+    "usage_one_liner": "pd.to_datetime(df['dt'])",
+    "order_index": 106,
+    "tags": [
+      "core",
+      "datetime"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "timeseries.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "dt 접근자",
+    "meaning": "날짜 성분 추출",
+    "usage_one_liner": "df['dt'].dt.year",
+    "order_index": 107,
+    "tags": [
+      "applied",
+      "datetime"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "timeseries.html#time-date-components"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "resample()",
+    "meaning": "시계열 리샘플링",
+    "usage_one_liner": "s.resample('D').mean()",
+    "order_index": 108,
+    "tags": [
+      "applied",
+      "datetime"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "timeseries.html#resampling"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "rolling()",
+    "meaning": "이동 창 통계",
+    "usage_one_liner": "s.rolling(7).mean()",
+    "order_index": 109,
+    "tags": [
+      "applied",
+      "window"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "computation.html#window"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "str 접근자",
+    "meaning": "문자열 벡터화",
+    "usage_one_liner": "df['c'].str.lower()",
+    "order_index": 110,
+    "tags": [
+      "applied",
+      "string"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "text.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "categorical",
+    "meaning": "범주형 자료형",
+    "usage_one_liner": "df['c']=df['c'].astype('category')",
+    "order_index": 111,
+    "tags": [
+      "applied",
+      "dtype"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "categorical.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "eval()",
+    "meaning": "표현식 계산",
+    "usage_one_liner": "pd.eval('A+B')",
+    "order_index": 112,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "enhancingperf.html#eval"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "query() 고급",
+    "meaning": "빠른 필터링",
+    "usage_one_liner": "df.query('A in @vals')",
+    "order_index": 113,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "enhancingperf.html#eval"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "nullable dtypes",
+    "meaning": "결측 허용 정수/불",
+    "usage_one_liner": "pd.Series([1,None], dtype='Int64')",
+    "order_index": 114,
+    "tags": [
+      "applied",
+      "dtype"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "integer_na.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 4,
+    "keyword": "sparse",
+    "meaning": "희소 자료 구조",
+    "usage_one_liner": "pd.Series([0,0,1]).astype('Sparse[int]')",
+    "order_index": 115,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "sparse.html"
+  }
+]

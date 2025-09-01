@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "Styler",
+    "meaning": "표 스타일링",
+    "usage_one_liner": "df.style.highlight_max()",
+    "order_index": 116,
+    "tags": [
+      "applied",
+      "viz"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "style.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "MultiIndex",
+    "meaning": "다중 인덱스",
+    "usage_one_liner": "df.set_index(['a','b'])",
+    "order_index": 117,
+    "tags": [
+      "applied",
+      "index"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "advanced.html#multiindex"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "Categorical API",
+    "meaning": "범주형 고급",
+    "usage_one_liner": "pd.CategoricalDtype(...)",
+    "order_index": 118,
+    "tags": [
+      "applied",
+      "dtype"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "categorical.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "read_parquet()",
+    "meaning": "고성능 IO",
+    "usage_one_liner": "pd.read_parquet('x.parquet')",
+    "order_index": 119,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "io.html#parquet"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "to_sql()/read_sql()",
+    "meaning": "DB IO",
+    "usage_one_liner": "df.to_sql('t', engine)",
+    "order_index": 120,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "io.html#sql-queries"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "to_json()/read_json()",
+    "meaning": "JSON IO",
+    "usage_one_liner": "df.to_json('x.json')",
+    "order_index": 121,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "io.html#json"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "interpolate()",
+    "meaning": "보간",
+    "usage_one_liner": "s.interpolate()",
+    "order_index": 122,
+    "tags": [
+      "applied",
+      "missing"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "missing_data.html#interpolation"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "cut()/qcut()",
+    "meaning": "구간/분위 분할",
+    "usage_one_liner": "pd.qcut(s, 4)",
+    "order_index": 123,
+    "tags": [
+      "applied",
+      "binning"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "reshaping.html#tiling"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "np.where()",
+    "meaning": "조건 분기",
+    "usage_one_liner": "np.where(s>0,1,0)",
+    "order_index": 124,
+    "tags": [
+      "applied",
+      "vectorize"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 5,
+    "keyword": "pipe()",
+    "meaning": "메서드 체이닝",
+    "usage_one_liner": "df.pipe(func)",
+    "order_index": 125,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  }
+]

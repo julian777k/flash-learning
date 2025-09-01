@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "타입힌트",
+    "meaning": "정적 힌트 제공",
+    "usage_one_liner": "def f(x:int)->str: ...",
+    "order_index": 66,
+    "tags": [
+      "applied",
+      "typing"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "typing"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "typing.Optional",
+    "meaning": "값 또는 None",
+    "usage_one_liner": "Optional[int]",
+    "order_index": 67,
+    "tags": [
+      "applied",
+      "typing"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "typing"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "dataclasses",
+    "meaning": "보일러플레이트 감소",
+    "usage_one_liner": "@dataclass\nclass P: x:int",
+    "order_index": 68,
+    "tags": [
+      "applied",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dataclasses"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "functools.lru_cache",
+    "meaning": "결과 캐시",
+    "usage_one_liner": "@lru_cache\ndef f(n): ...",
+    "order_index": 69,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "functools"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "itertools",
+    "meaning": "고성능 이터레이션",
+    "usage_one_liner": "from itertools import groupby",
+    "order_index": 70,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "itertools"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "async/await",
+    "meaning": "비동기 코루틴",
+    "usage_one_liner": "async def f(): await g()",
+    "order_index": 71,
+    "tags": [
+      "applied",
+      "concurrency"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "asyncio"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "contextlib",
+    "meaning": "컨텍스트 도우미",
+    "usage_one_liner": "from contextlib import contextmanager",
+    "order_index": 72,
+    "tags": [
+      "applied",
+      "context"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "contextlib"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "logging",
+    "meaning": "표준 로깅",
+    "usage_one_liner": "import logging",
+    "order_index": 73,
+    "tags": [
+      "applied",
+      "debug"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "logging"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "timeit",
+    "meaning": "성능 측정",
+    "usage_one_liner": "import timeit",
+    "order_index": 74,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "timeit"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "venv",
+    "meaning": "가상환경",
+    "usage_one_liner": "python -m venv .venv",
+    "order_index": 75,
+    "tags": [
+      "applied",
+      "env"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "venv"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "함수 def",
+    "meaning": "재사용 가능한 블록",
+    "usage_one_liner": "def add(a,b): return a+b",
+    "order_index": 26,
+    "tags": [
+      "core",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "def"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "return",
+    "meaning": "함수 결과 반환",
+    "usage_one_liner": "return x",
+    "order_index": 27,
+    "tags": [
+      "core",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "return"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "인자/매개변수",
+    "meaning": "함수에 값 전달",
+    "usage_one_liner": "def f(x, y=0): ...",
+    "order_index": 28,
+    "tags": [
+      "core",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "arguments"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "*args/**kwargs",
+    "meaning": "가변 인자 수용",
+    "usage_one_liner": "def f(*a, **k): ...",
+    "order_index": 29,
+    "tags": [
+      "applied",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "varargs"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "예외 try/except",
+    "meaning": "에러 처리",
+    "usage_one_liner": "try: ... except ValueError: ...",
+    "order_index": 30,
+    "tags": [
+      "core",
+      "exceptions"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "try-except"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "raise",
+    "meaning": "의도적 예외 발생",
+    "usage_one_liner": "raise ValueError()",
+    "order_index": 31,
+    "tags": [
+      "applied",
+      "exceptions"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "raise"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "리스트 내포",
+    "meaning": "표현식 기반 생성",
+    "usage_one_liner": "[x*x for x in range(5)]",
+    "order_index": 32,
+    "tags": [
+      "applied",
+      "comprehension"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-comp"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "딕셔너리 내포",
+    "meaning": "키-값 생성식",
+    "usage_one_liner": "{i:i*i for i in range(3)}",
+    "order_index": 33,
+    "tags": [
+      "applied",
+      "comprehension"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict-comp"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "enumerate()",
+    "meaning": "인덱스와 값",
+    "usage_one_liner": "for i,v in enumerate(arr): ...",
+    "order_index": 34,
+    "tags": [
+      "applied",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "enumerate"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "zip()",
+    "meaning": "병렬 순회",
+    "usage_one_liner": "for a,b in zip(A,B): ...",
+    "order_index": 35,
+    "tags": [
+      "applied",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "zip"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "map()",
+    "meaning": "함수 적용",
+    "usage_one_liner": "list(map(int, arr))",
+    "order_index": 36,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "map"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "filter()",
+    "meaning": "조건 필터",
+    "usage_one_liner": "list(filter(pred, arr))",
+    "order_index": 37,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "filter"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "sorted()",
+    "meaning": "정렬",
+    "usage_one_liner": "sorted(arr)",
+    "order_index": 38,
+    "tags": [
+      "core",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "sorted"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "list.append()",
+    "meaning": "리스트 끝에 추가",
+    "usage_one_liner": "arr.append(4)",
+    "order_index": 39,
+    "tags": [
+      "applied",
+      "list"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "list.extend()",
+    "meaning": "리스트 이어붙이기",
+    "usage_one_liner": "arr.extend([5,6])",
+    "order_index": 40,
+    "tags": [
+      "applied",
+      "list"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "list.pop()",
+    "meaning": "마지막/지정 요소 제거",
+    "usage_one_liner": "arr.pop()",
+    "order_index": 41,
+    "tags": [
+      "applied",
+      "list"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "dict.get()",
+    "meaning": "키 조회(기본값)",
+    "usage_one_liner": "m.get('a',0)",
+    "order_index": 42,
+    "tags": [
+      "applied",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "dict.items()",
+    "meaning": "키-값 튜플들",
+    "usage_one_liner": "for k,v in m.items(): ...",
+    "order_index": 43,
+    "tags": [
+      "applied",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "set.add()",
+    "meaning": "집합에 추가",
+    "usage_one_liner": "s.add(10)",
+    "order_index": 44,
+    "tags": [
+      "applied",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "set-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "set.intersection()",
+    "meaning": "교집합",
+    "usage_one_liner": "s1 & s2",
+    "order_index": 45,
+    "tags": [
+      "applied",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "set-ops"
+  }
+]

@@ -1,0 +1,5852 @@
+[
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactor",
+    "meaning": "코드 구조 개선",
+    "usage_one_liner": "",
+    "order_index": 1,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactored",
+    "meaning": "코드 구조 개선",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactoring",
+    "meaning": "코드 구조 개선",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactors",
+    "meaning": "코드 구조 개선들",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutable",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutableed",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutableing",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutables",
+    "meaning": "불변(값이 바뀌지 않음)들",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotent",
+    "meaning": "멱등(여러 번 호출해도 결과 같음)",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotented",
+    "meaning": "멱등(여러 번 호출해도 결과 같음)",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotenting",
+    "meaning": "멱등(여러 번 호출해도 결과 같음)",
+    "usage_one_liner": "",
+    "order_index": 11,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotents",
+    "meaning": "멱등(여러 번 호출해도 결과 같음)들",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrency",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencyed",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencying",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencys",
+    "meaning": "동시성들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelism",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelismed",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelisming",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelisms",
+    "meaning": "병렬성들",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughput",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughputed",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughputing",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughputs",
+    "meaning": "처리량들",
+    "usage_one_liner": "",
+    "order_index": 24,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latency",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencyed",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencying",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencys",
+    "meaning": "지연 시간들",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottleneck",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecked",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecking",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecks",
+    "meaning": "병목들",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalability",
+    "meaning": "확장성",
+    "usage_one_liner": "",
+    "order_index": 33,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilityed",
+    "meaning": "확장성",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilitying",
+    "meaning": "확장성",
+    "usage_one_liner": "",
+    "order_index": 35,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilitys",
+    "meaning": "확장성들",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availability",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilityed",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilitying",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilitys",
+    "meaning": "가용성들",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistency",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 41,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistencying",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistencys",
+    "meaning": "일관성들",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durability",
+    "meaning": "영속성",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durabilityed",
+    "meaning": "영속성",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durabilitying",
+    "meaning": "영속성",
+    "usage_one_liner": "",
+    "order_index": 47,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durabilitys",
+    "meaning": "영속성들",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serialization",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationed",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationing",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializations",
+    "meaning": "직렬화들",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserialization",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationed",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationing",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializations",
+    "meaning": "역직렬화들",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestration",
+    "meaning": "오케스트레이션",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestrationed",
+    "meaning": "오케스트레이션",
+    "usage_one_liner": "",
+    "order_index": 58,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestrationing",
+    "meaning": "오케스트레이션",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestrations",
+    "meaning": "오케스트레이션들",
+    "usage_one_liner": "",
+    "order_index": 60,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observability",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilityed",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilitying",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilitys",
+    "meaning": "관측 가능성들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentation",
+    "meaning": "계측",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentationed",
+    "meaning": "계측",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentationing",
+    "meaning": "계측",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentations",
+    "meaning": "계측들",
+    "usage_one_liner": "",
+    "order_index": 68,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schema",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 69,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaed",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaing",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemas",
+    "meaning": "스키마들",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "migration",
+    "meaning": "마이그레이션",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "migrationed",
+    "meaning": "마이그레이션",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "migrationing",
+    "meaning": "마이그레이션",
+    "usage_one_liner": "",
+    "order_index": 75,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "migrations",
+    "meaning": "마이그레이션들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replication",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationed",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationing",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replications",
+    "meaning": "복제들",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "shard",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sharded",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sharding",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "shards",
+    "meaning": "샤드들",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfix",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 85,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfixed",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfixing",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfixs",
+    "meaning": "긴급 패치들",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollback",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacked",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacking",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacks",
+    "meaning": "롤백들",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollout",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouted",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouting",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouts",
+    "meaning": "순차 배포들",
+    "usage_one_liner": "",
+    "order_index": 96,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttling",
+    "meaning": "스로틀링",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttlinged",
+    "meaning": "스로틀링",
+    "usage_one_liner": "",
+    "order_index": 98,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttlings",
+    "meaning": "스로틀링들",
+    "usage_one_liner": "",
+    "order_index": 99,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressure",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 100,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureed",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureing",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressures",
+    "meaning": "역압들",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rate limit",
+    "meaning": "요청 제한",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "A/B test",
+    "meaning": "A/B 테스트",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesis",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 106,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesised",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesising",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "ground truth",
+    "meaning": "실측 정답",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenization",
+    "meaning": "토큰화",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenizationed",
+    "meaning": "토큰화",
+    "usage_one_liner": "",
+    "order_index": 111,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenizationing",
+    "meaning": "토큰화",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenizations",
+    "meaning": "토큰화들",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embedding",
+    "meaning": "임베딩",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embeddinged",
+    "meaning": "임베딩",
+    "usage_one_liner": "",
+    "order_index": 115,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embeddings",
+    "meaning": "임베딩들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "feature engineering",
+    "meaning": "특성 공학",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hyperparameter",
+    "meaning": "하이퍼파라미터",
+    "usage_one_liner": "",
+    "order_index": 118,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hyperparametered",
+    "meaning": "하이퍼파라미터",
+    "usage_one_liner": "",
+    "order_index": 119,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hyperparametering",
+    "meaning": "하이퍼파라미터",
+    "usage_one_liner": "",
+    "order_index": 120,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hyperparameters",
+    "meaning": "하이퍼파라미터들",
+    "usage_one_liner": "",
+    "order_index": 121,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipeline",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 122,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelineed",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelineing",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelines",
+    "meaning": "파이프라인들",
+    "usage_one_liner": "",
+    "order_index": 125,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifact",
+    "meaning": "산출물",
+    "usage_one_liner": "",
+    "order_index": 126,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifacted",
+    "meaning": "산출물",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifacting",
+    "meaning": "산출물",
+    "usage_one_liner": "",
+    "order_index": 128,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifacts",
+    "meaning": "산출물들",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bandwidth",
+    "meaning": "대역폭",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bandwidthed",
+    "meaning": "대역폭",
+    "usage_one_liner": "",
+    "order_index": 131,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bandwidthing",
+    "meaning": "대역폭",
+    "usage_one_liner": "",
+    "order_index": 132,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bandwidths",
+    "meaning": "대역폭들",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibility",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilityed",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitying",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitys",
+    "meaning": "호환성들",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "feature flag",
+    "meaning": "기능 플래그",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "fault tolerance",
+    "meaning": "장애 허용",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilience",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilienceed",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 141,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilienceing",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resiliences",
+    "meaning": "회복 탄력성들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpoint",
+    "meaning": "체크포인트",
+    "usage_one_liner": "",
+    "order_index": 144,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpointed",
+    "meaning": "체크포인트",
+    "usage_one_liner": "",
+    "order_index": 145,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpointing",
+    "meaning": "체크포인트",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpoints",
+    "meaning": "체크포인트들",
+    "usage_one_liner": "",
+    "order_index": 147,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "garbage collection",
+    "meaning": "가비지 컬렉션",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heap",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heaped",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 150,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heaping",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 151,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heaps",
+    "meaning": "힙들",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stack",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 153,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacked",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacking",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 155,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacks",
+    "meaning": "스택들",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queue",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queueed",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 158,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queueing",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 159,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queues",
+    "meaning": "큐들",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "priority queue",
+    "meaning": "우선순위 큐",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hash table",
+    "meaning": "해시 테이블",
+    "usage_one_liner": "",
+    "order_index": 162,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "binary search",
+    "meaning": "이진 탐색",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "lock-free",
+    "meaning": "락프리",
+    "usage_one_liner": "",
+    "order_index": 164,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlock",
+    "meaning": "교착상태",
+    "usage_one_liner": "",
+    "order_index": 165,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlocked",
+    "meaning": "교착상태",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlocking",
+    "meaning": "교착상태",
+    "usage_one_liner": "",
+    "order_index": 167,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlocks",
+    "meaning": "교착상태들",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelock",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocked",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocking",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocks",
+    "meaning": "라이브락들",
+    "usage_one_liner": "",
+    "order_index": 172,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "optimistic lock",
+    "meaning": "낙관적 락",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pessimistic lock",
+    "meaning": "비관적 락",
+    "usage_one_liner": "",
+    "order_index": 174,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "race condition",
+    "meaning": "경쟁 상태",
+    "usage_one_liner": "",
+    "order_index": 175,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "side effect",
+    "meaning": "부작용",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "data lineage",
+    "meaning": "데이터 계보",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governance",
+    "meaning": "거버넌스",
+    "usage_one_liner": "",
+    "order_index": 178,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governanceed",
+    "meaning": "거버넌스",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governanceing",
+    "meaning": "거버넌스",
+    "usage_one_liner": "",
+    "order_index": 180,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governances",
+    "meaning": "거버넌스들",
+    "usage_one_liner": "",
+    "order_index": 181,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "event sourcing",
+    "meaning": "이벤트 소싱",
+    "usage_one_liner": "",
+    "order_index": 182,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "eventual consistency",
+    "meaning": "결국적 일관성",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "strong consistency",
+    "meaning": "강한 일관성",
+    "usage_one_liner": "",
+    "order_index": 184,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "through-the-wire",
+    "meaning": "전송 레벨에서",
+    "usage_one_liner": "",
+    "order_index": 185,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotency key",
+    "meaning": "멱등 키",
+    "usage_one_liner": "",
+    "order_index": 186,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observability stack",
+    "meaning": "관측 스택",
+    "usage_one_liner": "",
+    "order_index": 187,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "service mesh",
+    "meaning": "서비스 메시",
+    "usage_one_liner": "",
+    "order_index": 188,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rate limiter",
+    "meaning": "요청 제한기",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "blue-green deployment",
+    "meaning": "블루-그린 배포",
+    "usage_one_liner": "",
+    "order_index": 190,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "canary release",
+    "meaning": "카나리아 배포",
+    "usage_one_liner": "",
+    "order_index": 191,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "dry run",
+    "meaning": "더미 실행",
+    "usage_one_liner": "",
+    "order_index": 192,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "staging",
+    "meaning": "스테이징",
+    "usage_one_liner": "",
+    "order_index": 193,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "staginged",
+    "meaning": "스테이징",
+    "usage_one_liner": "",
+    "order_index": 194,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stagings",
+    "meaning": "스테이징들",
+    "usage_one_liner": "",
+    "order_index": 195,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmark",
+    "meaning": "벤치마크",
+    "usage_one_liner": "",
+    "order_index": 196,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarked",
+    "meaning": "벤치마크",
+    "usage_one_liner": "",
+    "order_index": 197,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarking",
+    "meaning": "벤치마크",
+    "usage_one_liner": "",
+    "order_index": 198,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "벤치마크들",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profiling",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 200,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilinged",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 201,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilings",
+    "meaning": "프로파일링들",
+    "usage_one_liner": "",
+    "order_index": 202,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "roll forward",
+    "meaning": "전진 롤백",
+    "usage_one_liner": "",
+    "order_index": 203,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hot path",
+    "meaning": "핫 경로",
+    "usage_one_liner": "",
+    "order_index": 204,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "cold start",
+    "meaning": "콜드 스타트",
+    "usage_one_liner": "",
+    "order_index": 205,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "warm start",
+    "meaning": "웜 스타트",
+    "usage_one_liner": "",
+    "order_index": 206,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibility",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesised",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationed",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouted",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "migrationing",
+    "meaning": "마이그레이션",
+    "usage_one_liner": "",
+    "order_index": 75,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durability",
+    "meaning": "영속성",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarked",
+    "meaning": "벤치마크",
+    "usage_one_liner": "",
+    "order_index": 197,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governances",
+    "meaning": "거버넌스들",
+    "usage_one_liner": "",
+    "order_index": 181,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "벤치마크들",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "fault tolerance",
+    "meaning": "장애 허용",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocked",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemas",
+    "meaning": "스키마들",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottleneck",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutableing",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilitys",
+    "meaning": "관측 가능성들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttlings",
+    "meaning": "스로틀링들",
+    "usage_one_liner": "",
+    "order_index": 99,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesising",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentation",
+    "meaning": "계측",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifacts",
+    "meaning": "산출물들",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sharded",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "lock-free",
+    "meaning": "락프리",
+    "usage_one_liner": "",
+    "order_index": 164,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "side effect",
+    "meaning": "부작용",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressures",
+    "meaning": "역압들",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilitys",
+    "meaning": "확장성들",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilienceing",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencys",
+    "meaning": "동시성들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "eventual consistency",
+    "meaning": "결국적 일관성",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationing",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilitying",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitys",
+    "meaning": "호환성들",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpoint",
+    "meaning": "체크포인트",
+    "usage_one_liner": "",
+    "order_index": 144,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationed",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfix",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 85,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profiling",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 200,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecks",
+    "meaning": "병목들",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotency key",
+    "meaning": "멱등 키",
+    "usage_one_liner": "",
+    "order_index": 186,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelismed",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replications",
+    "meaning": "복제들",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "A/B test",
+    "meaning": "A/B 테스트",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughput",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bandwidth",
+    "meaning": "대역폭",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipeline",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 122,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocking",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacked",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availability",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlocks",
+    "meaning": "교착상태들",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlocked",
+    "meaning": "교착상태",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfixing",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutable",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenizationed",
+    "meaning": "토큰화",
+    "usage_one_liner": "",
+    "order_index": 111,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "canary release",
+    "meaning": "카나리아 배포",
+    "usage_one_liner": "",
+    "order_index": 191,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpoints",
+    "meaning": "체크포인트들",
+    "usage_one_liner": "",
+    "order_index": 147,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencyed",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilitys",
+    "meaning": "확장성들",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "staging",
+    "meaning": "스테이징",
+    "usage_one_liner": "",
+    "order_index": 193,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "blue-green deployment",
+    "meaning": "블루-그린 배포",
+    "usage_one_liner": "",
+    "order_index": 190,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacking",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrency",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughput",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelineed",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouts",
+    "meaning": "순차 배포들",
+    "usage_one_liner": "",
+    "order_index": 96,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heap",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "벤치마크들",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactored",
+    "meaning": "코드 구조 개선",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesising",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rate limit",
+    "meaning": "요청 제한",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilityed",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecked",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resiliences",
+    "meaning": "회복 탄력성들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationing",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilitys",
+    "meaning": "관측 가능성들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilityed",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollout",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencying",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schema",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 69,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelism",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilings",
+    "meaning": "프로파일링들",
+    "usage_one_liner": "",
+    "order_index": 202,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaing",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationed",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "dry run",
+    "meaning": "더미 실행",
+    "usage_one_liner": "",
+    "order_index": 192,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacking",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 155,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarked",
+    "meaning": "벤치마크",
+    "usage_one_liner": "",
+    "order_index": 197,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationed",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitys",
+    "meaning": "호환성들",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilienceing",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilityed",
+    "meaning": "확장성",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentation",
+    "meaning": "계측",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelock",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationing",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacked",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sharded",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistencys",
+    "meaning": "일관성들",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfixed",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latency",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "garbage collection",
+    "meaning": "가비지 컬렉션",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "A/B test",
+    "meaning": "A/B 테스트",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilinged",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 201,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaed",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governances",
+    "meaning": "거버넌스들",
+    "usage_one_liner": "",
+    "order_index": 181,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactoring",
+    "meaning": "코드 구조 개선",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencyed",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governanceed",
+    "meaning": "거버넌스",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotented",
+    "meaning": "멱등(여러 번 호출해도 결과 같음)",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profiling",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 200,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilience",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelismed",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencys",
+    "meaning": "지연 시간들",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureing",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queueing",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 159,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bandwidths",
+    "meaning": "대역폭들",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilitying",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocking",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotenting",
+    "meaning": "멱등(여러 번 호출해도 결과 같음)",
+    "usage_one_liner": "",
+    "order_index": 11,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationed",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "벤치마크들",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaing",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibility",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilinged",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 201,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilinged",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 201,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouted",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureed",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifacts",
+    "meaning": "산출물들",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationed",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestration",
+    "meaning": "오케스트레이션",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "ground truth",
+    "meaning": "실측 정답",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resiliences",
+    "meaning": "회복 탄력성들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queue",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hash table",
+    "meaning": "해시 테이블",
+    "usage_one_liner": "",
+    "order_index": 162,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sharding",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "벤치마크들",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durabilitys",
+    "meaning": "영속성들",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queues",
+    "meaning": "큐들",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughput",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilityed",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistencys",
+    "meaning": "일관성들",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollout",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelineing",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embeddings",
+    "meaning": "임베딩들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilityed",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitying",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationing",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "shards",
+    "meaning": "샤드들",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heaps",
+    "meaning": "힙들",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacked",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "garbage collection",
+    "meaning": "가비지 컬렉션",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilings",
+    "meaning": "프로파일링들",
+    "usage_one_liner": "",
+    "order_index": 202,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embedding",
+    "meaning": "임베딩",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaing",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationed",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughput",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "벤치마크들",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "side effect",
+    "meaning": "부작용",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilitys",
+    "meaning": "가용성들",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitys",
+    "meaning": "호환성들",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenizationing",
+    "meaning": "토큰화",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hyperparameter",
+    "meaning": "하이퍼파라미터",
+    "usage_one_liner": "",
+    "order_index": 118,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipeline",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 122,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "binary search",
+    "meaning": "이진 탐색",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttling",
+    "meaning": "스로틀링",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observability stack",
+    "meaning": "관측 스택",
+    "usage_one_liner": "",
+    "order_index": 187,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencyed",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencying",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacked",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilienceing",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelineed",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelocked",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencys",
+    "meaning": "지연 시간들",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelock",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sharded",
+    "meaning": "샤드",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hotfixing",
+    "meaning": "긴급 패치",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationed",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hyperparametered",
+    "meaning": "하이퍼파라미터",
+    "usage_one_liner": "",
+    "order_index": 119,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureing",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "priority queue",
+    "meaning": "우선순위 큐",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rate limiter",
+    "meaning": "요청 제한기",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollback",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "ground truth",
+    "meaning": "실측 정답",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacks",
+    "meaning": "스택들",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hypothesising",
+    "meaning": "가설",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "eventual consistency",
+    "meaning": "결국적 일관성",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "scalabilitys",
+    "meaning": "확장성들",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profilinged",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 201,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durabilitys",
+    "meaning": "영속성들",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationing",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heap",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutableed",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttlings",
+    "meaning": "스로틀링들",
+    "usage_one_liner": "",
+    "order_index": 99,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replicationing",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaing",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollbacks",
+    "meaning": "롤백들",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resilienceing",
+    "meaning": "회복 탄력성",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationed",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressures",
+    "meaning": "역압들",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencyed",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schemaing",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resiliences",
+    "meaning": "회복 탄력성들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "parallelism",
+    "meaning": "병렬성",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replications",
+    "meaning": "복제들",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencys",
+    "meaning": "동시성들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutableing",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heaping",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 151,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilityed",
+    "meaning": "호환성",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollouting",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutable",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "profiling",
+    "meaning": "프로파일링",
+    "usage_one_liner": "",
+    "order_index": 200,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "optimistic lock",
+    "meaning": "낙관적 락",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "eventual consistency",
+    "meaning": "결국적 일관성",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelock",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "ground truth",
+    "meaning": "실측 정답",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latencying",
+    "meaning": "지연 시간",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "compatibilitys",
+    "meaning": "호환성들",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationing",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipelineed",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollout",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availabilitys",
+    "meaning": "가용성들",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutables",
+    "meaning": "불변(값이 바뀌지 않음)들",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencying",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestrationed",
+    "meaning": "오케스트레이션",
+    "usage_one_liner": "",
+    "order_index": 58,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotency key",
+    "meaning": "멱등 키",
+    "usage_one_liner": "",
+    "order_index": 186,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "binary search",
+    "meaning": "이진 탐색",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stacking",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 155,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureing",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "A/B test",
+    "meaning": "A/B 테스트",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencyed",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressures",
+    "meaning": "역압들",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencyed",
+    "meaning": "동시성",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "serializationing",
+    "meaning": "직렬화",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "resiliences",
+    "meaning": "회복 탄력성들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "durabilitys",
+    "meaning": "영속성들",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embedding",
+    "meaning": "임베딩",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queue",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concurrencys",
+    "meaning": "동시성들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "cold start",
+    "meaning": "콜드 스타트",
+    "usage_one_liner": "",
+    "order_index": 205,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilitying",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutableing",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecked",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressureing",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observabilitys",
+    "meaning": "관측 가능성들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottlenecking",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttling",
+    "meaning": "스로틀링",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deserializationing",
+    "meaning": "역직렬화",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "feature flag",
+    "meaning": "기능 플래그",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "eventual consistency",
+    "meaning": "결국적 일관성",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "governance",
+    "meaning": "거버넌스",
+    "usage_one_liner": "",
+    "order_index": 178,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  }
+]

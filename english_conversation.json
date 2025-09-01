@@ -1,0 +1,6062 @@
+[
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "A piece of cake",
+    "meaning": "식은 죽 먹기지.",
+    "usage_one_liner": "",
+    "order_index": 1,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Absolutely",
+    "meaning": "당근 빠따!",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "After you",
+    "meaning": "먼저 가세요.",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Always",
+    "meaning": "항상 그렇지요",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Amazing",
+    "meaning": "대단하네요",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Any time",
+    "meaning": "언제라도요",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "At last",
+    "meaning": "드디어",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Back me up",
+    "meaning": "뒤좀 봐줘~ (지원해 달라는 의미의)",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Be my guest",
+    "meaning": "사양하지 마세요",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Be patient",
+    "meaning": "조금만 참아 보세요",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Be right back with you",
+    "meaning": "잠깐만요 (곧 당신에게 돌아 올께요)",
+    "usage_one_liner": "",
+    "order_index": 11,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Be seated",
+    "meaning": "앉으시죠",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Beat it",
+    "meaning": "(이자리에서) 꺼져",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "(Beer), please",
+    "meaning": "(맥주) 주세요",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Behave yourself",
+    "meaning": "예의를 갖추시죠!",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Better late than never",
+    "meaning": "안하느니보단 늦는게 낫죠.",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Better than nothing",
+    "meaning": "없는 것 보다는 낫지요",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Boy! It hurts",
+    "meaning": "와, 진짜 아프네",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Break it up",
+    "meaning": "그만 좀 싸워",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Call me Sam, please",
+    "meaning": "샘이라고 불러 주세요",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Can't argue with that",
+    "meaning": "그건 논란의 여지가 없죠",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Can't be better than this",
+    "meaning": "이것보다 더 좋을 순 없지요",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Catch you later",
+    "meaning": "나중에 보자구요 (혹은 나중에 들을께요)",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Certainly",
+    "meaning": "확실히 그렇죠..",
+    "usage_one_liner": "",
+    "order_index": 24,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Charge it please",
+    "meaning": "대금을 크레딧 카드로 결재해 주세요.",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Check it out",
+    "meaning": "확인해 봐봐",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Check, please",
+    "meaning": "계산서 좀 주세요",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "(Coffee), please",
+    "meaning": "(커피) 주세요",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Come and get it",
+    "meaning": "와서 가져가요 (와서 먹어요)",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Come on in",
+    "meaning": "들어와요",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Come on",
+    "meaning": "설마 (혹은 에이~~)",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Could be",
+    "meaning": "그럴 수도 있죠",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Couldn't be better than this",
+    "meaning": "이보다 더 좋을 순 없어",
+    "usage_one_liner": "",
+    "order_index": 33,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Definitely",
+    "meaning": "당근 빳다죠",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Depends",
+    "meaning": "경우에 따라 다르지요",
+    "usage_one_liner": "",
+    "order_index": 35,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Disgusting! 기분 나빠",
+    "meaning": "재수 없어",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Do I know it? 저도 압니다",
+    "meaning": "누가 아니래요?",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don’t get too serious",
+    "meaning": "너무 심각하게 그러지 말아요 (편하게 생각하세요)",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don’t miss the boat",
+    "meaning": "(보트를 놓치듯이) 기회를 놓지지 마세요",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don’t press (push) your luck",
+    "meaning": "너무 날 뛰지 마세요 (너무 행운만 믿지 말아요)",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't ask",
+    "meaning": "묻지 말아요",
+    "usage_one_liner": "",
+    "order_index": 41,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't be a chicken",
+    "meaning": "너무 소심하게 굴지 말아요. (겁먹을 것 없어요)",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't be afraid",
+    "meaning": "두려워 하지 마세요",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't be foolish",
+    "meaning": "멍청하게 굴지 말아요",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't be modest",
+    "meaning": "겸손해 하지 말아요",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't be shy",
+    "meaning": "부끄러워 하지 마세요",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't be silly",
+    "meaning": "싱겁게 놀지 말아요",
+    "usage_one_liner": "",
+    "order_index": 47,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't bother",
+    "meaning": "신경쓰지 마세요",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't bother me",
+    "meaning": "나를 괴롭히지 마세요",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't get into trouble",
+    "meaning": "(Stay out of trouble.) 괜히 껴들지 마세요",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't get upset",
+    "meaning": "너무 화내지 말아요",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't mess with me",
+    "meaning": "나하고 해보자는 거죠 (저에게 함부러 하지 마세요)",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't let me down",
+    "meaning": "나를 실망시키지 말아요",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't make me laugh",
+    "meaning": "나 좀 웃기지 마요",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Don't worry about it",
+    "meaning": "걱정하지 말아요",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Easy does it",
+    "meaning": "천천히 해요. 조심스럽게 하세요 (혹은 진정해요. 성질내지 말고)",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Either will do",
+    "meaning": "(Anything will do.) 둘중에 어떤 것이든 되요 (어떤 것이든 되요)",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Enjoy your meal",
+    "meaning": "맛있게 드세요",
+    "usage_one_liner": "",
+    "order_index": 58,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Enough is enough",
+    "meaning": "충분 하니까 이제 그만 해요",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Exactly",
+    "meaning": "바로 그거죠.",
+    "usage_one_liner": "",
+    "order_index": 60,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Excuse me",
+    "meaning": "실례합니다",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Far from it",
+    "meaning": "아직 멀었지요",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Fifty-fifty",
+    "meaning": "50:50 이죠.",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Follow me",
+    "meaning": "따라 오세요",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Forget it",
+    "meaning": "그것에 대해서는 잊어 버리세요. 신경꺼요.",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Get in the line",
+    "meaning": "줄을 서세요",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Get off my back",
+    "meaning": "(등에 업혀 있지 말고) 이제 나를 고만 괴롭혀요",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Get real! 현실적이 되세요",
+    "meaning": "냉정해 지세요",
+    "usage_one_liner": "",
+    "order_index": 68,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Give it a rest",
+    "meaning": "내버려 두세요",
+    "usage_one_liner": "",
+    "order_index": 69,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Give it a try",
+    "meaning": "노력해 보세요 (혹은 한번 시도해 보세요)",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Give me a call",
+    "meaning": "제게 전화 주세요",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Gladly",
+    "meaning": "기꺼이 하지요",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Go ahead",
+    "meaning": "하세요 (얘기 하다가 말을 잘라 먹었을 때 ‘말씀하세요' 하는 의미로도 쓰임)",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Go fifty-fifty",
+    "meaning": "반반 나누어 내지요",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Go for it",
+    "meaning": "한번 해 보시지요. 노력 해 보시지요 (화이팅! 의 의미로도 쓰여요)",
+    "usage_one_liner": "",
+    "order_index": 75,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Go get it",
+    "meaning": "가서 가져와요 (혹은 격려의 의미로 ‘한번 해봐!` 로도)",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Go on, please",
+    "meaning": "어서 계속 하세요",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Good enough",
+    "meaning": "그 정도면 충분 합니다. 좋습니다",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Good for you",
+    "meaning": "잘 되었네요 (약한 축하의 의미로)",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Good luck",
+    "meaning": "행운을 빕니다",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Good talking to you",
+    "meaning": "당신과의 대화는 즐거 웠어요",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Hang loose",
+    "meaning": "좀 편히 쉬고 있어요.",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Have a nice day",
+    "meaning": "좋은 하루 되세요",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "He didn't show up",
+    "meaning": "그가 나타나지 않았어요",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "He is history to me",
+    "meaning": "그는 저에게 이미 지난 일",
+    "usage_one_liner": "",
+    "order_index": 85,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Help yourself",
+    "meaning": "마음껏 드세요",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Here is something for you",
+    "meaning": "여기 당신을 위해 준비했어요",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Here you are",
+    "meaning": "여깄어요",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Hold it ! 움직이지 마요",
+    "meaning": "잠깐만!",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Hold on",
+    "meaning": "잠깐 기다리세요",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "How come? (Why?) 어떻게? (왜?)",
+    "meaning": "사실 how come 과 why 는 조금 의미가 다릅니다",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I agree",
+    "meaning": "동의합니다",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am (deeply) touched",
+    "meaning": "정말 감동했어요 ㅠ.ㅠ",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am a little disappointed",
+    "meaning": "좀 실망했어요",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am all set",
+    "meaning": "준비 끝!",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am aware of that",
+    "meaning": "그점에 대해서는 잘 알고 있습니다.",
+    "usage_one_liner": "",
+    "order_index": 96,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am back",
+    "meaning": "저 돌아 왔어요",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am broke",
+    "meaning": "저 무일푼입니다 (완전 파산상태예요)",
+    "usage_one_liner": "",
+    "order_index": 98,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am coming",
+    "meaning": "지금 가요",
+    "usage_one_liner": "",
+    "order_index": 99,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am crazy about her",
+    "meaning": "나는 그녀에 빠졌어요",
+    "usage_one_liner": "",
+    "order_index": 100,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am exhausted",
+    "meaning": "완죤 지쳤어요.",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am fed up with this",
+    "meaning": "정말 (이것에 관한한) 진저리가 나요",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am free",
+    "meaning": "한가해요",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am full",
+    "meaning": "배불러요",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am getting hungry",
+    "meaning": "배가 슬슬 고파 오는데요",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am going to miss you",
+    "meaning": "널 그리워하게 될거야",
+    "usage_one_liner": "",
+    "order_index": 106,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am impressed",
+    "meaning": "감동 받았어요.",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am in a hurry",
+    "meaning": "좀 바쁩니다 (저 급해요)",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am in need",
+    "meaning": "궁색 합니다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am nearsighted",
+    "meaning": "근시입니다",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am on duty",
+    "meaning": "근무중입니다",
+    "usage_one_liner": "",
+    "order_index": 111,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am scared to death",
+    "meaning": "무서워 죽겠어요",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am serious",
+    "meaning": "난 진심이라구요 (농담 아니라니깐요)",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am short-changed",
+    "meaning": "잔돈이 모자라는데요",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am single",
+    "meaning": "나는 미혼입니다",
+    "usage_one_liner": "",
+    "order_index": 115,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am sorry",
+    "meaning": "미안해요",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am starving to death",
+    "meaning": "배가 고파 죽겠네여",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am stuffed",
+    "meaning": "배 불러요 (더 이상 들어가지 못할 만큼 배부르다는 뜻으로도 쓰여요)",
+    "usage_one_liner": "",
+    "order_index": 118,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I am upset",
+    "meaning": "화가 납니다",
+    "usage_one_liner": "",
+    "order_index": 119,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I bet",
+    "meaning": "내가 장담컨대 (내기를 할정도로 자신있다) 혹은 ‘물론’이라는 동의어로 쓰여요.",
+    "usage_one_liner": "",
+    "order_index": 120,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can tell",
+    "meaning": "그렇게 보이는데요 (그래 보여요)",
+    "usage_one_liner": "",
+    "order_index": 121,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can handle it",
+    "meaning": "내가 할 수 있어요",
+    "usage_one_liner": "",
+    "order_index": 122,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can not handle it anymore",
+    "meaning": "난 더 이상 감당할 수 없네요",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can’t afford that",
+    "meaning": "(주로 재정적으로) 감당이 안되요 (제 형편에 무리예요 로도 사용)",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can’t help it",
+    "meaning": "어쩔수 없어요",
+    "usage_one_liner": "",
+    "order_index": 125,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can't say for sure",
+    "meaning": "확실히는 말 못 하겠어요",
+    "usage_one_liner": "",
+    "order_index": 126,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can't stand it",
+    "meaning": "견딜 수 가 없군 (못 참겠어!)",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I can't thank you enough",
+    "meaning": "뭐라 감사의 말씀을 드려야할지 모르겠어요",
+    "usage_one_liner": "",
+    "order_index": 128,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I didn't mean to",
+    "meaning": "(I didn't mean it.) 난 그렇게 할 의도는 아니었어요. (일부러 그런건 아니예요)",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I don’t believe it",
+    "meaning": "난 믿지 않아요",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I don't care",
+    "meaning": "상관없어요",
+    "usage_one_liner": "",
+    "order_index": 131,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I don't get it",
+    "meaning": "이해를 못하겠네",
+    "usage_one_liner": "",
+    "order_index": 132,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I don't like it",
+    "meaning": "(그것이) 싫어 (좋아하지 않아요)",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I doubt it",
+    "meaning": "아닌 것 같은데.. (No 대신에 정말 많이 쓰는 표현. 완곡한 No 의 표현)",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I fee the same way",
+    "meaning": "저도 똑같이 느꼈어요.",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I get it",
+    "meaning": "알아 들었어요",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I got lost",
+    "meaning": "난 길을 잃었어요",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have got to go now",
+    "meaning": "이제 가야겠네요",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have had enough",
+    "meaning": "I quit. 난 이제 진저리가 나요. 그만 둘래요",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I hardly know him",
+    "meaning": "나는 그 사람을 잘 모릅니다",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I hate to eat and run but ..",
+    "meaning": "먹자마자 가기는 싫지만…",
+    "usage_one_liner": "",
+    "order_index": 141,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have a long way to go",
+    "meaning": "갈길이 머네요",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have no appetite",
+    "meaning": "식욕이 없어요",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have no clue",
+    "meaning": "아이디어가 전혀 없네요 (어찌할지 모르겠네요)",
+    "usage_one_liner": "",
+    "order_index": 144,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have no energy",
+    "meaning": "의욕이 없어요",
+    "usage_one_liner": "",
+    "order_index": 145,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have no idea",
+    "meaning": "전혀 몰라요",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I have no time",
+    "meaning": "나는 시간이 없어요. 바쁘네요",
+    "usage_one_liner": "",
+    "order_index": 147,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I haven't got all day",
+    "meaning": "좀 서둘러 주시겠어요? (제가 시간이 좀 없어요)",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I hear you loud and clear",
+    "meaning": "잘 듣고 있습니다.",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I love it",
+    "meaning": "정말 좋아해",
+    "usage_one_liner": "",
+    "order_index": 150,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I made it",
+    "meaning": "제가 해냈어요!",
+    "usage_one_liner": "",
+    "order_index": 151,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I mean it",
+    "meaning": "정말입니다. 농담아니에요.",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I owe you one",
+    "meaning": "신세를 지네요",
+    "usage_one_liner": "",
+    "order_index": 153,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I see",
+    "meaning": "알겠습니다",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I still love you",
+    "meaning": "난 널 아직도 사랑해 (I still love you long 은 ‘난 널 아직도 사랑하지롱' 물론",
+    "usage_one_liner": "",
+    "order_index": 155,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I swear to God",
+    "meaning": "내가 맹새컨데 (내가 맹세할 수 있다규!)",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I taught myself",
+    "meaning": "(누가 가르쳐 준 사람 없이) 혼자 익혔어요",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I was lucky",
+    "meaning": "정말 운이 좋았죠",
+    "usage_one_liner": "",
+    "order_index": 158,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I was told that",
+    "meaning": "그렇게 들었어요 혹은 제가 듣기에 (that 이하의 문장이 이어집니다)",
+    "usage_one_liner": "",
+    "order_index": 159,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I will be in touch",
+    "meaning": "제가 연락드릴께요.",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I will do it for you",
+    "meaning": "제가 해 드리지요",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I will drink to that",
+    "meaning": "그것에 동감 입니다",
+    "usage_one_liner": "",
+    "order_index": 162,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I will get it",
+    "meaning": "(전화등을) 제가 받을 께요",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I will miss you",
+    "meaning": "널 그리워 할거야",
+    "usage_one_liner": "",
+    "order_index": 164,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I will never make it on time",
+    "meaning": "제시간에 가기는 틀렸군",
+    "usage_one_liner": "",
+    "order_index": 165,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I wouldn't say no",
+    "meaning": "아니라고는 말하지 않을께여",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "I'm coming",
+    "meaning": "가요, 갑니다",
+    "usage_one_liner": "",
+    "order_index": 167,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "In a sense, he is nothing but a suit",
+    "meaning": "어떤 면에서는 그는 헛깨비나 다름없어 (이게 좀 어려운데",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Incredible",
+    "meaning": "대단해",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is chilly",
+    "meaning": "날이 쌀쌀 하네",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is humid",
+    "meaning": "습하네요 (습기가 많은 날씨)",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is out of style",
+    "meaning": "유행이 아니네요.",
+    "usage_one_liner": "",
+    "order_index": 172,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is painful for me",
+    "meaning": "그건 (저에겐) 참 고통스럽네요",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is time for lunch",
+    "meaning": "점심식사할 시간입니다",
+    "usage_one_liner": "",
+    "order_index": 174,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is time to go",
+    "meaning": "갈 시간 입니다",
+    "usage_one_liner": "",
+    "order_index": 175,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It is windy",
+    "meaning": "바람이 부네",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It makes sense",
+    "meaning": "말 되네요",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It takes time",
+    "meaning": "시간이 걸립니다",
+    "usage_one_liner": "",
+    "order_index": 178,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It’s for you",
+    "meaning": "여기요 전화 왔어요",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It’s not fair",
+    "meaning": "(It's unfair) 불공평해요",
+    "usage_one_liner": "",
+    "order_index": 180,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's all right",
+    "meaning": "괜찮습니다",
+    "usage_one_liner": "",
+    "order_index": 181,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's beautiful",
+    "meaning": "아름답군요",
+    "usage_one_liner": "",
+    "order_index": 182,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's cool",
+    "meaning": "멋있네요 (상황에 따라 괜찮아요 라는 뜻도 있습니다)",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's free",
+    "meaning": "공짜 입니다",
+    "usage_one_liner": "",
+    "order_index": 184,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's freezing",
+    "meaning": "대박 춥네 (꽁꽁 얼어붙는다는 뜻에서 출발)",
+    "usage_one_liner": "",
+    "order_index": 185,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's my fault",
+    "meaning": "(It's not my fault) 제 잘못 이지요 ( 제 잘못이 아닙니다.)",
+    "usage_one_liner": "",
+    "order_index": 186,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's all your fault",
+    "meaning": "모든게 네 잘못이야",
+    "usage_one_liner": "",
+    "order_index": 187,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's my pleasure",
+    "meaning": "천만에요 (감사에 대한 답. 저도 그렇게 해드려 기쁩니다에서 유래)",
+    "usage_one_liner": "",
+    "order_index": 188,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's my turn",
+    "meaning": "이번에 내 차례입니다",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's now or never",
+    "meaning": "지금이 절호의 기회입니다",
+    "usage_one_liner": "",
+    "order_index": 190,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's on me",
+    "meaning": "It's on the house. 이건 제가 쏘는 겁니다 이것은 주인집에서 써비스!",
+    "usage_one_liner": "",
+    "order_index": 191,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's really bad",
+    "meaning": "아주 나빠요",
+    "usage_one_liner": "",
+    "order_index": 192,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's tough",
+    "meaning": "힘들어요",
+    "usage_one_liner": "",
+    "order_index": 193,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "It's your turn",
+    "meaning": "당신 차례입니다",
+    "usage_one_liner": "",
+    "order_index": 194,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Just about",
+    "meaning": "거의",
+    "usage_one_liner": "",
+    "order_index": 195,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Just kidding",
+    "meaning": "그냥 농담이에요",
+    "usage_one_liner": "",
+    "order_index": 196,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Just looking",
+    "meaning": "그냥 돌아 보는거에요 (쇼핑하러 가서 아이쇼핑할떄 쓰세요)",
+    "usage_one_liner": "",
+    "order_index": 197,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Just a moment",
+    "meaning": "잠깐 만요",
+    "usage_one_liner": "",
+    "order_index": 198,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep an eye on this, will you? 이것좀 봐주세요",
+    "meaning": "해주실거죠?",
+    "usage_one_liner": "",
+    "order_index": 199,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep going",
+    "meaning": "계속 가세요",
+    "usage_one_liner": "",
+    "order_index": 200,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep in touch",
+    "meaning": "계속 연락합시다",
+    "usage_one_liner": "",
+    "order_index": 201,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep it confidential",
+    "meaning": "대외 비밀로 해 주세요 (당신만 알고 계세요)",
+    "usage_one_liner": "",
+    "order_index": 202,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep it to yourself",
+    "meaning": "당신만 알고 계세요. (비밀로 해 주세요)",
+    "usage_one_liner": "",
+    "order_index": 203,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep looking",
+    "meaning": "계속해서 찾아 봐요",
+    "usage_one_liner": "",
+    "order_index": 204,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep out of my way",
+    "meaning": "제 길을 막지 마세요",
+    "usage_one_liner": "",
+    "order_index": 205,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep the change",
+    "meaning": "잔돈은 가지세요 (잔돈은 됐어요)",
+    "usage_one_liner": "",
+    "order_index": 206,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Keep your chin up! 고개를 드세요",
+    "meaning": "낙담 하지 마세요 기운을 내요",
+    "usage_one_liner": "",
+    "order_index": 207,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Knock it off",
+    "meaning": "그만해~~ (상대방이 놀리는 상황에서라든지 황당한 얘기를 할 때)",
+    "usage_one_liner": "",
+    "order_index": 208,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let me see… 어디 보자… (별 의미 없이 쓰는 접두어.",
+    "meaning": "음… 정도)",
+    "usage_one_liner": "",
+    "order_index": 209,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let me think about it",
+    "meaning": "제가 생각해 보죠 (이것도 의미없이 대화 중 음.. 하는 용도로 쓸 수 있어요)",
+    "usage_one_liner": "",
+    "order_index": 210,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's give him a big hand",
+    "meaning": "그에게 큰 박수를 보냅시다",
+    "usage_one_liner": "",
+    "order_index": 211,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's call it a day",
+    "meaning": "오늘은 이걸로 마치죠 (오늘은 여기까지 하죠)",
+    "usage_one_liner": "",
+    "order_index": 212,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's eat out",
+    "meaning": "자, 외식합시다",
+    "usage_one_liner": "",
+    "order_index": 213,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's get down to business",
+    "meaning": "자 본론으로 들어갑시다",
+    "usage_one_liner": "",
+    "order_index": 214,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's get together sometime",
+    "meaning": "언제 한번 함께 보죠",
+    "usage_one_liner": "",
+    "order_index": 215,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's go over it one more time",
+    "meaning": "자 한번 더 살펴 보지요",
+    "usage_one_liner": "",
+    "order_index": 216,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's see",
+    "meaning": "자 어디.. (뭘 살펴볼 때 습관적으로 하는 말)",
+    "usage_one_liner": "",
+    "order_index": 217,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's split the bill",
+    "meaning": "나누어서 냅시다",
+    "usage_one_liner": "",
+    "order_index": 218,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Let's try",
+    "meaning": "한번 해보지요",
+    "usage_one_liner": "",
+    "order_index": 219,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Look who's here",
+    "meaning": "아니 이게 누구야",
+    "usage_one_liner": "",
+    "order_index": 220,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Make mine well done",
+    "meaning": "내것은 well done (스테이크의) 으로 해줘요",
+    "usage_one_liner": "",
+    "order_index": 221,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Make that two, please",
+    "meaning": "그것을 2 개로 나눠 주세요",
+    "usage_one_liner": "",
+    "order_index": 222,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Make yourself at home",
+    "meaning": "내집인양 편하게 계세요",
+    "usage_one_liner": "",
+    "order_index": 223,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Many thanks in advance",
+    "meaning": "미리 감사 드려요",
+    "usage_one_liner": "",
+    "order_index": 224,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Many thanks",
+    "meaning": "정말 고마워요",
+    "usage_one_liner": "",
+    "order_index": 225,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Maybe",
+    "meaning": "그럴지도 모르지요",
+    "usage_one_liner": "",
+    "order_index": 226,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Maybe not",
+    "meaning": "그렇지 않을지도 모르지요",
+    "usage_one_liner": "",
+    "order_index": 227,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Maybe some other time",
+    "meaning": "다른 때 보자구요.",
+    "usage_one_liner": "",
+    "order_index": 228,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Me, too",
+    "meaning": "나도 그래",
+    "usage_one_liner": "",
+    "order_index": 229,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Money talks",
+    "meaning": "결국 돈이지 뭐",
+    "usage_one_liner": "",
+    "order_index": 230,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Most likely",
+    "meaning": "아마도 그렇 것입니다",
+    "usage_one_liner": "",
+    "order_index": 231,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "My pleasure",
+    "meaning": "제 기쁨입니다 (감사에 대한 답례로 항상 써요)",
+    "usage_one_liner": "",
+    "order_index": 232,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Never better",
+    "meaning": "아주 좋아요. 최고에요.",
+    "usage_one_liner": "",
+    "order_index": 233,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Never mind",
+    "meaning": "신경쓰지 마세요",
+    "usage_one_liner": "",
+    "order_index": 234,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Never say die",
+    "meaning": "포기하지마",
+    "usage_one_liner": "",
+    "order_index": 235,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Never too late",
+    "meaning": "너무 늦었다고 생각하지 마",
+    "usage_one_liner": "",
+    "order_index": 236,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Next time",
+    "meaning": "다음번에",
+    "usage_one_liner": "",
+    "order_index": 237,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Nice meeting you",
+    "meaning": "만나서 반가었어요 (만났다가 헤어질 때)",
+    "usage_one_liner": "",
+    "order_index": 238,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Nice talking to you",
+    "meaning": "좋은 대화였어요 (만났다가 헤어질 때)",
+    "usage_one_liner": "",
+    "order_index": 239,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "No kidding",
+    "meaning": "그럴리가! (감탄사에 가까워요. 연아가 올림픽 2 연패 했대요. No kidding!)",
+    "usage_one_liner": "",
+    "order_index": 240,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "No problem",
+    "meaning": "문제가 아니네요",
+    "usage_one_liner": "",
+    "order_index": 241,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "No sweat",
+    "meaning": "껌이죠 (저에게는 일거리도 아니예요라는 뜻)",
+    "usage_one_liner": "",
+    "order_index": 242,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "No way",
+    "meaning": "절대 안돼",
+    "usage_one_liner": "",
+    "order_index": 243,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "No wonder",
+    "meaning": "어쩐지 그렇더라",
+    "usage_one_liner": "",
+    "order_index": 244,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Not a chance",
+    "meaning": "절대 안되지요",
+    "usage_one_liner": "",
+    "order_index": 245,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Not bad",
+    "meaning": "나쁘지 않은데요 ( 그런대로 좋군요)",
+    "usage_one_liner": "",
+    "order_index": 246,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Not really",
+    "meaning": "그렇지는 않아",
+    "usage_one_liner": "",
+    "order_index": 247,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Not too good",
+    "meaning": "(Not too bad) 그져 그래 (나쁘지도 않고)",
+    "usage_one_liner": "",
+    "order_index": 248,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Nothing much",
+    "meaning": "별거 없어",
+    "usage_one_liner": "",
+    "order_index": 249,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Nothing new",
+    "meaning": "뭐 새소식이랄 것도 없지 (누가 ‘새로운 소식이라도 좀 있어?’ 라고 물어 볼 때)",
+    "usage_one_liner": "",
+    "order_index": 250,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Nothing new about that",
+    "meaning": "그것에 대해선 달라진게 없어죠.",
+    "usage_one_liner": "",
+    "order_index": 251,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Now you are talking",
+    "meaning": "이제서야 털어놓으시는 군요",
+    "usage_one_liner": "",
+    "order_index": 252,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Occupied",
+    "meaning": "사용중",
+    "usage_one_liner": "",
+    "order_index": 253,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Okay",
+    "meaning": "그래. 알았어요.",
+    "usage_one_liner": "",
+    "order_index": 254,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "On the contrary",
+    "meaning": "반대로",
+    "usage_one_liner": "",
+    "order_index": 255,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Once in a blue moon",
+    "meaning": "아주 가끔요",
+    "usage_one_liner": "",
+    "order_index": 256,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Out of question",
+    "meaning": "질문의 여지가 없습니다 (불가능 합니다)",
+    "usage_one_liner": "",
+    "order_index": 257,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Please enjoy yourself",
+    "meaning": "자 그럼 즐기세요 (격려할 때는 좀 즐기도록 해의 뜻도)",
+    "usage_one_liner": "",
+    "order_index": 258,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Please relax",
+    "meaning": "좀 느긋해 지세요",
+    "usage_one_liner": "",
+    "order_index": 259,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Poor thing",
+    "meaning": "저런 (안스러워요, 불쌍해요 정도의 의미)",
+    "usage_one_liner": "",
+    "order_index": 260,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Relax",
+    "meaning": "좀 느긋해 지세요.",
+    "usage_one_liner": "",
+    "order_index": 261,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Same here",
+    "meaning": "저도 동감입니다",
+    "usage_one_liner": "",
+    "order_index": 262,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Same to you",
+    "meaning": "당신도요",
+    "usage_one_liner": "",
+    "order_index": 263,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Say hello for me",
+    "meaning": "나 대신 안부 전해줘요",
+    "usage_one_liner": "",
+    "order_index": 264,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Say when",
+    "meaning": "그만이라고 말해주세요 (잔 등에 음료수나 물을 따를 때 언제 그만 따를까요라고",
+    "usage_one_liner": "",
+    "order_index": 265,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "See you",
+    "meaning": "나중에 봐요",
+    "usage_one_liner": "",
+    "order_index": 266,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Shame on you",
+    "meaning": "쪽 팔린 줄 알아! (거의 정중한 욕입니다)",
+    "usage_one_liner": "",
+    "order_index": 267,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "She is my style",
+    "meaning": "(She is not my style.) 그녀는 내 타입이에요 (그녀는 내 타입이 아니에요)",
+    "usage_one_liner": "",
+    "order_index": 268,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "She is very sophisticated",
+    "meaning": "그녀는 매우 세련되었어요",
+    "usage_one_liner": "",
+    "order_index": 269,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Shoot! 제기랄! (배운 계층에서는 shit 이라고 욕을 안하고 shoot 이라고 합니다",
+    "meaning": "Damn 을 Dang",
+    "usage_one_liner": "",
+    "order_index": 270,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "So much for that",
+    "meaning": "이제 그일은 그만 하지요",
+    "usage_one_liner": "",
+    "order_index": 271,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Sold out",
+    "meaning": "매진",
+    "usage_one_liner": "",
+    "order_index": 272,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Something's fishy",
+    "meaning": "뭔가 이상한데 (뭔가 냄새가 나)",
+    "usage_one_liner": "",
+    "order_index": 273,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Something's never changed",
+    "meaning": "절대 안변하는게 있지",
+    "usage_one_liner": "",
+    "order_index": 274,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Sorry to bother you",
+    "meaning": "번거롭게 해서 죄송 합니다",
+    "usage_one_liner": "",
+    "order_index": 275,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Sounds good",
+    "meaning": "좋은 생각이예요",
+    "usage_one_liner": "",
+    "order_index": 276,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Speak out",
+    "meaning": "말좀 크게 하세요",
+    "usage_one_liner": "",
+    "order_index": 277,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Speaking",
+    "meaning": "말하세요",
+    "usage_one_liner": "",
+    "order_index": 278,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Stay cool",
+    "meaning": "진정해요",
+    "usage_one_liner": "",
+    "order_index": 279,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Stay longer",
+    "meaning": "좀더 계시지요.",
+    "usage_one_liner": "",
+    "order_index": 280,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Stay out of trouble",
+    "meaning": "괜히 껴들지 마세요 (문제를 자초하지 마세요)",
+    "usage_one_liner": "",
+    "order_index": 281,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Stick around",
+    "meaning": "옆에 있어 보세요",
+    "usage_one_liner": "",
+    "order_index": 282,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Stick with it",
+    "meaning": "(포기 하지말고) 계속 해 봐요.",
+    "usage_one_liner": "",
+    "order_index": 283,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Stop complaining",
+    "meaning": "불평좀 그만 하시지요",
+    "usage_one_liner": "",
+    "order_index": 284,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Super",
+    "meaning": "짱!",
+    "usage_one_liner": "",
+    "order_index": 285,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Sure",
+    "meaning": "물론",
+    "usage_one_liner": "",
+    "order_index": 286,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Sure thing",
+    "meaning": "물론이지",
+    "usage_one_liner": "",
+    "order_index": 287,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Sweet dreams",
+    "meaning": "잘 자요 (성시경 톤으로 해야 함)",
+    "usage_one_liner": "",
+    "order_index": 288,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Take a guess",
+    "meaning": "(Can you guess?) 맞춰봐요",
+    "usage_one_liner": "",
+    "order_index": 289,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Take care! 잘가~~ (원 뜻과 달리 헤어질 때 잘가라는 말고 가장 많이 씁니다",
+    "meaning": "병실에서야 ‘몸조리",
+    "usage_one_liner": "",
+    "order_index": 290,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Take my word for it",
+    "meaning": "그건 내 말만 믿어봐",
+    "usage_one_liner": "",
+    "order_index": 291,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Take your time",
+    "meaning": "천천히 하세요",
+    "usage_one_liner": "",
+    "order_index": 292,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Tell me about it",
+    "meaning": "내 말이~~ (강하게 긍정할 때)",
+    "usage_one_liner": "",
+    "order_index": 293,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Thank God",
+    "meaning": "아이고~~ (안도의 한숨을 쉴 때)",
+    "usage_one_liner": "",
+    "order_index": 294,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Thanks for calling",
+    "meaning": "전화 주셔서 감사 해요",
+    "usage_one_liner": "",
+    "order_index": 295,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Thanks for everything",
+    "meaning": "여러가지로 고마워요",
+    "usage_one_liner": "",
+    "order_index": 296,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Thanks for the compliment",
+    "meaning": "칭찬해 주셔서 감사 합니다",
+    "usage_one_liner": "",
+    "order_index": 297,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Thanks for the ride",
+    "meaning": "차를 태워다 주어서 고마워요",
+    "usage_one_liner": "",
+    "order_index": 298,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Thanks, but no thanks",
+    "meaning": "감사해요, 그러나 전 됐어요.",
+    "usage_one_liner": "",
+    "order_index": 299,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That depends",
+    "meaning": "그야 경우에 따라서이지요",
+    "usage_one_liner": "",
+    "order_index": 300,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That figures",
+    "meaning": "바로 그거군요",
+    "usage_one_liner": "",
+    "order_index": 301,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That happens",
+    "meaning": "그런 일도 있지요",
+    "usage_one_liner": "",
+    "order_index": 302,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That should help",
+    "meaning": "도움이 될겁니다",
+    "usage_one_liner": "",
+    "order_index": 303,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That sounds good",
+    "meaning": "그거 좋은 아이디어네요",
+    "usage_one_liner": "",
+    "order_index": 304,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That will be the day",
+    "meaning": "그렇게 되면 오죽 좋겠어요 (그런 일은 내게 일어날리가 없어!)",
+    "usage_one_liner": "",
+    "order_index": 305,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's a steal",
+    "meaning": "거저 가져 가는 셈이지요 (쌉니다, 공짜나 다름 없어요)",
+    "usage_one_liner": "",
+    "order_index": 306,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's all right",
+    "meaning": "(그건) 괜찮아요",
+    "usage_one_liner": "",
+    "order_index": 307,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's all there is to it",
+    "meaning": "그게 다지 뭐",
+    "usage_one_liner": "",
+    "order_index": 308,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's enough about that",
+    "meaning": "그정도로 충분합니다",
+    "usage_one_liner": "",
+    "order_index": 309,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's enough",
+    "meaning": "이제 되었어요",
+    "usage_one_liner": "",
+    "order_index": 310,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's good",
+    "meaning": "잘 되었네요",
+    "usage_one_liner": "",
+    "order_index": 311,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's hard to say",
+    "meaning": "뭐라 말하기 곤란하네요",
+    "usage_one_liner": "",
+    "order_index": 312,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's it",
+    "meaning": "바로 그거야",
+    "usage_one_liner": "",
+    "order_index": 313,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's not fair.",
+    "meaning": "불공평 합니다",
+    "usage_one_liner": "",
+    "order_index": 314,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's right",
+    "meaning": "맞습니다",
+    "usage_one_liner": "",
+    "order_index": 315,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's the way to go",
+    "meaning": "그래 그렇게 하는거지",
+    "usage_one_liner": "",
+    "order_index": 316,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "That's what I mean",
+    "meaning": "내 말이! (그게 내가 말하고자 하는 바야)",
+    "usage_one_liner": "",
+    "order_index": 317,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "There you are",
+    "meaning": "여기 있습니다",
+    "usage_one_liner": "",
+    "order_index": 318,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Things will work out all right",
+    "meaning": "다 잘될거야",
+    "usage_one_liner": "",
+    "order_index": 319,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "This is just between you and me",
+    "meaning": "우리들만의 비밀입니다",
+    "usage_one_liner": "",
+    "order_index": 320,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "This is not much",
+    "meaning": "약소합니다",
+    "usage_one_liner": "",
+    "order_index": 321,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "This is urgent",
+    "meaning": "긴급입니다",
+    "usage_one_liner": "",
+    "order_index": 322,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Time will tell",
+    "meaning": "시간이 해결해 줄거예요 (시간이 말해 줄것입니다)",
+    "usage_one_liner": "",
+    "order_index": 323,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Time's up",
+    "meaning": "땡! 시간이 다 되었어요",
+    "usage_one_liner": "",
+    "order_index": 324,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Too expensive",
+    "meaning": "너무 비싸네",
+    "usage_one_liner": "",
+    "order_index": 325,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Trust me",
+    "meaning": "날 믿어바바",
+    "usage_one_liner": "",
+    "order_index": 326,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Try again",
+    "meaning": "다시 해 보세요",
+    "usage_one_liner": "",
+    "order_index": 327,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Unbelievable",
+    "meaning": "말도 안돼!",
+    "usage_one_liner": "",
+    "order_index": 328,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Up to here",
+    "meaning": "(목까지 손으로 대어 보이면서)폭발 일보직전이다 (여기까지 찼어)",
+    "usage_one_liner": "",
+    "order_index": 329,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Wait a minute",
+    "meaning": "잠시만 기다리세요",
+    "usage_one_liner": "",
+    "order_index": 330,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Watch your language",
+    "meaning": "말 조심해요",
+    "usage_one_liner": "",
+    "order_index": 331,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "We are in the same boat",
+    "meaning": "우리는 같은 처지/운명이지요",
+    "usage_one_liner": "",
+    "order_index": 332,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Well done",
+    "meaning": "잘 했어요",
+    "usage_one_liner": "",
+    "order_index": 333,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "What a shame",
+    "meaning": "완전 창피한 일이지",
+    "usage_one_liner": "",
+    "order_index": 334,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "What brings you here",
+    "meaning": "어떻게 오셨지요?",
+    "usage_one_liner": "",
+    "order_index": 335,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Whatever you say",
+    "meaning": "뭐라고 하시던지요",
+    "usage_one_liner": "",
+    "order_index": 336,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Win-win situation",
+    "meaning": "양쪽 다 좋은 일이지",
+    "usage_one_liner": "",
+    "order_index": 337,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "With pleasure",
+    "meaning": "기꺼이",
+    "usage_one_liner": "",
+    "order_index": 338,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Yeah",
+    "meaning": "Yes 네,",
+    "usage_one_liner": "",
+    "order_index": 339,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "Yes and no",
+    "meaning": "yes 이기도 하고 no 이기도 하고",
+    "usage_one_liner": "",
+    "order_index": 340,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You are a lucky duck",
+    "meaning": "당신은 행운아!",
+    "usage_one_liner": "",
+    "order_index": 341,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You are driving me crazy",
+    "meaning": "절 완전 짜증나게 하시네요",
+    "usage_one_liner": "",
+    "order_index": 342,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You are getting better",
+    "meaning": "당신은 점점 좋아지네요",
+    "usage_one_liner": "",
+    "order_index": 343,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You are teasing me",
+    "meaning": "지금 절 놀리시는 거죠?",
+    "usage_one_liner": "",
+    "order_index": 344,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You're telling me",
+    "meaning": "완죤 동감!",
+    "usage_one_liner": "",
+    "order_index": 345,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You are too much",
+    "meaning": "당신 너무하는 군요",
+    "usage_one_liner": "",
+    "order_index": 346,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You bet",
+    "meaning": "당연하신 말씀 (물론이지요)",
+    "usage_one_liner": "",
+    "order_index": 347,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You cannot fool me",
+    "meaning": "날 속일 수 있다고 생각하지 마",
+    "usage_one_liner": "",
+    "order_index": 348,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You can say that again",
+    "meaning": "지당한 말씀이지요",
+    "usage_one_liner": "",
+    "order_index": 349,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You first",
+    "meaning": "먼저 하세요",
+    "usage_one_liner": "",
+    "order_index": 350,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You flatter me",
+    "meaning": "저를 우쭐하게 만들어주시네요 (보통은 감사의 의미)",
+    "usage_one_liner": "",
+    "order_index": 351,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You have a wrong number",
+    "meaning": "전화를 잘 못 거셨어요",
+    "usage_one_liner": "",
+    "order_index": 352,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You got it",
+    "meaning": "이해를 하셨군요",
+    "usage_one_liner": "",
+    "order_index": 353,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You have lost me",
+    "meaning": "제가 말을 놓쳤네요 (무슨 말씀을 하시는지 잘 모르겠어요)",
+    "usage_one_liner": "",
+    "order_index": 354,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You look good",
+    "meaning": "좋아 보이네요",
+    "usage_one_liner": "",
+    "order_index": 355,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You must be crazy",
+    "meaning": "당신은 미친게 틀림없어",
+    "usage_one_liner": "",
+    "order_index": 356,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You name it",
+    "meaning": "말씀만 하세요",
+    "usage_one_liner": "",
+    "order_index": 357,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You said it",
+    "meaning": "지당하신 말씀",
+    "usage_one_liner": "",
+    "order_index": 358,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You should get in shape",
+    "meaning": "몸을 좀 가꾸는게 좋겠는데요 (살을 좀 빼는게 좋겠네요 라는 의미로도",
+    "usage_one_liner": "",
+    "order_index": 359,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You stay out of it",
+    "meaning": "넌 이것에 끼어 들지 마",
+    "usage_one_liner": "",
+    "order_index": 360,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You went too far this time",
+    "meaning": "이번엔 좀 과하셨어요",
+    "usage_one_liner": "",
+    "order_index": 361,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You win",
+    "meaning": "당신이 이겼어요",
+    "usage_one_liner": "",
+    "order_index": 362,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You're wasting your time",
+    "meaning": "당신은 시간만 낭비 하고 있어요",
+    "usage_one_liner": "",
+    "order_index": 363,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "You're welcome",
+    "meaning": "천만에요",
+    "usage_one_liner": "",
+    "order_index": 364,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "10",
+    "meaning": "거기 물 좋다 That place rocks! That place kicks!",
+    "usage_one_liner": "",
+    "order_index": 365,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "11",
+    "meaning": "(문제의 답 등이) 너무쉽네/애개개 그게다야? That's it? /Is that all?",
+    "usage_one_liner": "",
+    "order_index": 366,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "12",
+    "meaning": "너도 내 입장이 되어봐 Put yourself in my shoes.",
+    "usage_one_liner": "",
+    "order_index": 367,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "13",
+    "meaning": "음식 잘 먹었습니다. I've never eaten better.",
+    "usage_one_liner": "",
+    "order_index": 368,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "14",
+    "meaning": "야, 친구 좋다는 게 뭐야? Come on, what are friends for?",
+    "usage_one_liner": "",
+    "order_index": 369,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "15",
+    "meaning": "너무 감격해서 눈물이 난다 .It was so touching, I almost cried.",
+    "usage_one_liner": "",
+    "order_index": 370,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "16",
+    "meaning": "미안해 할 것까지는 없어. There's nothing to be sorry about.",
+    "usage_one_liner": "",
+    "order_index": 371,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "17",
+    "meaning": "이보다 더 좋을 순 없다 It couldn't be better than this!",
+    "usage_one_liner": "",
+    "order_index": 372,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "18",
+    "meaning": "메롱 Neh Neh Neh Boo Boo",
+    "usage_one_liner": "",
+    "order_index": 373,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "19",
+    "meaning": "섭섭(실망)하지않게해드리겠습니다! You won't be disappointed!",
+    "usage_one_liner": "",
+    "order_index": 374,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "20",
+    "meaning": "나를 만만하게 보지마 Don't you think I am that easy. (you 에 강세)",
+    "usage_one_liner": "",
+    "order_index": 375,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "21",
+    "meaning": "니가 하는 일이 다 그렇지 뭐 That's what you always do.",
+    "usage_one_liner": "",
+    "order_index": 376,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "22",
+    "meaning": "분위기 파악 좀 해라, 인간아 Consider your surroundings, you fool.",
+    "usage_one_liner": "",
+    "order_index": 377,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "23",
+    "meaning": "두고보자. Just wait! I'll get (또는 pay) you back.",
+    "usage_one_liner": "",
+    "order_index": 378,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "24",
+    "meaning": "이번 한 번만 봐준다 I'm gonna let it slide only this time.",
+    "usage_one_liner": "",
+    "order_index": 379,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "25",
+    "meaning": "쟤는 어디가도 굶어죽진 않겠다. He will never starve anywhere.",
+    "usage_one_liner": "",
+    "order_index": 380,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "26",
+    "meaning": "너무많은걸 알려고하면 다쳐 You'll get hurt if you try to know too much.",
+    "usage_one_liner": "",
+    "order_index": 381,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "27",
+    "meaning": "제발 잘난 척 좀 그만해 Stop acting like you're all that.",
+    "usage_one_liner": "",
+    "order_index": 382,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "28",
+    "meaning": "장난이 좀 심하군 The joke is too harsh.",
+    "usage_one_liner": "",
+    "order_index": 383,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "29",
+    "meaning": "말장난 그만 합시다. Let's stop playing word games",
+    "usage_one_liner": "",
+    "order_index": 384,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "30",
+    "meaning": "내가 만만하게 보여? Do I look like I am easy?",
+    "usage_one_liner": "",
+    "order_index": 385,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "31",
+    "meaning": "몸이 찌뿌둥하다 I feel heavy",
+    "usage_one_liner": "",
+    "order_index": 386,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "32",
+    "meaning": "오해 하지 마세요 Don't get me wrong.",
+    "usage_one_liner": "",
+    "order_index": 387,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "33",
+    "meaning": "기가막혀 말이 안나오네. It's so outrageous I can't say a word",
+    "usage_one_liner": "",
+    "order_index": 388,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "34",
+    "meaning": "니 맘대로 하세요 Suit yourself.",
+    "usage_one_liner": "",
+    "order_index": 389,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "35",
+    "meaning": "아직 옛날 실력 안 죽었어 I've still got it. (it 은 옛날 실력을 의미)",
+    "usage_one_liner": "",
+    "order_index": 390,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "36",
+    "meaning": "넌 이제 죽었어 You are dead meat!",
+    "usage_one_liner": "",
+    "order_index": 391,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "37",
+    "meaning": "너 들으라고 한 소리 아냐 Don't take it personally.",
+    "usage_one_liner": "",
+    "order_index": 392,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "38",
+    "meaning": "까꿍! Peekaboo! (삐까부; \"삐\"자에 강세: 아기들 얼를 때나 놀라게 할 때))",
+    "usage_one_liner": "",
+    "order_index": 393,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "39",
+    "meaning": "알랑거리지마 Don't try to butter me up.",
+    "usage_one_liner": "",
+    "order_index": 394,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "40",
+    "meaning": "배째 Sue me!",
+    "usage_one_liner": "",
+    "order_index": 395,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "41",
+    "meaning": "그게 어딘데? That's better than nothing",
+    "usage_one_liner": "",
+    "order_index": 396,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "42",
+    "meaning": "머리뚜껑이 열렸다. My head is about to open",
+    "usage_one_liner": "",
+    "order_index": 397,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "43",
+    "meaning": "그녀는 이중 성격을 가졌어 She has a multi-personality (또는 split personality)",
+    "usage_one_liner": "",
+    "order_index": 398,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "44",
+    "meaning": "(나에게) 너무 심한 것 아니예요? Don't you think you are too harsh?",
+    "usage_one_liner": "",
+    "order_index": 399,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "45",
+    "meaning": "그렇게까지 할 필요는 없어. You don't have to do all that",
+    "usage_one_liner": "",
+    "order_index": 400,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "47",
+    "meaning": "나도 맘이 편하지는 않아. I don't feel well(good) about it, either.",
+    "usage_one_liner": "",
+    "order_index": 401,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "48",
+    "meaning": "그다지 썩 내키지는 않는데.I don't feel like doing it",
+    "usage_one_liner": "",
+    "order_index": 402,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "49",
+    "meaning": "생각보다 '별로'인데... It's not as good as I thought (expected)",
+    "usage_one_liner": "",
+    "order_index": 403,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  },
+  {
+    "domain": "english",
+    "category": "conversation",
+    "level": 0,
+    "keyword": "50",
+    "meaning": "몸살에 걸려 온몸이 쑤신다. My whole body aches.",
+    "usage_one_liner": "",
+    "order_index": 404,
+    "tags": [
+      "conv",
+      "daily"
+    ],
+    "doc_source": "top500",
+    "doc_section": ""
+  }
+]

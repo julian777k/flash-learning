@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "Series",
+    "meaning": "1차원 자료구조",
+    "usage_one_liner": "s = pd.Series([1,2,3])",
+    "order_index": 76,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "10min.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "DataFrame",
+    "meaning": "2차원 테이블",
+    "usage_one_liner": "df = pd.DataFrame({'a':[1,2]})",
+    "order_index": 77,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "10min.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "read_csv()",
+    "meaning": "CSV 읽기",
+    "usage_one_liner": "pd.read_csv('a.csv')",
+    "order_index": 78,
+    "tags": [
+      "core",
+      "io"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "io.html#csv-text-files"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "head()/tail()",
+    "meaning": "앞/뒤 일부 보기",
+    "usage_one_liner": "df.head()",
+    "order_index": 79,
+    "tags": [
+      "core",
+      "inspect"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#head-and-tail"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "info()",
+    "meaning": "요약 정보",
+    "usage_one_liner": "df.info()",
+    "order_index": 80,
+    "tags": [
+      "core",
+      "inspect"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "dtypes",
+    "meaning": "열 자료형 확인",
+    "usage_one_liner": "df.dtypes",
+    "order_index": 81,
+    "tags": [
+      "core",
+      "inspect"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "describe()",
+    "meaning": "기초 통계",
+    "usage_one_liner": "df.describe()",
+    "order_index": 82,
+    "tags": [
+      "applied",
+      "stats"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#descriptive-stats"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "astype()",
+    "meaning": "형 변환",
+    "usage_one_liner": "df['a']=df['a'].astype(float)",
+    "order_index": 83,
+    "tags": [
+      "applied",
+      "transform"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "basics.html#basics"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "isna()/notna()",
+    "meaning": "결측치 확인",
+    "usage_one_liner": "df.isna()",
+    "order_index": 84,
+    "tags": [
+      "core",
+      "missing"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "missing_data.html"
+  },
+  {
+    "domain": "pandas",
+    "level": 1,
+    "keyword": "fillna()",
+    "meaning": "결측치 대체",
+    "usage_one_liner": "df.fillna(0)",
+    "order_index": 85,
+    "tags": [
+      "applied",
+      "missing"
+    ],
+    "doc_url": "https://pandas.pydata.org/docs/user_guide/index.html",
+    "doc_section": "missing_data.html"
+  }
+]

@@ -1,0 +1,2992 @@
+[
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I need.... \"...이 필요하다\" 는 것을 표현할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 1,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 1,
+    "items": [
+      {
+        "en": "I need a new car.",
+        "ko": "필요해"
+      },
+      {
+        "en": "I need a vacation.",
+        "ko": "필요해"
+      },
+      {
+        "en": "I need some advice.",
+        "ko": "필요해"
+      },
+      {
+        "en": "I need a haircut.",
+        "ko": "잘라야겠다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "1. I need.... \"...이 필요하다\" 는 것을 표현할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I hope.... \"...을 희망한다 or 어떻게 되었으면 한다\" 는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 2,
+    "items": [
+      {
+        "en": "I hope it snows.",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "I hope it's OK with you.",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "I hope you can make it.",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "I hope my plane leaves on time.",
+        "ko": "좋겠다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "2. I hope.... \"...을 희망한다 or 어떻게 되었으면 한다\" 는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Can I...? \".... 할 수 있나요? ...해드릴까요? \" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 3,
+    "items": [
+      {
+        "en": "Can I help you?",
+        "ko": "도와드릴까요?"
+      },
+      {
+        "en": "Can I give you a hand?",
+        "ko": "도와드릴까요?"
+      },
+      {
+        "en": "Can I get you something?",
+        "ko": "드릴까요?"
+      },
+      {
+        "en": "Can I take a message?",
+        "ko": "드릴까요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "3. Can I...? \".... 할 수 있나요? ...해드릴까요? \" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Are you...? \"당신은 ...입니까?\" 라는 상대방의 상태를 질문함",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 4,
+    "items": [
+      {
+        "en": "Are you ready?",
+        "ko": "되었습니까?"
+      },
+      {
+        "en": "Are you all right?",
+        "ko": "괜찮아요?"
+      },
+      {
+        "en": "Are you busy right now?",
+        "ko": "바쁘신가요?"
+      },
+      {
+        "en": "Are you free tomorrow afternoon?",
+        "ko": "있습니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "4. Are you...? \"당신은 ...입니까?\" 라는 상대방의 상태를 질문함"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'll (I will) .... \"나는 ... 할 것이다\" 라는 자신의 의사를 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 5,
+    "items": [
+      {
+        "en": "I'll have the New York cut.",
+        "ko": "먹겠습니다."
+      },
+      {
+        "en": "I'll have a beer, please.",
+        "ko": "주세요."
+      },
+      {
+        "en": "I'll have another cup of coffee.",
+        "ko": "하겠어요"
+      },
+      {
+        "en": "I'll have the special",
+        "ko": "먹겠습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "5. I'll (I will) .... \"나는 ... 할 것이다\" 라는 자신의 의사를 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I want... \"을 원한다\" 말을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 6,
+    "items": [
+      {
+        "en": "I want more responsibility.",
+        "ko": "싶습니다."
+      },
+      {
+        "en": "I want a position with more responsibility.",
+        "ko": "싶습니다."
+      },
+      {
+        "en": "I want a raise.",
+        "ko": "원합니다."
+      },
+      {
+        "en": "I want it all.",
+        "ko": "원합니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "6. I want... \"을 원한다\" 말을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Do you want...? \"...을 원합니까?\" 라는 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 7,
+    "items": [
+      {
+        "en": "Do you want some more coffee?",
+        "ko": "하시겠어요?"
+      },
+      {
+        "en": "Do you want anything at the store?",
+        "ko": "없어요?"
+      },
+      {
+        "en": "Do you want anything else?",
+        "ko": "있어요?"
+      },
+      {
+        "en": "Do you want cream and sugar?",
+        "ko": "까요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "7. Do you want...? \"...을 원합니까?\" 라는 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I think.... \"나는 ... 생각한다\" 라는 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 8,
+    "items": [
+      {
+        "en": "I think so.",
+        "ko": "생각한다."
+      },
+      {
+        "en": "I don't think so.",
+        "ko": "않는다."
+      },
+      {
+        "en": "I think not.",
+        "ko": "않는다."
+      },
+      {
+        "en": "Don't you think so?",
+        "ko": "않나요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "8. I think.... \"나는 ... 생각한다\" 라는 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Do you think....? \"...생각합니까?\" 라고 상대방의 의사를 물을 때.",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 9,
+    "items": [
+      {
+        "en": "Do you think this looks OK?",
+        "ko": "생각해요?"
+      },
+      {
+        "en": "Do you think this looks good on me?",
+        "ko": "생각해요?"
+      },
+      {
+        "en": "Do you think this goes with my dress?",
+        "ko": "생각해요?"
+      },
+      {
+        "en": "Do you think this color suits me?",
+        "ko": "생각해요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "9. Do you think....? \"...생각합니까?\" 라고 상대방의 의사를 물을 때."
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I know... \"...을 알고 있다\" 라는 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 10,
+    "items": [
+      {
+        "en": "I know what you mean.",
+        "ko": "알겠어요."
+      },
+      {
+        "en": "I know what you want.",
+        "ko": "있다"
+      },
+      {
+        "en": "I know how you feel.",
+        "ko": "안다"
+      },
+      {
+        "en": "I know what you're thinking.",
+        "ko": "안다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "10. I know... \"...을 알고 있다\" 라는 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Do you know...? \"...을 알고 있습니까?\" 라는 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 11,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 11,
+    "items": [
+      {
+        "en": "Do you know the recipe?",
+        "ko": "있습니까?"
+      },
+      {
+        "en": "Do you know that woman?",
+        "ko": "압니까?"
+      },
+      {
+        "en": "Do you know the story?",
+        "ko": "있습니까?"
+      },
+      {
+        "en": "Do you know the way?",
+        "ko": "있습니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "11. Do you know...? \"...을 알고 있습니까?\" 라는 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I feel... \"..을 느낀다\" 라는 자신의 기분 상태를 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 12,
+    "items": [
+      {
+        "en": "I feel sick",
+        "ko": "느글거려"
+      },
+      {
+        "en": "I feel sick to my stomach.",
+        "ko": "매슥매슥하다"
+      },
+      {
+        "en": "I feel a little dizzy.",
+        "ko": "난다"
+      },
+      {
+        "en": "I feel really tired.",
+        "ko": "지쳤어"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "12. I feel... \"..을 느낀다\" 라는 자신의 기분 상태를 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I have... \"....을 갖고 있다\" 는 것을 표현할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 14,
+    "items": [
+      {
+        "en": "I have two sisters.",
+        "ko": "있다"
+      },
+      {
+        "en": "I have an older sister and a younger sister.",
+        "ko": "있다"
+      },
+      {
+        "en": "I have two sisters, both older.",
+        "ko": "있습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "14. I have... \"....을 갖고 있다\" 는 것을 표현할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Have you...? \"...해본 경험이 있어요?\" 라고 질문할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 15,
+    "items": [
+      {
+        "en": "Have you ever been to Disneyland?",
+        "ko": "있어요?"
+      },
+      {
+        "en": "* have been to-에",
+        "ko": "가보다"
+      },
+      {
+        "en": "Have you been to Paris?",
+        "ko": "있어요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "15. Have you...? \"...해본 경험이 있어요?\" 라고 질문할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I have to... \"...을 해야만 한다\" 는 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 16,
+    "items": [
+      {
+        "en": "I have to make a decision.",
+        "ko": "합니다."
+      },
+      {
+        "en": "* make a decision:",
+        "ko": "결정하다"
+      },
+      {
+        "en": "I have to make a choice.",
+        "ko": "한다"
+      },
+      {
+        "en": "I have to make the deadline.",
+        "ko": "맞추어야한다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "16. I have to... \"...을 해야만 한다\" 는 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Have... \"...을 가지세요\" 어떤 상태가 되세요. 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 17,
+    "items": [
+      {
+        "en": "Have a good time.",
+        "ko": "시간되세요."
+      },
+      {
+        "en": "Have a nice time.",
+        "ko": "되세요"
+      },
+      {
+        "en": "Have fun.",
+        "ko": "보내세요."
+      },
+      {
+        "en": "Have a nice weekend.",
+        "ko": "보내세요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "17. Have... \"...을 가지세요\" 어떤 상태가 되세요. 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "This is..... \"이것은 ...입니다\" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 18,
+    "items": [
+      {
+        "en": "This is for you.",
+        "ko": "것입니다"
+      },
+      {
+        "en": "This is for John.",
+        "ko": "겁니다."
+      },
+      {
+        "en": "This is for the picnic.",
+        "ko": "겁니다."
+      },
+      {
+        "en": "This is for tonight's dinner.",
+        "ko": "저녁용이다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "18. This is..... \"이것은 ...입니다\" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Is this....? \"이것이 ...입니까?\" 라고 물을 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 19,
+    "items": [
+      {
+        "en": "Is this the report you were looking for?",
+        "ko": "보고서입니까?"
+      },
+      {
+        "en": "Is this what you were looking for?",
+        "ko": "아닌가요?"
+      },
+      {
+        "en": "Is this what you wanted?",
+        "ko": "아닌가요?"
+      },
+      {
+        "en": "Is this the seater you knitted?",
+        "ko": "스웨터인가요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "19. Is this....? \"이것이 ...입니까?\" 라고 물을 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "That's (That is)... \"저것은...입니다\" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 20,
+    "items": [
+      {
+        "en": "That's right.",
+        "ko": "그래요"
+      },
+      {
+        "en": "That's true.",
+        "ko": "그래"
+      },
+      {
+        "en": "That's it.",
+        "ko": "맞아"
+      },
+      {
+        "en": "That's wrong.",
+        "ko": "거야"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "20. That's (That is)... \"저것은...입니다\" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "There's (There is).... \"사물이나 사람이 어디에 있다\" 는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 21,
+    "items": [
+      {
+        "en": "There's some food in the refrigerator.",
+        "ko": "있다"
+      },
+      {
+        "en": "There's some cake on the table.",
+        "ko": "있다"
+      },
+      {
+        "en": "There's none left.",
+        "ko": "않다"
+      },
+      {
+        "en": "There's more ice cream in the freezer.",
+        "ko": "있다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "21. There's (There is).... \"사물이나 사람이 어디에 있다\" 는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Is there....? 어디에 무엇이 있는지를 묻는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 22,
+    "items": [
+      {
+        "en": "Is there a drugstore nearby?",
+        "ko": "있습니까?"
+      },
+      {
+        "en": "Is there a bus stop around here?",
+        "ko": "있습니까?"
+      },
+      {
+        "en": "Is",
+        "ko": "직행편이"
+      },
+      {
+        "en": "Is there another exit?",
+        "ko": "있습니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "22. Is there....? 어디에 무엇이 있는지를 묻는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Could you...? \"...을 해 주시겠어요?\" 라고 공손히 요구하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 23,
+    "items": [
+      {
+        "en": "Could you do me a favor?",
+        "ko": "될까요?"
+      },
+      {
+        "en": "Could you help me out?",
+        "ko": "도와줄래요?"
+      },
+      {
+        "en": "Could you get me another beer?",
+        "ko": "줄래요?"
+      },
+      {
+        "en": "Could you wrap this separately, please?",
+        "ko": "줄래요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "23. Could you...? \"...을 해 주시겠어요?\" 라고 공손히 요구하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "You should... \"...을 하는 것이 좋겠다\" 하는 식의 충고나 명령을 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 24,
+    "items": [
+      {
+        "en": "You should give her a call.",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "You should give her a chance",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "You should finish your homework.",
+        "ko": "끝내야한다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "24. You should... \"...을 하는 것이 좋겠다\" 하는 식의 충고나 명령을 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Would you... \"...을 해 주시겠습니까\" 라고 정중하게 부탁할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 24,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 25,
+    "items": [
+      {
+        "en": "Would you mail this letter for me?",
+        "ko": "주시겠습니까?"
+      },
+      {
+        "en": "Would you type this letter, please?",
+        "ko": "주시겠습니까?"
+      },
+      {
+        "en": "Would you please pass me the salt?",
+        "ko": "주실래요?"
+      },
+      {
+        "en": "Would you explain it to her?",
+        "ko": "주시겠어요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "25. Would you... \"...을 해 주시겠습니까\" 라고 정중하게 부탁할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'd like (I would like).... \"나는 ..을 하겠다\" 는 자신의 선호를 표현할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 26,
+    "items": [
+      {
+        "en": "I'd like an ice cream sundae.",
+        "ko": "주십시오."
+      },
+      {
+        "en": "I'd like another drink.",
+        "ko": "주십시오."
+      },
+      {
+        "en": "I'd like a slice of pizza, please.",
+        "ko": "주세요."
+      },
+      {
+        "en": "I'd like two tickets to the 9:30 show. 9 시",
+        "ko": "주세요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "26. I'd like (I would like).... \"나는 ..을 하겠다\" 는 자신의 선호를 표현할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "It's (It is)... \"이것은 ...입니다\" 라는 뜻의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 27,
+    "items": [
+      {
+        "en": "It's no problem.",
+        "ko": "아닙니다."
+      },
+      {
+        "en": "It's a difficult question.",
+        "ko": "질문이군요."
+      },
+      {
+        "en": "It's an emergency.",
+        "ko": "긴급사태입니다"
+      },
+      {
+        "en": "It's a joke.",
+        "ko": "농담이오."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "27. It's (It is)... \"이것은 ...입니다\" 라는 뜻의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Let... \"함께...합시다\" 라고 제안 하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 28,
+    "items": [
+      {
+        "en": "Let's take a break.",
+        "ko": "쉽시다."
+      },
+      {
+        "en": "Let's take a cab.",
+        "ko": "타자"
+      },
+      {
+        "en": "Let's eat out tonight.",
+        "ko": "외식하자"
+      },
+      {
+        "en": "Let's set a date.",
+        "ko": "정하자"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "28. Let... \"함께...합시다\" 라고 제안 하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "It takes ... \"...이 소요 됩니다\" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 29,
+    "items": [
+      {
+        "en": "It takes a lot of hard work.",
+        "ko": "된다"
+      },
+      {
+        "en": "It takes a lot of courage.",
+        "ko": "필요하다"
+      },
+      {
+        "en": "It takes guts and determination.",
+        "ko": "필요하다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "29. It takes ... \"...이 소요 됩니다\" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "It looks like... \"...인 것처럼 보인다\" 라고 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 30,
+    "items": [
+      {
+        "en": "It looks like it's going to rain.",
+        "ko": "같다"
+      },
+      {
+        "en": "It looks like it‘s going to pop.",
+        "ko": "같다"
+      },
+      {
+        "en": "It looks like the house is falling apart.",
+        "ko": "같다"
+      },
+      {
+        "en": "It looks like spring is arriving earlier this year.",
+        "ko": "같다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "30. It looks like... \"...인 것처럼 보인다\" 라고 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What's....? \"...은 무엇입니까?\" 라는 질문을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 31,
+    "items": [
+      {
+        "en": "What's your number?",
+        "ko": "무엇입니까?"
+      },
+      {
+        "en": "What's your name?",
+        "ko": "되지요"
+      },
+      {
+        "en": "What's your address?",
+        "ko": "되지요"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "31. What's....? \"...은 무엇입니까?\" 라는 질문을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What a ....! \"참 ..이네요!\" 라는 말을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 32,
+    "items": [
+      {
+        "en": "What a mess!",
+        "ko": "어수선해!"
+      },
+      {
+        "en": "What a shame!",
+        "ko": "일이네!"
+      },
+      {
+        "en": "What a joke!",
+        "ko": "일인가!"
+      },
+      {
+        "en": "What a surprise!",
+        "ko": "놀랍다!"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "32. What a ....! \"참 ..이네요!\" 라는 말을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What do you ....? \"무엇을 ... 하세요?\" 라는 상대방의 의사나 상태를 물어볼 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 33,
+    "items": [
+      {
+        "en": "What do you want to do?",
+        "ko": "좋겠니?"
+      },
+      {
+        "en": "What do you want to know?",
+        "ko": "싶니?"
+      },
+      {
+        "en": "What do you plan to do?",
+        "ko": "계획입니까?"
+      },
+      {
+        "en": "What do you suggest we do?",
+        "ko": "제의합니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "33. What do you ....? \"무엇을 ... 하세요?\" 라는 상대방의 의사나 상태를 물어볼 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "How's....? \"....어떠세요?\" 사물이나 사람이 어떤 상태인지를 질문",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 33,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 34,
+    "items": [
+      {
+        "en": "How's your brother doing?",
+        "ko": "지내냐?"
+      },
+      {
+        "en": "How's your father doing?",
+        "ko": "지내시냐?"
+      },
+      {
+        "en": "How's Mary doing?",
+        "ko": "지냅니까?"
+      },
+      {
+        "en": "How's she now?",
+        "ko": "어때요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "34. How's....? \"....어떠세요?\" 사물이나 사람이 어떤 상태인지를 질문"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "How do you...? \"...어떻게 합니까?\" 하는 방식에 대한 질문",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 35,
+    "items": [
+      {
+        "en": "How do you open this door?",
+        "ko": "겁니까?"
+      },
+      {
+        "en": "How do you do this?",
+        "ko": "겁니까?"
+      },
+      {
+        "en": "How do you work this?",
+        "ko": "겁니까?"
+      },
+      {
+        "en": "How do you get there?",
+        "ko": "갑니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "35. How do you...? \"...어떻게 합니까?\" 하는 방식에 대한 질문"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "How about..? \"...은 어떻습니까?\" 는 말을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 35,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 36,
+    "items": [
+      {
+        "en": "How about a beer?",
+        "ko": "마실까?"
+      },
+      {
+        "en": "How about another piece of cake?",
+        "ko": "드시겠어요?"
+      },
+      {
+        "en": "How about lunch?",
+        "ko": "할까요?"
+      },
+      {
+        "en": "How about some eggs this morning?",
+        "ko": "어때요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "36. How about..? \"...은 어떻습니까?\" 는 말을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "How come...? \"도대체..왜?\" 라는 식으로 물을 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 37,
+    "items": [
+      {
+        "en": "How come you're not going to the party?",
+        "ko": "않니?"
+      },
+      {
+        "en": "How come you can't go?",
+        "ko": "없니?"
+      },
+      {
+        "en": "How come you never write?",
+        "ko": "않니?"
+      },
+      {
+        "en": "How come it's not working?",
+        "ko": "않습니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "37. How come...? \"도대체..왜?\" 라는 식으로 물을 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "How long...? \"얼마나 ... 오래이지요?\" 식의 시간의 길이를 질문",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 38,
+    "items": [
+      {
+        "en": "How long does it take to get there?",
+        "ko": "걸리지요?"
+      },
+      {
+        "en": "How long does it take by bus?",
+        "ko": "걸리지요?"
+      },
+      {
+        "en": "How long does it take on foot?",
+        "ko": "걸리지요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "38. How long...? \"얼마나 ... 오래이지요?\" 식의 시간의 길이를 질문"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Why don't you...? \"....하지 않겠어요?\" 식으로 권유, 제안을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 39,
+    "items": [
+      {
+        "en": "Why don't you come along?",
+        "ko": "어때?"
+      },
+      {
+        "en": "Why don't you join us?",
+        "ko": "않겠어요?"
+      },
+      {
+        "en": "Why don't you sit down?",
+        "ko": "그래요"
+      },
+      {
+        "en": "Why don't you take a break?",
+        "ko": "어때요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "39. Why don't you...? \"....하지 않겠어요?\" 식으로 권유, 제안을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Thanks for... \"...감사합니다\" 는 감사의 기본적인 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 40,
+    "items": [
+      {
+        "en": "Thanks for everything.",
+        "ko": "고마워요"
+      },
+      {
+        "en": "Thanks for all the help.",
+        "ko": "고맙습니다."
+      },
+      {
+        "en": "Thanks for the encouragement.",
+        "ko": "감사합니다."
+      },
+      {
+        "en": "Thanks for the advice.",
+        "ko": "고맙습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "40. Thanks for... \"...감사합니다\" 는 감사의 기본적인 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Take... \"...을 잡다 or 갖는다\" 는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 41,
+    "items": [
+      {
+        "en": "Take it easy.",
+        "ko": "가"
+      },
+      {
+        "en": "Take care.",
+        "ko": "가"
+      },
+      {
+        "en": "Take your time.",
+        "ko": "하세요."
+      },
+      {
+        "en": "Take a chance.",
+        "ko": "해보세요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "41. Take... \"...을 잡다 or 갖는다\" 는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Tell.... \"..알려 주세요\" 라는 것을 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 41,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 42,
+    "items": [
+      {
+        "en": "Tell her I'll stop by around 7.",
+        "ko": "전해줘요"
+      },
+      {
+        "en": "Tell her I'll call her when I get home.",
+        "ko": "전해줘요"
+      },
+      {
+        "en": "Tell him I said hello.",
+        "ko": "전해줘요"
+      },
+      {
+        "en": "Tell Jane I bought a ticket for her.",
+        "ko": "전해줘요"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "42. Tell.... \"..알려 주세요\" 라는 것을 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "See you... \"...에 만나지요\" 라는 것을 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 43,
+    "items": [
+      {
+        "en": "See you on Saturday.",
+        "ko": "만나요"
+      },
+      {
+        "en": "See you at 8. 8 시에",
+        "ko": "만나요"
+      },
+      {
+        "en": "See you next week.",
+        "ko": "만나요"
+      },
+      {
+        "en": "See you tomorrow.",
+        "ko": "만나요"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "43. See you... \"...에 만나지요\" 라는 것을 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "This sounds.... \"....처럼 생각되다\" 는 표현을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 44,
+    "items": [
+      {
+        "en": "This sounds interesting.",
+        "ko": "같다"
+      },
+      {
+        "en": "This sounds good.",
+        "ko": "같다"
+      },
+      {
+        "en": "This sounds exciting.",
+        "ko": "같다"
+      },
+      {
+        "en": "This sounds scary.",
+        "ko": "같다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "44. This sounds.... \"....처럼 생각되다\" 는 표현을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Do you mind...? \"...해도 상관없어요?\" 라는 허가를 구할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 45,
+    "items": [
+      {
+        "en": "Do you mind?",
+        "ko": "상관없어요?"
+      },
+      {
+        "en": "Don't you mind?",
+        "ko": "상관없어요?"
+      },
+      {
+        "en": "Don't you care?",
+        "ko": "않아요?"
+      },
+      {
+        "en": "Do you care?",
+        "ko": "괜찮아요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "45. Do you mind...? \"...해도 상관없어요?\" 라는 허가를 구할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Are you sure...? \"...확실해요?\" 상대방의 의도를 확인 하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 46,
+    "items": [
+      {
+        "en": "Are you sure?",
+        "ko": "해?"
+      },
+      {
+        "en": "Are you certain?",
+        "ko": "합니까?"
+      },
+      {
+        "en": "Are you positive?",
+        "ko": "틀림없습니다."
+      },
+      {
+        "en": "Are you serious?",
+        "ko": "중대한거예요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "46. Are you sure...? \"...확실해요?\" 상대방의 의도를 확인 하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'm worried about... \"....염려가 돼요\" 라는 불안의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 47,
+    "items": [
+      {
+        "en": "I'm worried about Susan.",
+        "ko": "걱정돼"
+      },
+      {
+        "en": "I'm worried about you.",
+        "ko": "걱정이다"
+      },
+      {
+        "en": "I'm worried about the kids.",
+        "ko": "걱정이다"
+      },
+      {
+        "en": "I'm worried about our younger generation today.",
+        "ko": "걱정이다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "47. I'm worried about... \"....염려가 돼요\" 라는 불안의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "be going to... \"...하려고 하다\" 는 자신의 의지를 표현하는 말",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 47,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 48,
+    "items": [
+      {
+        "en": "I'm going to study harder next year.",
+        "ko": "생각이다"
+      },
+      {
+        "en": "I'm going to quit my job.",
+        "ko": "생각이아"
+      },
+      {
+        "en": "I'm going to take a long vacation this summer.",
+        "ko": "생각이다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "48. be going to... \"...하려고 하다\" 는 자신의 의지를 표현하는 말"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'm sorry... \"...미안 합니다\"는 뜻의 기본적인 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 49,
+    "items": [
+      {
+        "en": "I'm sorry about what I said.",
+        "ko": "죄송해요"
+      },
+      {
+        "en": "I'm sorry about what I‘ve done.",
+        "ko": "죄송합니다."
+      },
+      {
+        "en": "I'm sorry I got upset.",
+        "ko": "합니다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "49. I'm sorry... \"...미안 합니다\"는 뜻의 기본적인 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I wonder... \"... 일까?\" 라는 확신이 없이 추측 하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 50,
+    "items": [
+      {
+        "en": "I wonder if he'll call.",
+        "ko": "할까?"
+      },
+      {
+        "en": "I wonder if he wants to come.",
+        "ko": "할까?"
+      },
+      {
+        "en": "I wonder if we should invite Carl.",
+        "ko": "하나?"
+      },
+      {
+        "en": "I wonder if it will be sunny this weekend.",
+        "ko": "모르겠다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "50. I wonder... \"... 일까?\" 라는 확신이 없이 추측 하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I hate... \"...을 싫어한다\"는 자신의 기호를 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 51,
+    "items": [
+      {
+        "en": "I hate spinach.",
+        "ko": "싫어한다."
+      },
+      {
+        "en": "I hate crowds.",
+        "ko": "싫어한다."
+      },
+      {
+        "en": "I hate that song.",
+        "ko": "싫어한다."
+      },
+      {
+        "en": "I hate this weather.",
+        "ko": "질색이다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "51. I hate... \"...을 싫어한다\"는 자신의 기호를 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I wish... \"...을 소원하다\"는 말의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 52,
+    "items": [
+      {
+        "en": "I wish you luck.",
+        "ko": "빕니다."
+      },
+      {
+        "en": "I wish you every success.",
+        "ko": "빕니다."
+      },
+      {
+        "en": "I wish you all the happiness in the world.",
+        "ko": "바랍니다."
+      },
+      {
+        "en": "I wish you all the best.",
+        "ko": "바랍니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "52. I wish... \"...을 소원하다\"는 말의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I guess... \"...이라고 생각한다\" 단서가 없이 하는 말",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 53,
+    "items": [
+      {
+        "en": "I guess you're right.",
+        "ko": "생각한다."
+      },
+      {
+        "en": "I guess it is OK.",
+        "ko": "생각한다."
+      },
+      {
+        "en": "I guess it would be all right.",
+        "ko": "생각한다."
+      },
+      {
+        "en": "I guess it doesn't matter.",
+        "ko": "생각한다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "53. I guess... \"...이라고 생각한다\" 단서가 없이 하는 말"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "May I ...? \"해도 좋습니까?\" 식의 허가를 구할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 54,
+    "items": [
+      {
+        "en": "May I sit here?",
+        "ko": "되겠습니까?"
+      },
+      {
+        "en": "May I help you?",
+        "ko": "드릴까요?"
+      },
+      {
+        "en": "May I speak to Larry, please.",
+        "ko": "있을까요?"
+      },
+      {
+        "en": "May I have another piece of pie?",
+        "ko": "될까요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "54. May I ...? \"해도 좋습니까?\" 식의 허가를 구할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'm glad... \"... 해서 기쁘다\"는 말을 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 55,
+    "items": [
+      {
+        "en": "I'm glad to hear that.",
+        "ko": "소식이군요."
+      },
+      {
+        "en": "I'm glad to be here.",
+        "ko": "했네요."
+      },
+      {
+        "en": "I'm glad to meet you.",
+        "ko": "반갑습니다."
+      },
+      {
+        "en": "I'm glad to see you're all right.",
+        "ko": "반갑습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "55. I'm glad... \"... 해서 기쁘다\"는 말을 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I heard... \"...소문을 들었다\" 는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 56,
+    "items": [
+      {
+        "en": "I heard you're moving.",
+        "ko": "들었습니다."
+      },
+      {
+        "en": "I heard you won.",
+        "ko": "들었습니다."
+      },
+      {
+        "en": "I heard Jim got the promotion.",
+        "ko": "들었습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "56. I heard... \"...소문을 들었다\" 는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'm afraid.... \"....두렵다\"는 두려움을 나타낼 때 하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 57,
+    "items": [
+      {
+        "en": "I'm afraid of flying.",
+        "ko": "무섭다"
+      },
+      {
+        "en": "I'm afraid of the dark.",
+        "ko": "무섭다"
+      },
+      {
+        "en": "I'm afraid of height.",
+        "ko": "있었다."
+      },
+      {
+        "en": "I'm not afraid of him.",
+        "ko": "않는다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "57. I'm afraid.... \"....두렵다\"는 두려움을 나타낼 때 하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Shall I....? \"....을 해 드릴까요?\" 라는 뜻의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 58,
+    "items": [
+      {
+        "en": "Shall I open the window?",
+        "ko": "열까요?"
+      },
+      {
+        "en": "Shall I get the door?",
+        "ko": "열까요?"
+      },
+      {
+        "en": "Shall I answer the phone?",
+        "ko": "까요?"
+      },
+      {
+        "en": "Shall I take a message?",
+        "ko": "남기시겠습니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "58. Shall I....? \"....을 해 드릴까요?\" 라는 뜻의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "..., isn't it? \"...이지요, 안 그래요?\" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 58,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 59,
+    "items": [
+      {
+        "en": "This is our pen, isn't it?",
+        "ko": "그래요?"
+      },
+      {
+        "en": "You're a student, aren't you?",
+        "ko": "그래요?"
+      },
+      {
+        "en": "We're next, aren't we?",
+        "ko": "그래요?"
+      },
+      {
+        "en": "She's from Canada, Isn't she?",
+        "ko": "그래요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "59. ..., isn't it? \"...이지요, 안 그래요?\" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Please.... (무엇을 요구하면서 분위기를 완화 하는 표현)",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 60,
+    "items": [
+      {
+        "en": "Please forgive me.",
+        "ko": "주세요."
+      },
+      {
+        "en": "Please accept my apology.",
+        "ko": "받아주세요"
+      },
+      {
+        "en": "Please come with me.",
+        "ko": "가시지요"
+      },
+      {
+        "en": "Please don't tell anyone.",
+        "ko": "말아주세요"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "60. Please.... (무엇을 요구하면서 분위기를 완화 하는 표현)"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Be... Be 동사의 명령형으로 \"하라, 되라!\"의 뜻으로 사용",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 60,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 61,
+    "items": [
+      {
+        "en": "Be careful.",
+        "ko": "조심해요"
+      },
+      {
+        "en": "Be quiet.",
+        "ko": "하세요."
+      },
+      {
+        "en": "Be reasonable.",
+        "ko": "되세요."
+      },
+      {
+        "en": "Be practical.",
+        "ko": "되세요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "61. Be... Be 동사의 명령형으로 \"하라, 되라!\"의 뜻으로 사용"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Here.... 가까운 것을 가리키는 \"여기\"를 나타내는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 62,
+    "items": [
+      {
+        "en": "Here you are.",
+        "ko": "있습니다."
+      },
+      {
+        "en": "Here it is.",
+        "ko": "있습니다."
+      },
+      {
+        "en": "Here she comes.",
+        "ko": "오네요."
+      },
+      {
+        "en": "Here we go again.",
+        "ko": "합시다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "62. Here.... 가까운 것을 가리키는 \"여기\"를 나타내는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Because... \"왜냐하면...\"",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 63,
+    "items": [
+      {
+        "en": "Because I like it.",
+        "ko": "때문입니다"
+      },
+      {
+        "en": "Because It's Sunday.",
+        "ko": "때문입니다"
+      },
+      {
+        "en": "Because It's required.",
+        "ko": "때문입니다"
+      },
+      {
+        "en": "Because that's just the way it is.",
+        "ko": "때문입니다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "63. Because... \"왜냐하면...\""
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Don't ...... \"...하지 마라\" 의 듯을 나타내는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 64,
+    "items": [
+      {
+        "en": "Don't jump to conclusions.",
+        "ko": "마세요."
+      },
+      {
+        "en": "Don't panic.",
+        "ko": "마"
+      },
+      {
+        "en": "Don't worry about it.",
+        "ko": "마"
+      },
+      {
+        "en": "Don't mention it.",
+        "ko": "천만예요"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "64. Don't ...... \"...하지 마라\" 의 듯을 나타내는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "You'd better... \"...하는 편이 좋다\" 는 뜻을 나타내는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 65,
+    "items": [
+      {
+        "en": "You'd better hurry.",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "You'd better watch out.",
+        "ko": "좋겠다."
+      },
+      {
+        "en": "You'd better apologize.",
+        "ko": "좋겠어."
+      },
+      {
+        "en": "You'd better be careful.",
+        "ko": "좋겠어."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "65. You'd better... \"...하는 편이 좋다\" 는 뜻을 나타내는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "You must... \"...해야만 한다\"",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 66,
+    "items": [
+      {
+        "en": "You mustn't (must not) disturb her.",
+        "ko": "안된다."
+      },
+      {
+        "en": "You mustn't wake her up.",
+        "ko": "된다"
+      },
+      {
+        "en": "You mustn't be late.",
+        "ko": "된다"
+      },
+      {
+        "en": "You mustn't forget.",
+        "ko": "된다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "66. You must... \"...해야만 한다\""
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "You mean...? \"즉 ..라는 말이지요?\" 라는 뜻의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 67,
+    "items": [
+      {
+        "en": "You mean you didn't accept the offer?",
+        "ko": "말이냐?"
+      },
+      {
+        "en": "You mean it's impossible?",
+        "ko": "말입니까?"
+      },
+      {
+        "en": "You mean you're not going?",
+        "ko": "이예요?"
+      },
+      {
+        "en": "You mean it's true?",
+        "ko": "이예요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "67. You mean...? \"즉 ..라는 말이지요?\" 라는 뜻의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I'd (I would) rather.... \"...보다는 ...쪽을 하고 싶다\" 는 뜻의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 68,
+    "items": [
+      {
+        "en": "I'd rather stay home tonight.",
+        "ko": "싶다"
+      },
+      {
+        "en": "I'd rather eat out.",
+        "ko": "싶어요."
+      },
+      {
+        "en": "I'd rather go bowling.",
+        "ko": "싶다"
+      },
+      {
+        "en": "I'd rather",
+        "ko": "싶다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "68. I'd (I would) rather.... \"...보다는 ...쪽을 하고 싶다\" 는 뜻의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "I used to.... \"옛날에는 ...이었다\" 는 뜻의 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 68,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 69,
+    "items": [
+      {
+        "en": "I used to be a high-school teacher.",
+        "ko": "이었다."
+      },
+      {
+        "en": "I used to be a fan of hers.",
+        "ko": "팬이었다."
+      },
+      {
+        "en": "I used to be a baseball player.",
+        "ko": "선수였다"
+      },
+      {
+        "en": "There used to be a market on the comer.",
+        "ko": "있었다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "69. I used to.... \"옛날에는 ...이었다\" 는 뜻의 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "It seems.... \"...라고 생각되다\" 라고 추측하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 69,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 70,
+    "items": [
+      {
+        "en": "It doesn't make any difference to me.",
+        "ko": "없다"
+      },
+      {
+        "en": "It makes sense.",
+        "ko": "있네요."
+      },
+      {
+        "en": "It doesn't make any sense.",
+        "ko": "않는다."
+      },
+      {
+        "en": "It makes a good meal.",
+        "ko": "맛있어요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "70. It seems.... \"...라고 생각되다\" 라고 추측하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Is it all right...? \"~해도 좋아요?\" 허가를 구하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 72,
+    "items": [
+      {
+        "en": "Is it all right to use phone?",
+        "ko": "될까요?"
+      },
+      {
+        "en": "Is it all right to let the cat out?",
+        "ko": "될까요?"
+      },
+      {
+        "en": "Is it all right to mention it to Tony?",
+        "ko": "돼요?"
+      },
+      {
+        "en": "Is it all right to use this glass",
+        "ko": "돼요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "72. Is it all right...? \"~해도 좋아요?\" 허가를 구하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "That's (that is) what... \"그것이 바로 ...이다\"",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 73,
+    "items": [
+      {
+        "en": "That's what I was thinking.",
+        "ko": "그거야"
+      },
+      {
+        "en": "That's what we have to do.",
+        "ko": "그것이다"
+      },
+      {
+        "en": "That's what I was afraid of.",
+        "ko": "그것이다"
+      },
+      {
+        "en": "That's what I call modern art.",
+        "ko": "그것입니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "73. That's (that is) what... \"그것이 바로 ...이다\""
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "There's (there is) nothing..... \"거기에 ...아무것도 없다\" 는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 74,
+    "items": [
+      {
+        "en": "There's nothing to do.",
+        "ko": "없다"
+      },
+      {
+        "en": "There's nothing to be afraid of.",
+        "ko": "없다"
+      },
+      {
+        "en": "There's nothing to worry about.",
+        "ko": "없다"
+      },
+      {
+        "en": "There's nothing to drink.",
+        "ko": "없다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "74. There's (there is) nothing..... \"거기에 ...아무것도 없다\" 는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "There's (there is) no... \".... 이 아무것도 없다\"는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 75,
+    "items": [
+      {
+        "en": "There's no way I'm going to finish it on time.",
+        "ko": "무리다"
+      },
+      {
+        "en": "There's no way now that we'll get a reservation.",
+        "ko": "무리다"
+      },
+      {
+        "en": "There's no chance that you'll be able to make it.",
+        "ko": "없다"
+      },
+      {
+        "en": "There's no possibility that you'll change your min.",
+        "ko": "없다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "75. There's (there is) no... \".... 이 아무것도 없다\"는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "No wonder... \"...에 대해서 무리는 아냐\" ...당연하다 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 76,
+    "items": [
+      {
+        "en": "No wonder she got angry.",
+        "ko": "아니다"
+      },
+      {
+        "en": "No wonder.",
+        "ko": "해"
+      },
+      {
+        "en": "No wonder he quit.",
+        "ko": "아니다"
+      },
+      {
+        "en": "No wonder you're upset.",
+        "ko": "아니다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "76. No wonder... \"...에 대해서 무리는 아냐\" ...당연하다 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Which~better.... \"어느 것을 ~더\" 둘 중에 하나를 선택해야 함",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 75,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 77,
+    "items": [
+      {
+        "en": "Which do you speak better, English or French?",
+        "ko": "합니다까?"
+      },
+      {
+        "en": "78 Why not....? \"...",
+        "ko": "표현"
+      },
+      {
+        "en": "Why not give her a call?",
+        "ko": "어때요?"
+      },
+      {
+        "en": "Why not give it a try?",
+        "ko": "어때요?"
+      },
+      {
+        "en": "Why not give it a chance?",
+        "ko": "어때요?"
+      },
+      {
+        "en": "Why not give yourself more time?",
+        "ko": "어때요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "77. Which~better.... \"어느 것을 ~더\" 둘 중에 하나를 선택해야 함"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What if....? \"....하면 어떨까?\" 가정적인 지문을 통해서 상대방의 의사를 묻는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 79,
+    "items": [
+      {
+        "en": "What if we put this table next to the chair",
+        "ko": "어떨까요?"
+      },
+      {
+        "en": "What if we get rid of this old desk?",
+        "ko": "어떨까요?"
+      },
+      {
+        "en": "What if we take an earlier bus?",
+        "ko": "어떨까요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "79. What if....? \"....하면 어떨까?\" 가정적인 지문을 통해서 상대방의 의사를 묻는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What else... \"그 밖에 무엇이...\" 라고 물을 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 80,
+    "items": [
+      {
+        "en": "What else happened?",
+        "ko": "있었지요?"
+      },
+      {
+        "en": "what else is now?",
+        "ko": "새롭지요?"
+      },
+      {
+        "en": "what else is there?",
+        "ko": "있지요?"
+      },
+      {
+        "en": "what else is available?",
+        "ko": "있나요?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "80. What else... \"그 밖에 무엇이...\" 라고 물을 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What makes you....? \"어째서 당신은 ...합니까?\" 라는 원인을 묻는 말",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 81,
+    "items": [
+      {
+        "en": "What makes you so sure?",
+        "ko": "있지요?"
+      },
+      {
+        "en": "What makes you so sure about that?",
+        "ko": "있습니까?"
+      },
+      {
+        "en": "What makes you so positive?",
+        "ko": "있습니까?"
+      },
+      {
+        "en": "What makes you so cheerful?",
+        "ko": "즐겁습니까?"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "81. What makes you....? \"어째서 당신은 ...합니까?\" 라는 원인을 묻는 말"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "What~ is...... \"~하는 것은 ... 이다\" 라고 할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 82,
+    "items": [
+      {
+        "en": "What you need is more information.",
+        "ko": "정보이다"
+      },
+      {
+        "en": "What you need is better management.",
+        "ko": "경영진이다"
+      },
+      {
+        "en": "What you need is a good hot bath.",
+        "ko": "목욕이다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "82. What~ is...... \"~하는 것은 ... 이다\" 라고 할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Whatever.... \"....하는 무엇이든지\" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 83,
+    "items": [
+      {
+        "en": "Whatever you decide is OK with me.",
+        "ko": "최고입니다"
+      },
+      {
+        "en": "Whatever you think is best?",
+        "ko": "최고입니다"
+      },
+      {
+        "en": "Whatever you",
+        "ko": "좋습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "83. Whatever.... \"....하는 무엇이든지\" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Whenever... \"할 때는 언제라도\" 라는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 84,
+    "items": [
+      {
+        "en": "Whenever you want to go is fine with me.",
+        "ko": "좋습니다."
+      },
+      {
+        "en": "Whenever you come is OK with me.",
+        "ko": "좋습니다."
+      },
+      {
+        "en": "Whenever you did it would be fine with me.",
+        "ko": "좋습니다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "84. Whenever... \"할 때는 언제라도\" 라는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "When.... \"...했을 때\" 특정한 시점을 말할 때 사용하는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 85,
+    "items": [
+      {
+        "en": "When I was a child, things were different.",
+        "ko": "달랐다."
+      },
+      {
+        "en": "When I was in Spain, the weather was great.",
+        "ko": "좋았다"
+      },
+      {
+        "en": "When my mother was young, she lived in Ohio.",
+        "ko": "살았다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "85. When.... \"...했을 때\" 특정한 시점을 말할 때 사용하는 표현"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "While... \"...하는 동안에\" 라는 기간을 표현하는 말",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 87,
+    "items": [
+      {
+        "en": "While you were out, Bill stopped by.",
+        "ko": "들렀었다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "87. While... \"...하는 동안에\" 라는 기간을 표현하는 말"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "If.... \"만일...한다면\" 어떤 상황을 가정해서 말할 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 88,
+    "items": [
+      {
+        "en": "If it rains, we'll just have to reschedule it.",
+        "ko": "한다."
+      },
+      {
+        "en": "If you get lost, just give us a call.",
+        "ko": "주세요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "88. If.... \"만일...한다면\" 어떤 상황을 가정해서 말할 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "Even if... \"비록.. 할지라도\" 라는 양보의 뜻을 나타낼 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 85,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 89,
+    "items": [
+      {
+        "en": "Even if it rains, we're still going.",
+        "ko": "간다."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "89. Even if... \"비록.. 할지라도\" 라는 양보의 뜻을 나타낼 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "The best ~ is .... \"가장 좋은 ~은...이다\" 라는 선호를 나타낼 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 90,
+    "items": [
+      {
+        "en": "The best day for me is Thursday.",
+        "ko": "목요일입니다"
+      },
+      {
+        "en": "The best man for the job is Todd.",
+        "ko": "이다"
+      },
+      {
+        "en": "The best medicine for a cold is plenty of rest.",
+        "ko": "것이다."
+      },
+      {
+        "en": "The best place for ribs is Buffalo Bill's.",
+        "ko": "빌즈이다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "90. The best ~ is .... \"가장 좋은 ~은...이다\" 라는 선호를 나타낼 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "too ~ to ..... \"너무 ~하기 때문에 .... 할 수 없다\"",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 92,
+    "items": [
+      {
+        "en": "He is too small to play football.",
+        "ko": "않다"
+      },
+      {
+        "en": "He's too sick to make it to the conference.",
+        "ko": "못했다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "92. too ~ to ..... \"너무 ~하기 때문에 .... 할 수 없다\""
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "as ~ as ... \"와 같은 정도의\" 라는 비교를 나타낼 때",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 93,
+    "items": [
+      {
+        "en": "She's as quiet as a mouse.",
+        "ko": "조용하다"
+      },
+      {
+        "en": "He's as big as a house.",
+        "ko": "크다"
+      },
+      {
+        "en": "Bill is every hit as capable as Jack.",
+        "ko": "유능하다"
+      },
+      {
+        "en": "You've been as busy as a bee lately.",
+        "ko": "바쁘시군요."
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "93. as ~ as ... \"와 같은 정도의\" 라는 비교를 나타낼 때"
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "It's (It is)~to... \"~하는 것은 ... 이다\"",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 94,
+    "items": [
+      {
+        "en": "It's safer to send checks by registered mail.",
+        "ko": "안전하다"
+      },
+      {
+        "en": "It's faster and easier to send it by fax.",
+        "ko": "빠르다"
+      },
+      {
+        "en": "It's not so easy to do.",
+        "ko": "않다"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "94. It's (It is)~to... \"~하는 것은 ... 이다\""
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "It's (It is) ~but... \"그것은 .. 이다 그러나...\"",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 95,
+    "items": [
+      {
+        "en": "It's true, but I still cant' believe it.",
+        "ko": "없다"
+      },
+      {
+        "en": "It's nice, but i'm afraid it's a little too expensive.",
+        "ko": "같습니다"
+      },
+      {
+        "en": "It's",
+        "ko": "수"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "95. It's (It is) ~but... \"그것은 .. 이다 그러나...\""
+  },
+  {
+    "domain": "english",
+    "category": "pattern",
+    "level": 0,
+    "keyword": "All~ is.... \"~하는 모든 것은... 이다\" 라는 상황을 나타내는 표현",
+    "meaning": "",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "pattern",
+      "daily"
+    ],
+    "bundle_id": 97,
+    "items": [
+      {
+        "en": "All you can do now is wait.",
+        "ko": "것뿐이다"
+      },
+      {
+        "en": "All",
+        "ko": "대한"
+      }
+    ],
+    "doc_source": "patterns_100",
+    "doc_section": "97. All~ is.... \"~하는 모든 것은... 이다\" 라는 상황을 나타내는 표현"
+  }
+]

@@ -1,0 +1,2030 @@
+[
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "refactor",
+    "meaning": "코드 구조 개선",
+    "usage_one_liner": "",
+    "order_index": 1,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutable",
+    "meaning": "불변(값이 바뀌지 않음)",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "mutable",
+    "meaning": "가변",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotent",
+    "meaning": "멱등",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "side effect",
+    "meaning": "부작용",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "race condition",
+    "meaning": "경쟁 상태",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deadlock",
+    "meaning": "교착상태",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "livelock",
+    "meaning": "라이브락",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "bottleneck",
+    "meaning": "병목",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throughput",
+    "meaning": "처리량",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "latency",
+    "meaning": "지연",
+    "usage_one_liner": "",
+    "order_index": 11,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "availability",
+    "meaning": "가용성",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistency",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "partition tolerance",
+    "meaning": "분할 내성",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "CAP theorem",
+    "meaning": "CAP 정리",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "eventual consistency",
+    "meaning": "결국적 일관성",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "strong consistency",
+    "meaning": "강한 일관성",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backpressure",
+    "meaning": "역압",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "throttling",
+    "meaning": "속도 제한",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "circuit breaker",
+    "meaning": "회로 차단기 패턴",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "retry policy",
+    "meaning": "재시도 정책",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "fallback",
+    "meaning": "대체 경로",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "failover",
+    "meaning": "자동 전환",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "graceful shutdown",
+    "meaning": "정상 종료",
+    "usage_one_liner": "",
+    "order_index": 24,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "observability",
+    "meaning": "관측 가능성",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "instrumentation",
+    "meaning": "계측",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "telemetry",
+    "meaning": "원격 측정",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "metric",
+    "meaning": "지표",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "trace",
+    "meaning": "트레이스",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "log rotation",
+    "meaning": "로그 순환",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "retention policy",
+    "meaning": "보존 정책",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "schema",
+    "meaning": "스키마",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "migration",
+    "meaning": "마이그레이션",
+    "usage_one_liner": "",
+    "order_index": 33,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "normalization",
+    "meaning": "정규화",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "denormalization",
+    "meaning": "반정규화",
+    "usage_one_liner": "",
+    "order_index": 35,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "primary key",
+    "meaning": "기본키",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "foreign key",
+    "meaning": "외래키",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "index",
+    "meaning": "인덱스",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "covering index",
+    "meaning": "커버링 인덱스",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "query plan",
+    "meaning": "실행 계획",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "cardinality",
+    "meaning": "카디널리티",
+    "usage_one_liner": "",
+    "order_index": 41,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "shard",
+    "meaning": "샤딩",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "replication",
+    "meaning": "복제",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "partitioning",
+    "meaning": "파티셔닝",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "materialized view",
+    "meaning": "구체화 뷰",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "read replica",
+    "meaning": "읽기 복제본",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "leader election",
+    "meaning": "리더 선출",
+    "usage_one_liner": "",
+    "order_index": 47,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consensus algorithm",
+    "meaning": "합의 알고리즘",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "raft",
+    "meaning": "Raft 합의",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "paxos",
+    "meaning": "Paxos 합의",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "orchestration",
+    "meaning": "오케스트레이션",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "container",
+    "meaning": "컨테이너",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "kubernetes",
+    "meaning": "쿠버네티스",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "service mesh",
+    "meaning": "서비스 메시",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "sidecar",
+    "meaning": "사이드카",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "ingress",
+    "meaning": "인그레스",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "blue-green deployment",
+    "meaning": "블루-그린 배포",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "canary release",
+    "meaning": "카나리아 배포",
+    "usage_one_liner": "",
+    "order_index": 58,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "feature flag",
+    "meaning": "기능 플래그",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollback",
+    "meaning": "롤백",
+    "usage_one_liner": "",
+    "order_index": 60,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rollout",
+    "meaning": "순차 배포",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "SLA",
+    "meaning": "서비스 수준 합의",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "SLO",
+    "meaning": "서비스 수준 목표",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "SLI",
+    "meaning": "서비스 수준 지표",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "MTTR",
+    "meaning": "평균 복구 시간",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "MTBF",
+    "meaning": "평균 고장 간격",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "postmortem",
+    "meaning": "사후 분석",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "root cause",
+    "meaning": "근본 원인",
+    "usage_one_liner": "",
+    "order_index": 68,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "blameless culture",
+    "meaning": "비난 없는 문화",
+    "usage_one_liner": "",
+    "order_index": 69,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "CI/CD",
+    "meaning": "지속 통합/지속 배포",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "pipeline",
+    "meaning": "파이프라인",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "artifact",
+    "meaning": "산출물",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "build cache",
+    "meaning": "빌드 캐시",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "monorepo",
+    "meaning": "모노레포",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "polyrepo",
+    "meaning": "폴리레포",
+    "usage_one_liner": "",
+    "order_index": 75,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "semantic versioning",
+    "meaning": "시맨틱 버저닝",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "API gateway",
+    "meaning": "API 게이트웨이",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "rate limit",
+    "meaning": "요율 제한",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "token bucket",
+    "meaning": "토큰 버킷",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "leaky bucket",
+    "meaning": "리키 버킷",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "OAuth",
+    "meaning": "OAuth 인증",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "SAML",
+    "meaning": "SAML",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "JWT",
+    "meaning": "JWT 토큰",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "mTLS",
+    "meaning": "상호 TLS",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "zero trust",
+    "meaning": "제로 트러스트",
+    "usage_one_liner": "",
+    "order_index": 85,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "encryption at rest",
+    "meaning": "정지 데이터 암호화",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "encryption in transit",
+    "meaning": "전송 중 암호화",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "key rotation",
+    "meaning": "키 교체",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "HSM",
+    "meaning": "하드웨어 보안 모듈",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "KDF",
+    "meaning": "키 유도 함수",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "salt",
+    "meaning": "솔트",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "nonce",
+    "meaning": "논스",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hash collision",
+    "meaning": "해시 충돌",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "Bloom filter",
+    "meaning": "블룸 필터",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "consistent hashing",
+    "meaning": "컨시스턴트 해싱",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "LRU cache",
+    "meaning": "LRU 캐시",
+    "usage_one_liner": "",
+    "order_index": 96,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "TTL",
+    "meaning": "만료 시간",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "webhook",
+    "meaning": "웹훅",
+    "usage_one_liner": "",
+    "order_index": 98,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "idempotency key",
+    "meaning": "멱등 키",
+    "usage_one_liner": "",
+    "order_index": 99,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "message queue",
+    "meaning": "메시지 큐",
+    "usage_one_liner": "",
+    "order_index": 100,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "dead letter queue",
+    "meaning": "사망 큐",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "exactly-once",
+    "meaning": "정확히 한 번",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "at-least-once",
+    "meaning": "최소 한 번",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "at-most-once",
+    "meaning": "최대 한 번",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "backoff",
+    "meaning": "백오프",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "chaos engineering",
+    "meaning": "카오스 엔지니어링",
+    "usage_one_liner": "",
+    "order_index": 106,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "A/B test",
+    "meaning": "A/B 테스트",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "feature parity",
+    "meaning": "기능 동등성",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "through-the-wire",
+    "meaning": "전송 레벨에서",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "type inference",
+    "meaning": "타입 추론",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "static typing",
+    "meaning": "정적 타이핑",
+    "usage_one_liner": "",
+    "order_index": 111,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "dynamic typing",
+    "meaning": "동적 타이핑",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "duck typing",
+    "meaning": "덕 타이핑",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "generics",
+    "meaning": "제네릭",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "iterator",
+    "meaning": "이터레이터",
+    "usage_one_liner": "",
+    "order_index": 115,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "generator",
+    "meaning": "제너레이터",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "immutability",
+    "meaning": "불변성",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "copy-on-write",
+    "meaning": "쓰기 시 복사",
+    "usage_one_liner": "",
+    "order_index": 118,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "deep copy",
+    "meaning": "깊은 복사",
+    "usage_one_liner": "",
+    "order_index": 119,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "shallow copy",
+    "meaning": "얕은 복사",
+    "usage_one_liner": "",
+    "order_index": 120,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "garbage collection",
+    "meaning": "가비지 컬렉션",
+    "usage_one_liner": "",
+    "order_index": 121,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stop-the-world",
+    "meaning": "STW 정지",
+    "usage_one_liner": "",
+    "order_index": 122,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "heap",
+    "meaning": "힙",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stack",
+    "meaning": "스택",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "queue",
+    "meaning": "큐",
+    "usage_one_liner": "",
+    "order_index": 125,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "priority queue",
+    "meaning": "우선순위 큐",
+    "usage_one_liner": "",
+    "order_index": 126,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "binary search",
+    "meaning": "이진 탐색",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hash table",
+    "meaning": "해시 테이블",
+    "usage_one_liner": "",
+    "order_index": 128,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "trie",
+    "meaning": "트라이",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "b-tree",
+    "meaning": "B-트리",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "vectorization",
+    "meaning": "벡터화",
+    "usage_one_liner": "",
+    "order_index": 131,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "SIMD",
+    "meaning": "SIMD",
+    "usage_one_liner": "",
+    "order_index": 132,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "batch processing",
+    "meaning": "배치 처리",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "stream processing",
+    "meaning": "스트림 처리",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "window aggregation",
+    "meaning": "윈도 집계",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "checkpoint",
+    "meaning": "체크포인트",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "watermark",
+    "meaning": "워터마크",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "exact match",
+    "meaning": "정확 일치",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "fuzzy matching",
+    "meaning": "퍼지 매칭",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "data lineage",
+    "meaning": "데이터 계보",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "data catalog",
+    "meaning": "데이터 카탈로그",
+    "usage_one_liner": "",
+    "order_index": 141,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "data governance",
+    "meaning": "데이터 거버넌스",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "time series",
+    "meaning": "시계열",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "anomaly detection",
+    "meaning": "이상 탐지",
+    "usage_one_liner": "",
+    "order_index": 144,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "concept drift",
+    "meaning": "개념 드리프트",
+    "usage_one_liner": "",
+    "order_index": 145,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "prompt engineering",
+    "meaning": "프롬프트 엔지니어링",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "embedding",
+    "meaning": "임베딩",
+    "usage_one_liner": "",
+    "order_index": 147,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "vector database",
+    "meaning": "벡터 DB",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "grounding",
+    "meaning": "그라운딩",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "RAG",
+    "meaning": "RAG",
+    "usage_one_liner": "",
+    "order_index": 150,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "tokenization",
+    "meaning": "토크나이즈",
+    "usage_one_liner": "",
+    "order_index": 151,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "fine-tuning",
+    "meaning": "파인튜닝",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "SFT",
+    "meaning": "지도 미세조정",
+    "usage_one_liner": "",
+    "order_index": 153,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "distillation",
+    "meaning": "지식 증류",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "safety filter",
+    "meaning": "안전 필터",
+    "usage_one_liner": "",
+    "order_index": 155,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "coding",
+    "level": 0,
+    "keyword": "hallucination",
+    "meaning": "환각",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "coding",
+      "core"
+    ]
+  }
+]

@@ -1,0 +1,9102 @@
+[
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agenda",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 1,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaing",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendas",
+    "meaning": "안건들",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asset",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseting",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 7,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "assets",
+    "meaning": "자산들",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liability",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilitying",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 11,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilitys",
+    "meaning": "부채들",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmark",
+    "meaning": "기준",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarked",
+    "meaning": "기준",
+    "usage_one_liner": "",
+    "order_index": 14,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarking",
+    "meaning": "기준",
+    "usage_one_liner": "",
+    "order_index": 15,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensused",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraint",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainted",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainting",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraints",
+    "meaning": "제약들",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasible",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 24,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleing",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 26,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibles",
+    "meaning": "실현 가능한들",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverageed",
+    "meaning": "활용된/지렛대",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverageing",
+    "meaning": "활용하는 중/지렛대",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverages",
+    "meaning": "활용하다/지렛대들",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigate",
+    "meaning": "완화하다",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigateed",
+    "meaning": "완화된",
+    "usage_one_liner": "",
+    "order_index": 33,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigateing",
+    "meaning": "완화하는 중",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigates",
+    "meaning": "완화하다들",
+    "usage_one_liner": "",
+    "order_index": 35,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiate",
+    "meaning": "협상하다",
+    "usage_one_liner": "",
+    "order_index": 36,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiates",
+    "meaning": "협상하다들",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overhead",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheaded",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 41,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheading",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheads",
+    "meaning": "부담/오버헤드들",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactive",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactiveed",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactiveing",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactives",
+    "meaning": "선제적들",
+    "usage_one_liner": "",
+    "order_index": 47,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robust",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusted",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusting",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusts",
+    "meaning": "견고한들",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scope",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopeed",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopeing",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workaround",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounded",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 58,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounding",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounds",
+    "meaning": "임시 우회책들",
+    "usage_one_liner": "",
+    "order_index": 60,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignment",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignmented",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 62,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignmenting",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlog",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloged",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlogs",
+    "meaning": "백로그들",
+    "usage_one_liner": "",
+    "order_index": 68,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverable",
+    "meaning": "인도물",
+    "usage_one_liner": "",
+    "order_index": 69,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverableed",
+    "meaning": "인도물",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverableing",
+    "meaning": "인도물",
+    "usage_one_liner": "",
+    "order_index": 71,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverables",
+    "meaning": "인도물들",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependency",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencyed",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencying",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 75,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularity",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularityed",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitying",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitys",
+    "meaning": "세분성들",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insight",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insighted",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insighting",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insights",
+    "meaning": "통찰들",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentum",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 85,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentumed",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentums",
+    "meaning": "추진력들",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objective",
+    "meaning": "목표",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objectiveed",
+    "meaning": "목표",
+    "usage_one_liner": "",
+    "order_index": 90,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objectiveing",
+    "meaning": "목표",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objectives",
+    "meaning": "목표들",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "priority",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "priorityed",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritys",
+    "meaning": "우선순위들",
+    "usage_one_liner": "",
+    "order_index": 96,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholder",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholdered",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 98,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholdering",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 99,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholders",
+    "meaning": "이해관계자들",
+    "usage_one_liner": "",
+    "order_index": 100,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variance",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "varianceed",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "varianceing",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variances",
+    "meaning": "편차/변동들",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifyed",
+    "meaning": "명확히 된",
+    "usage_one_liner": "",
+    "order_index": 106,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifys",
+    "meaning": "명확히 하다들",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegate",
+    "meaning": "위임하다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegateed",
+    "meaning": "위임된",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegateing",
+    "meaning": "위임하는 중",
+    "usage_one_liner": "",
+    "order_index": 111,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegates",
+    "meaning": "위임하다들",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalate",
+    "meaning": "상향 보고하다",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalateed",
+    "meaning": "상향 보고된",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalateing",
+    "meaning": "상향 보고하는 중",
+    "usage_one_liner": "",
+    "order_index": 115,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalates",
+    "meaning": "상향 보고하다들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterate",
+    "meaning": "반복 개선하다",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterateed",
+    "meaning": "반복 개선된",
+    "usage_one_liner": "",
+    "order_index": 118,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterateing",
+    "meaning": "반복 개선하는 중",
+    "usage_one_liner": "",
+    "order_index": 119,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterates",
+    "meaning": "반복 개선하다들",
+    "usage_one_liner": "",
+    "order_index": 120,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustain",
+    "meaning": "유지하다",
+    "usage_one_liner": "",
+    "order_index": 121,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustained",
+    "meaning": "유지된",
+    "usage_one_liner": "",
+    "order_index": 122,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustaining",
+    "meaning": "유지하는 중",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustains",
+    "meaning": "유지하다들",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verify",
+    "meaning": "검증하다",
+    "usage_one_liner": "",
+    "order_index": 125,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifyed",
+    "meaning": "검증된",
+    "usage_one_liner": "",
+    "order_index": 126,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifying",
+    "meaning": "검증하는 중",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifys",
+    "meaning": "검증하다들",
+    "usage_one_liner": "",
+    "order_index": 128,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budget",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeting",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 131,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgets",
+    "meaning": "예산들",
+    "usage_one_liner": "",
+    "order_index": 132,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadline",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineed",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlines",
+    "meaning": "마감들",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meeting",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetinged",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetings",
+    "meaning": "회의들",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedule",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scheduleed",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 141,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scheduleing",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 142,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedules",
+    "meaning": "일정들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedback",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 144,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacked",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 145,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacking",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacks",
+    "meaning": "피드백들",
+    "usage_one_liner": "",
+    "order_index": 147,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issue",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueed",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueing",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 150,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issues",
+    "meaning": "문제들",
+    "usage_one_liner": "",
+    "order_index": 151,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "featureed",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 153,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "featureing",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "features",
+    "meaning": "기능들",
+    "usage_one_liner": "",
+    "order_index": 155,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "update",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateed",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateing",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 158,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updates",
+    "meaning": "업데이트들",
+    "usage_one_liner": "",
+    "order_index": 159,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restriction",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioned",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioning",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 162,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictions",
+    "meaning": "제한들",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefit",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 164,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefited",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 165,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefits",
+    "meaning": "이점들",
+    "usage_one_liner": "",
+    "order_index": 167,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risked",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risking",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risks",
+    "meaning": "위험들",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impact",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 172,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacting",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 174,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacts",
+    "meaning": "영향들",
+    "usage_one_liner": "",
+    "order_index": 175,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunity",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitying",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 178,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitys",
+    "meaning": "기회들",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiency",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 180,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencyed",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 181,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencying",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 182,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencys",
+    "meaning": "효율들",
+    "usage_one_liner": "",
+    "order_index": 183,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "accuracy",
+    "meaning": "정확도",
+    "usage_one_liner": "",
+    "order_index": 184,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "accuracyed",
+    "meaning": "정확도",
+    "usage_one_liner": "",
+    "order_index": 185,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "accuracying",
+    "meaning": "정확도",
+    "usage_one_liner": "",
+    "order_index": 186,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "accuracys",
+    "meaning": "정확도들",
+    "usage_one_liner": "",
+    "order_index": 187,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistency",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 188,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencying",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 190,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencys",
+    "meaning": "일관성들",
+    "usage_one_liner": "",
+    "order_index": 191,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedule",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueed",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variances",
+    "meaning": "편차/변동들",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainted",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liability",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioned",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependency",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insights",
+    "meaning": "통찰들",
+    "usage_one_liner": "",
+    "order_index": 84,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insighting",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverages",
+    "meaning": "활용하다/지렛대들",
+    "usage_one_liner": "",
+    "order_index": 31,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentumed",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigateed",
+    "meaning": "완화된",
+    "usage_one_liner": "",
+    "order_index": 33,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetinged",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignmenting",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifying",
+    "meaning": "검증하는 중",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencyed",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 181,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalateed",
+    "meaning": "상향 보고된",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigate",
+    "meaning": "완화하다",
+    "usage_one_liner": "",
+    "order_index": 32,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloged",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifys",
+    "meaning": "명확히 하다들",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitys",
+    "meaning": "세분성들",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scope",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustains",
+    "meaning": "유지하다들",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "priorityed",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 94,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunity",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacks",
+    "meaning": "피드백들",
+    "usage_one_liner": "",
+    "order_index": 147,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiates",
+    "meaning": "협상하다들",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainting",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegates",
+    "meaning": "위임하다들",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalate",
+    "meaning": "상향 보고하다",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlines",
+    "meaning": "마감들",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholders",
+    "meaning": "이해관계자들",
+    "usage_one_liner": "",
+    "order_index": 100,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineed",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overhead",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 40,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedback",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 144,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheads",
+    "meaning": "부담/오버헤드들",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meeting",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insighted",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 82,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impact",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 172,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignment",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactive",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateed",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetings",
+    "meaning": "회의들",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegateed",
+    "meaning": "위임된",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitys",
+    "meaning": "기회들",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risks",
+    "meaning": "위험들",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budget",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencying",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 182,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencyed",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacting",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 174,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedules",
+    "meaning": "일정들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeting",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 131,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlog",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robust",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agenda",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 1,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issue",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacking",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilitys",
+    "meaning": "부채들",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadline",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risked",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusted",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risking",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentums",
+    "meaning": "추진력들",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issue",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 148,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacting",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 174,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheads",
+    "meaning": "부담/오버헤드들",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefited",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 165,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularity",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacking",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meeting",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 137,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateing",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 158,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefits",
+    "meaning": "이점들",
+    "usage_one_liner": "",
+    "order_index": 167,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencyed",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibles",
+    "meaning": "실현 가능한들",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifying",
+    "meaning": "검증하는 중",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainting",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 22,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioned",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainted",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalate",
+    "meaning": "상향 보고하다",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insighting",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 83,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloged",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignment",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedule",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "accuracys",
+    "meaning": "정확도들",
+    "usage_one_liner": "",
+    "order_index": 187,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegates",
+    "meaning": "위임하다들",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholder",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverableed",
+    "meaning": "인도물",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainted",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitying",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variances",
+    "meaning": "편차/변동들",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopeed",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiates",
+    "meaning": "협상하다들",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insight",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendas",
+    "meaning": "안건들",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacking",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueing",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 150,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objectiveing",
+    "meaning": "목표",
+    "usage_one_liner": "",
+    "order_index": 91,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifyed",
+    "meaning": "검증된",
+    "usage_one_liner": "",
+    "order_index": 126,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlines",
+    "meaning": "마감들",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegate",
+    "meaning": "위임하다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateed",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularityed",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalates",
+    "meaning": "상향 보고하다들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheading",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueed",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusted",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 49,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopeing",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "priority",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 93,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencying",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 182,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusts",
+    "meaning": "견고한들",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounding",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictions",
+    "meaning": "제한들",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholdered",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 98,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterate",
+    "meaning": "반복 개선하다",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risked",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "varianceed",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiencying",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 182,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlog",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlog",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegateed",
+    "meaning": "위임된",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactiveed",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 45,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlogs",
+    "meaning": "백로그들",
+    "usage_one_liner": "",
+    "order_index": 68,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustain",
+    "meaning": "유지하다",
+    "usage_one_liner": "",
+    "order_index": 121,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependency",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 73,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterate",
+    "meaning": "반복 개선하다",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risked",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentumed",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitys",
+    "meaning": "기회들",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impact",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 172,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustaining",
+    "meaning": "유지하는 중",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegateed",
+    "meaning": "위임된",
+    "usage_one_liner": "",
+    "order_index": 110,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objective",
+    "meaning": "목표",
+    "usage_one_liner": "",
+    "order_index": 89,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencyed",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusts",
+    "meaning": "견고한들",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignmenting",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetings",
+    "meaning": "회의들",
+    "usage_one_liner": "",
+    "order_index": 139,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedules",
+    "meaning": "일정들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlines",
+    "meaning": "마감들",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insight",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgets",
+    "meaning": "예산들",
+    "usage_one_liner": "",
+    "order_index": 132,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueing",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 150,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiates",
+    "meaning": "협상하다들",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopeed",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 53,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineed",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restriction",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularityed",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 78,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensused",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 18,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacking",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverageed",
+    "meaning": "활용된/지렛대",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scheduleed",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 141,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issues",
+    "meaning": "문제들",
+    "usage_one_liner": "",
+    "order_index": 151,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "insight",
+    "meaning": "통찰",
+    "usage_one_liner": "",
+    "order_index": 81,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiency",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 180,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegate",
+    "meaning": "위임하다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraints",
+    "meaning": "제약들",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencys",
+    "meaning": "일관성들",
+    "usage_one_liner": "",
+    "order_index": 191,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateed",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegates",
+    "meaning": "위임하다들",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risked",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistency",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 188,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalate",
+    "meaning": "상향 보고하다",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asset",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholder",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounding",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitys",
+    "meaning": "기회들",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularity",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 77,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounding",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencyed",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheaded",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 41,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constrainted",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 21,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risked",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 169,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioned",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workaround",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 57,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictions",
+    "meaning": "제한들",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheads",
+    "meaning": "부담/오버헤드들",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencyed",
+    "meaning": "의존성",
+    "usage_one_liner": "",
+    "order_index": 74,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalates",
+    "meaning": "상향 보고하다들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variance",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacking",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 146,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiency",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 180,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholdered",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 98,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetinged",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusting",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 50,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverables",
+    "meaning": "인도물들",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignment",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 61,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalate",
+    "meaning": "상향 보고하다",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updates",
+    "meaning": "업데이트들",
+    "usage_one_liner": "",
+    "order_index": 159,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "featureing",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "update",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitying",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risking",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateing",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 158,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liability",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactiveing",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopeing",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 54,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlines",
+    "meaning": "마감들",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverageing",
+    "meaning": "활용하는 중/지렛대",
+    "usage_one_liner": "",
+    "order_index": 30,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risks",
+    "meaning": "위험들",
+    "usage_one_liner": "",
+    "order_index": 171,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robust",
+    "meaning": "견고한",
+    "usage_one_liner": "",
+    "order_index": 48,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "featureed",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 153,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variances",
+    "meaning": "편차/변동들",
+    "usage_one_liner": "",
+    "order_index": 104,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignmenting",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholder",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitying",
+    "meaning": "세분성",
+    "usage_one_liner": "",
+    "order_index": 79,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefited",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 165,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraint",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "varianceing",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 103,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedules",
+    "meaning": "일정들",
+    "usage_one_liner": "",
+    "order_index": 143,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactive",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraints",
+    "meaning": "제약들",
+    "usage_one_liner": "",
+    "order_index": 23,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverageed",
+    "meaning": "활용된/지렛대",
+    "usage_one_liner": "",
+    "order_index": 29,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budget",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 129,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifying",
+    "meaning": "검증하는 중",
+    "usage_one_liner": "",
+    "order_index": 127,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalateed",
+    "meaning": "상향 보고된",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalate",
+    "meaning": "상향 보고하다",
+    "usage_one_liner": "",
+    "order_index": 113,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustaining",
+    "meaning": "유지하는 중",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backlog",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 65,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetinged",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverableed",
+    "meaning": "인도물",
+    "usage_one_liner": "",
+    "order_index": 70,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalateed",
+    "meaning": "상향 보고된",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalates",
+    "meaning": "상향 보고하다들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risking",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 170,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "stakeholder",
+    "meaning": "이해관계자",
+    "usage_one_liner": "",
+    "order_index": 97,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterateing",
+    "meaning": "반복 개선하는 중",
+    "usage_one_liner": "",
+    "order_index": 119,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictions",
+    "meaning": "제한들",
+    "usage_one_liner": "",
+    "order_index": 163,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioning",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 162,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegate",
+    "meaning": "위임하다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusts",
+    "meaning": "견고한들",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitys",
+    "meaning": "기회들",
+    "usage_one_liner": "",
+    "order_index": 179,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlines",
+    "meaning": "마감들",
+    "usage_one_liner": "",
+    "order_index": 136,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentums",
+    "meaning": "추진력들",
+    "usage_one_liner": "",
+    "order_index": 88,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiates",
+    "meaning": "협상하다들",
+    "usage_one_liner": "",
+    "order_index": 39,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistency",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 188,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendas",
+    "meaning": "안건들",
+    "usage_one_liner": "",
+    "order_index": 4,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibles",
+    "meaning": "실현 가능한들",
+    "usage_one_liner": "",
+    "order_index": 27,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "varianceed",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignmenting",
+    "meaning": "방향 일치",
+    "usage_one_liner": "",
+    "order_index": 63,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "verifys",
+    "meaning": "검증하다들",
+    "usage_one_liner": "",
+    "order_index": 128,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaing",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 3,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadline",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineed",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "variance",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 101,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterate",
+    "meaning": "반복 개선하다",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "accuracying",
+    "meaning": "정확도",
+    "usage_one_liner": "",
+    "order_index": 186,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asset",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustains",
+    "meaning": "유지하다들",
+    "usage_one_liner": "",
+    "order_index": 124,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentuming",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 87,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustain",
+    "meaning": "유지하다",
+    "usage_one_liner": "",
+    "order_index": 121,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasible",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 24,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilitys",
+    "meaning": "부채들",
+    "usage_one_liner": "",
+    "order_index": 12,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "assets",
+    "meaning": "자산들",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmark",
+    "meaning": "기준",
+    "usage_one_liner": "",
+    "order_index": 13,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheads",
+    "meaning": "부담/오버헤드들",
+    "usage_one_liner": "",
+    "order_index": 43,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefited",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 165,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegate",
+    "meaning": "위임하다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restriction",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "momentumed",
+    "meaning": "추진력",
+    "usage_one_liner": "",
+    "order_index": 86,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactive",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 44,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "prioritying",
+    "meaning": "우선순위",
+    "usage_one_liner": "",
+    "order_index": 95,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deliverables",
+    "meaning": "인도물들",
+    "usage_one_liner": "",
+    "order_index": 72,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalateed",
+    "meaning": "상향 보고된",
+    "usage_one_liner": "",
+    "order_index": 114,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgets",
+    "meaning": "예산들",
+    "usage_one_liner": "",
+    "order_index": 132,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scheduleed",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 141,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "update",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 156,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "updateed",
+    "meaning": "업데이트",
+    "usage_one_liner": "",
+    "order_index": 157,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "assets",
+    "meaning": "자산들",
+    "usage_one_liner": "",
+    "order_index": 8,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunitying",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 178,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "varianceed",
+    "meaning": "편차/변동",
+    "usage_one_liner": "",
+    "order_index": 102,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineing",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 135,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "meetinged",
+    "meaning": "회의",
+    "usage_one_liner": "",
+    "order_index": 138,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feedbacked",
+    "meaning": "피드백",
+    "usage_one_liner": "",
+    "order_index": 145,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheading",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "featureing",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "dependencys",
+    "meaning": "의존성들",
+    "usage_one_liner": "",
+    "order_index": 76,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "sustaining",
+    "meaning": "유지하는 중",
+    "usage_one_liner": "",
+    "order_index": 123,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadline",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 133,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateed",
+    "meaning": "협상된",
+    "usage_one_liner": "",
+    "order_index": 37,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objectives",
+    "meaning": "목표들",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifys",
+    "meaning": "명확히 하다들",
+    "usage_one_liner": "",
+    "order_index": 108,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacting",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 174,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeting",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 131,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarify",
+    "meaning": "명확히 하다",
+    "usage_one_liner": "",
+    "order_index": 105,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloging",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 67,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunityed",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 177,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensus",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 17,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restriction",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liability",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 9,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "featureing",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 154,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefiting",
+    "meaning": "이점",
+    "usage_one_liner": "",
+    "order_index": 166,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asseted",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 6,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "granularitys",
+    "meaning": "세분성들",
+    "usage_one_liner": "",
+    "order_index": 80,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scope",
+    "meaning": "범위",
+    "usage_one_liner": "",
+    "order_index": 52,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigateing",
+    "meaning": "완화하는 중",
+    "usage_one_liner": "",
+    "order_index": 34,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "iterate",
+    "meaning": "반복 개선하다",
+    "usage_one_liner": "",
+    "order_index": 117,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "overheading",
+    "meaning": "부담/오버헤드",
+    "usage_one_liner": "",
+    "order_index": 42,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "issueed",
+    "meaning": "문제",
+    "usage_one_liner": "",
+    "order_index": 149,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "deadlineed",
+    "meaning": "마감",
+    "usage_one_liner": "",
+    "order_index": 134,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feature",
+    "meaning": "기능",
+    "usage_one_liner": "",
+    "order_index": 152,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "efficiency",
+    "meaning": "효율",
+    "usage_one_liner": "",
+    "order_index": 180,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benefits",
+    "meaning": "이점들",
+    "usage_one_liner": "",
+    "order_index": 167,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "liabilityed",
+    "meaning": "부채",
+    "usage_one_liner": "",
+    "order_index": 10,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraint",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "proactiveing",
+    "meaning": "선제적",
+    "usage_one_liner": "",
+    "order_index": 46,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegates",
+    "meaning": "위임하다들",
+    "usage_one_liner": "",
+    "order_index": 112,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asset",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "robusts",
+    "meaning": "견고한들",
+    "usage_one_liner": "",
+    "order_index": 51,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "escalates",
+    "meaning": "상향 보고하다들",
+    "usage_one_liner": "",
+    "order_index": 116,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "trade-off",
+    "meaning": "상충관계",
+    "usage_one_liner": "",
+    "order_index": 56,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "negotiateing",
+    "meaning": "협상하는 중",
+    "usage_one_liner": "",
+    "order_index": 38,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounding",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "leverage",
+    "meaning": "활용하다/지렛대",
+    "usage_one_liner": "",
+    "order_index": 28,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "objectives",
+    "meaning": "목표들",
+    "usage_one_liner": "",
+    "order_index": 92,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "backloged",
+    "meaning": "백로그",
+    "usage_one_liner": "",
+    "order_index": 66,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "agendaed",
+    "meaning": "안건",
+    "usage_one_liner": "",
+    "order_index": 2,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impact",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 172,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "clarifying",
+    "meaning": "명확히 하는 중",
+    "usage_one_liner": "",
+    "order_index": 107,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "feasibleed",
+    "meaning": "실현 가능한",
+    "usage_one_liner": "",
+    "order_index": 25,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "workarounding",
+    "meaning": "임시 우회책",
+    "usage_one_liner": "",
+    "order_index": 59,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "mitigates",
+    "meaning": "완화하다들",
+    "usage_one_liner": "",
+    "order_index": 35,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restriction",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioned",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "schedule",
+    "meaning": "일정",
+    "usage_one_liner": "",
+    "order_index": 140,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consistencyed",
+    "meaning": "일관성",
+    "usage_one_liner": "",
+    "order_index": 189,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "risk",
+    "meaning": "위험",
+    "usage_one_liner": "",
+    "order_index": 168,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "consensusing",
+    "meaning": "합의",
+    "usage_one_liner": "",
+    "order_index": 19,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "delegate",
+    "meaning": "위임하다",
+    "usage_one_liner": "",
+    "order_index": 109,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "constraint",
+    "meaning": "제약",
+    "usage_one_liner": "",
+    "order_index": 20,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "alignments",
+    "meaning": "방향 일치들",
+    "usage_one_liner": "",
+    "order_index": 64,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "scopes",
+    "meaning": "범위들",
+    "usage_one_liner": "",
+    "order_index": 55,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asset",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restriction",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 160,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "asset",
+    "meaning": "자산",
+    "usage_one_liner": "",
+    "order_index": 5,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "opportunity",
+    "meaning": "기회",
+    "usage_one_liner": "",
+    "order_index": 176,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "impacted",
+    "meaning": "영향",
+    "usage_one_liner": "",
+    "order_index": 173,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "benchmarks",
+    "meaning": "기준들",
+    "usage_one_liner": "",
+    "order_index": 16,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "budgeted",
+    "meaning": "예산",
+    "usage_one_liner": "",
+    "order_index": 130,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  },
+  {
+    "domain": "english",
+    "category": "vocab",
+    "level": 0,
+    "keyword": "restrictioned",
+    "meaning": "제한",
+    "usage_one_liner": "",
+    "order_index": 161,
+    "tags": [
+      "vocab",
+      "daily"
+    ]
+  }
+]

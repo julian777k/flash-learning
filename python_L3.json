@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "lambda",
+    "meaning": "익명 함수",
+    "usage_one_liner": "f = lambda x: x*x",
+    "order_index": 46,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "lambda"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "with",
+    "meaning": "컨텍스트 관리",
+    "usage_one_liner": "with open('a.txt') as f: ...",
+    "order_index": 47,
+    "tags": [
+      "core",
+      "context"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "with"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "open()",
+    "meaning": "파일 열기",
+    "usage_one_liner": "f = open('a.txt')",
+    "order_index": 48,
+    "tags": [
+      "core",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "open"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "read()/write()",
+    "meaning": "파일 읽기/쓰기",
+    "usage_one_liner": "f.write('hi')",
+    "order_index": 49,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "file-io"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "pathlib.Path",
+    "meaning": "경로 객체",
+    "usage_one_liner": "from pathlib import Path",
+    "order_index": 50,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "pathlib"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "모듈 import",
+    "meaning": "외부 코드 가져오기",
+    "usage_one_liner": "import math",
+    "order_index": 51,
+    "tags": [
+      "core",
+      "modules"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "import"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "from import",
+    "meaning": "부분만 가져오기",
+    "usage_one_liner": "from math import sqrt",
+    "order_index": 52,
+    "tags": [
+      "applied",
+      "modules"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "from-import"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "__name__=='__main__'",
+    "meaning": "직접 실행 구분",
+    "usage_one_liner": "if __name__=='__main__': ...",
+    "order_index": 53,
+    "tags": [
+      "applied",
+      "modules"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "main-guard"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "docstring",
+    "meaning": "함수/모듈 설명",
+    "usage_one_liner": "def f(): \"\"\"설명\"\"\"",
+    "order_index": 54,
+    "tags": [
+      "applied",
+      "docs"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "docstring"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "assert",
+    "meaning": "가정 검증",
+    "usage_one_liner": "assert x>0",
+    "order_index": 55,
+    "tags": [
+      "applied",
+      "debug"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "assert"
+  }
+]

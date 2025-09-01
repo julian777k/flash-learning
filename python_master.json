@@ -1,0 +1,1052 @@
+[
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "숫자형(int)",
+    "meaning": "정수 값을 표현",
+    "usage_one_liner": "x = 42",
+    "order_index": 1,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "int"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "숫자형(float)",
+    "meaning": "부동소수점 수 표현",
+    "usage_one_liner": "pi = 3.14",
+    "order_index": 2,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "float"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "불(bool)",
+    "meaning": "참/거짓 논리값",
+    "usage_one_liner": "flag = True",
+    "order_index": 3,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "bool"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "문자열(str)",
+    "meaning": "문자 시퀀스",
+    "usage_one_liner": "s = 'hello'",
+    "order_index": 4,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "str"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "리스트(list)",
+    "meaning": "가변 시퀀스",
+    "usage_one_liner": "arr = [1,2,3]",
+    "order_index": 5,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "튜플(tuple)",
+    "meaning": "불변 시퀀스",
+    "usage_one_liner": "t = (1,2)",
+    "order_index": 6,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "tuple"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "딕셔너리(dict)",
+    "meaning": "키-값 매핑",
+    "usage_one_liner": "m = {'a':1}",
+    "order_index": 7,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "집합(set)",
+    "meaning": "중복 없는 집합",
+    "usage_one_liner": "s = {1,2,3}",
+    "order_index": 8,
+    "tags": [
+      "core",
+      "datatype"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "set"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "대입(=)",
+    "meaning": "변수에 값 저장",
+    "usage_one_liner": "x = 10",
+    "order_index": 9,
+    "tags": [
+      "core",
+      "syntax"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "assignment"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "산술 연산자",
+    "meaning": "수학적 계산",
+    "usage_one_liner": "a+b, a-b, a*b, a/b",
+    "order_index": 10,
+    "tags": [
+      "core",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "arithmetic"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "비교 연산자",
+    "meaning": "값 비교",
+    "usage_one_liner": "a == b, a < b",
+    "order_index": 11,
+    "tags": [
+      "core",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "comparisons"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "논리 연산자",
+    "meaning": "and/or/not",
+    "usage_one_liner": "a and b",
+    "order_index": 12,
+    "tags": [
+      "core",
+      "operator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "boolean"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "if",
+    "meaning": "조건 분기",
+    "usage_one_liner": "if x>0: print('pos')",
+    "order_index": 13,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "if"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "for",
+    "meaning": "시퀀스 반복",
+    "usage_one_liner": "for x in arr: ...",
+    "order_index": 14,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "for"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "while",
+    "meaning": "조건 반복",
+    "usage_one_liner": "while n>0: n-=1",
+    "order_index": 15,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "while"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "break",
+    "meaning": "반복 즉시 종료",
+    "usage_one_liner": "break",
+    "order_index": 16,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "break"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "continue",
+    "meaning": "다음 반복으로",
+    "usage_one_liner": "continue",
+    "order_index": 17,
+    "tags": [
+      "core",
+      "control"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "continue"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "range()",
+    "meaning": "연속 정수 생성",
+    "usage_one_liner": "for i in range(5): ...",
+    "order_index": 18,
+    "tags": [
+      "core",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "range"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "len()",
+    "meaning": "길이 구하기",
+    "usage_one_liner": "len(arr)",
+    "order_index": 19,
+    "tags": [
+      "core",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "len"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "print()",
+    "meaning": "표준 출력",
+    "usage_one_liner": "print('Hi')",
+    "order_index": 20,
+    "tags": [
+      "core",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "print"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "input()",
+    "meaning": "표준 입력",
+    "usage_one_liner": "name = input()",
+    "order_index": 21,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "input"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "주석(#)",
+    "meaning": "코드 설명",
+    "usage_one_liner": "# 이것은 주석",
+    "order_index": 22,
+    "tags": [
+      "core",
+      "syntax"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "comments"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "f-string",
+    "meaning": "문자열 포매팅",
+    "usage_one_liner": "f'Hi {name}'",
+    "order_index": 23,
+    "tags": [
+      "applied",
+      "string"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "fstring"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "인덱싱",
+    "meaning": "요소 접근",
+    "usage_one_liner": "arr[0]",
+    "order_index": 24,
+    "tags": [
+      "core",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "indexing"
+  },
+  {
+    "domain": "python",
+    "level": 1,
+    "keyword": "슬라이싱",
+    "meaning": "부분 시퀀스",
+    "usage_one_liner": "arr[1:4]",
+    "order_index": 25,
+    "tags": [
+      "core",
+      "sequence"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "slicing"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "함수 def",
+    "meaning": "재사용 가능한 블록",
+    "usage_one_liner": "def add(a,b): return a+b",
+    "order_index": 26,
+    "tags": [
+      "core",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "def"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "return",
+    "meaning": "함수 결과 반환",
+    "usage_one_liner": "return x",
+    "order_index": 27,
+    "tags": [
+      "core",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "return"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "인자/매개변수",
+    "meaning": "함수에 값 전달",
+    "usage_one_liner": "def f(x, y=0): ...",
+    "order_index": 28,
+    "tags": [
+      "core",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "arguments"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "*args/**kwargs",
+    "meaning": "가변 인자 수용",
+    "usage_one_liner": "def f(*a, **k): ...",
+    "order_index": 29,
+    "tags": [
+      "applied",
+      "function"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "varargs"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "예외 try/except",
+    "meaning": "에러 처리",
+    "usage_one_liner": "try: ... except ValueError: ...",
+    "order_index": 30,
+    "tags": [
+      "core",
+      "exceptions"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "try-except"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "raise",
+    "meaning": "의도적 예외 발생",
+    "usage_one_liner": "raise ValueError()",
+    "order_index": 31,
+    "tags": [
+      "applied",
+      "exceptions"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "raise"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "리스트 내포",
+    "meaning": "표현식 기반 생성",
+    "usage_one_liner": "[x*x for x in range(5)]",
+    "order_index": 32,
+    "tags": [
+      "applied",
+      "comprehension"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-comp"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "딕셔너리 내포",
+    "meaning": "키-값 생성식",
+    "usage_one_liner": "{i:i*i for i in range(3)}",
+    "order_index": 33,
+    "tags": [
+      "applied",
+      "comprehension"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict-comp"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "enumerate()",
+    "meaning": "인덱스와 값",
+    "usage_one_liner": "for i,v in enumerate(arr): ...",
+    "order_index": 34,
+    "tags": [
+      "applied",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "enumerate"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "zip()",
+    "meaning": "병렬 순회",
+    "usage_one_liner": "for a,b in zip(A,B): ...",
+    "order_index": 35,
+    "tags": [
+      "applied",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "zip"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "map()",
+    "meaning": "함수 적용",
+    "usage_one_liner": "list(map(int, arr))",
+    "order_index": 36,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "map"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "filter()",
+    "meaning": "조건 필터",
+    "usage_one_liner": "list(filter(pred, arr))",
+    "order_index": 37,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "filter"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "sorted()",
+    "meaning": "정렬",
+    "usage_one_liner": "sorted(arr)",
+    "order_index": 38,
+    "tags": [
+      "core",
+      "builtin"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "sorted"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "list.append()",
+    "meaning": "리스트 끝에 추가",
+    "usage_one_liner": "arr.append(4)",
+    "order_index": 39,
+    "tags": [
+      "applied",
+      "list"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "list.extend()",
+    "meaning": "리스트 이어붙이기",
+    "usage_one_liner": "arr.extend([5,6])",
+    "order_index": 40,
+    "tags": [
+      "applied",
+      "list"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "list.pop()",
+    "meaning": "마지막/지정 요소 제거",
+    "usage_one_liner": "arr.pop()",
+    "order_index": 41,
+    "tags": [
+      "applied",
+      "list"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "list-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "dict.get()",
+    "meaning": "키 조회(기본값)",
+    "usage_one_liner": "m.get('a',0)",
+    "order_index": 42,
+    "tags": [
+      "applied",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "dict.items()",
+    "meaning": "키-값 튜플들",
+    "usage_one_liner": "for k,v in m.items(): ...",
+    "order_index": 43,
+    "tags": [
+      "applied",
+      "dict"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dict-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "set.add()",
+    "meaning": "집합에 추가",
+    "usage_one_liner": "s.add(10)",
+    "order_index": 44,
+    "tags": [
+      "applied",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "set-ops"
+  },
+  {
+    "domain": "python",
+    "level": 2,
+    "keyword": "set.intersection()",
+    "meaning": "교집합",
+    "usage_one_liner": "s1 & s2",
+    "order_index": 45,
+    "tags": [
+      "applied",
+      "set"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "set-ops"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "lambda",
+    "meaning": "익명 함수",
+    "usage_one_liner": "f = lambda x: x*x",
+    "order_index": 46,
+    "tags": [
+      "applied",
+      "functional"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "lambda"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "with",
+    "meaning": "컨텍스트 관리",
+    "usage_one_liner": "with open('a.txt') as f: ...",
+    "order_index": 47,
+    "tags": [
+      "core",
+      "context"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "with"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "open()",
+    "meaning": "파일 열기",
+    "usage_one_liner": "f = open('a.txt')",
+    "order_index": 48,
+    "tags": [
+      "core",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "open"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "read()/write()",
+    "meaning": "파일 읽기/쓰기",
+    "usage_one_liner": "f.write('hi')",
+    "order_index": 49,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "file-io"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "pathlib.Path",
+    "meaning": "경로 객체",
+    "usage_one_liner": "from pathlib import Path",
+    "order_index": 50,
+    "tags": [
+      "applied",
+      "io"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "pathlib"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "모듈 import",
+    "meaning": "외부 코드 가져오기",
+    "usage_one_liner": "import math",
+    "order_index": 51,
+    "tags": [
+      "core",
+      "modules"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "import"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "from import",
+    "meaning": "부분만 가져오기",
+    "usage_one_liner": "from math import sqrt",
+    "order_index": 52,
+    "tags": [
+      "applied",
+      "modules"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "from-import"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "__name__=='__main__'",
+    "meaning": "직접 실행 구분",
+    "usage_one_liner": "if __name__=='__main__': ...",
+    "order_index": 53,
+    "tags": [
+      "applied",
+      "modules"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "main-guard"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "docstring",
+    "meaning": "함수/모듈 설명",
+    "usage_one_liner": "def f(): \"\"\"설명\"\"\"",
+    "order_index": 54,
+    "tags": [
+      "applied",
+      "docs"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "docstring"
+  },
+  {
+    "domain": "python",
+    "level": 3,
+    "keyword": "assert",
+    "meaning": "가정 검증",
+    "usage_one_liner": "assert x>0",
+    "order_index": 55,
+    "tags": [
+      "applied",
+      "debug"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "assert"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "yield",
+    "meaning": "제너레이터 생성",
+    "usage_one_liner": "def gen(): yield 1",
+    "order_index": 56,
+    "tags": [
+      "core",
+      "generator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "yield"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "iter()/next()",
+    "meaning": "이터레이터 프로토콜",
+    "usage_one_liner": "it = iter(arr); next(it)",
+    "order_index": 57,
+    "tags": [
+      "applied",
+      "iterator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "iterator"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "데코레이터 @",
+    "meaning": "함수 기능 확장",
+    "usage_one_liner": "@timer\ndef f(): ...",
+    "order_index": 58,
+    "tags": [
+      "applied",
+      "decorator"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "decorator"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "클래스 class",
+    "meaning": "사용자 정의 타입",
+    "usage_one_liner": "class Dog: pass",
+    "order_index": 59,
+    "tags": [
+      "core",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "class"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "__init__",
+    "meaning": "생성 시 초기화",
+    "usage_one_liner": "def __init__(self,...)",
+    "order_index": 60,
+    "tags": [
+      "core",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "init"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "self",
+    "meaning": "인스턴스 참조",
+    "usage_one_liner": "self.x = 1",
+    "order_index": 61,
+    "tags": [
+      "core",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "self"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "상속",
+    "meaning": "기능 재사용",
+    "usage_one_liner": "class B(A): ...",
+    "order_index": 62,
+    "tags": [
+      "applied",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "inheritance"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "@property",
+    "meaning": "속성 접근자",
+    "usage_one_liner": "@property\ndef x(self): ...",
+    "order_index": 63,
+    "tags": [
+      "applied",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "property"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "__str__/__repr__",
+    "meaning": "문자열 표현",
+    "usage_one_liner": "def __str__(self): ...",
+    "order_index": 64,
+    "tags": [
+      "applied",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dunder"
+  },
+  {
+    "domain": "python",
+    "level": 4,
+    "keyword": "예외 finally",
+    "meaning": "정리 코드 실행",
+    "usage_one_liner": "try: ... finally: ...",
+    "order_index": 65,
+    "tags": [
+      "applied",
+      "exceptions"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "finally"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "타입힌트",
+    "meaning": "정적 힌트 제공",
+    "usage_one_liner": "def f(x:int)->str: ...",
+    "order_index": 66,
+    "tags": [
+      "applied",
+      "typing"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "typing"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "typing.Optional",
+    "meaning": "값 또는 None",
+    "usage_one_liner": "Optional[int]",
+    "order_index": 67,
+    "tags": [
+      "applied",
+      "typing"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "typing"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "dataclasses",
+    "meaning": "보일러플레이트 감소",
+    "usage_one_liner": "@dataclass\nclass P: x:int",
+    "order_index": 68,
+    "tags": [
+      "applied",
+      "oop"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "dataclasses"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "functools.lru_cache",
+    "meaning": "결과 캐시",
+    "usage_one_liner": "@lru_cache\ndef f(n): ...",
+    "order_index": 69,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "functools"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "itertools",
+    "meaning": "고성능 이터레이션",
+    "usage_one_liner": "from itertools import groupby",
+    "order_index": 70,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "itertools"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "async/await",
+    "meaning": "비동기 코루틴",
+    "usage_one_liner": "async def f(): await g()",
+    "order_index": 71,
+    "tags": [
+      "applied",
+      "concurrency"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "asyncio"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "contextlib",
+    "meaning": "컨텍스트 도우미",
+    "usage_one_liner": "from contextlib import contextmanager",
+    "order_index": 72,
+    "tags": [
+      "applied",
+      "context"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "contextlib"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "logging",
+    "meaning": "표준 로깅",
+    "usage_one_liner": "import logging",
+    "order_index": 73,
+    "tags": [
+      "applied",
+      "debug"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "logging"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "timeit",
+    "meaning": "성능 측정",
+    "usage_one_liner": "import timeit",
+    "order_index": 74,
+    "tags": [
+      "applied",
+      "perf"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "timeit"
+  },
+  {
+    "domain": "python",
+    "level": 5,
+    "keyword": "venv",
+    "meaning": "가상환경",
+    "usage_one_liner": "python -m venv .venv",
+    "order_index": 75,
+    "tags": [
+      "applied",
+      "env"
+    ],
+    "doc_url": "https://docs.python.org/3.13/tutorial/",
+    "doc_section": "venv"
+  }
+]

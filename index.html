@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Flash Learning — PWA + TTS</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#0f0f12" />
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js');
+    });
+  }
+</script>
+
+<style>
+  :root {
+    --bg:#0f1115; --panel:#18202b; --text:#e7eef7; --muted:#9fb0c0; --accent:#6ecbff;
+    --kw:#0d0d0d; --mean:#0d0d0d; --usage:#0d0d0d;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 "Segoe UI",system-ui,-apple-system,"Apple SD Gothic Neo",sans-serif}
+  .wrap{max-width:1100px;margin:0 auto;padding:16px}
+  header{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  h1{font-size:20px;margin:0 12px 0 0}
+  select,button,input{background:#111a22;color:var(--text);border:1px solid #263240;border-radius:8px;padding:8px 10px}
+  button.accent{background:var(--accent);color:#02202f;border:none}
+  small{color:var(--muted)}
+  .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px}
+  .bar{height:10px;background:#22303e;border-radius:999px;overflow:hidden}
+  .bar>i{display:block;height:100%;width:0;background:var(--accent)}
+  .panels{margin-top:14px;display:grid;gap:10px}
+  .box{background:#0b1219;border:1px solid #263240;border-radius:12px;padding:14px;min-height:80px}
+  .kw{background:var(--kw);font-weight:800;font-size:clamp(22px,4.8vw,40px);text-align:center;padding:22px}
+  .mean{background:var(--mean);font-weight:700;font-size:clamp(16px,2.8vw,28px);text-align:center}
+  .usage{background:var(--usage);white-space:pre-wrap;font-family:Consolas,ui-monospace,monospace;font-size:clamp(14px,2.2vw,22px);line-height:1.45}
+  .mute{opacity:.7}
+  .hidden{display:none!important}
+  .rest{display:flex;gap:16px;align-items:center;justify-content:center;margin:40px 0}
+  .ring{width:180px;height:180px;border-radius:50%;display:grid;place-items:center;background:#1b2733}
+  .ring>i{display:block;border-radius:50%;background:#67f;transition:all .2s}
+  .center{display:grid;place-items:center}
+  .footer{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Flash Learning — PWA + TTS</h1>
+    <div class="row">
+      <label>도메인</label>
+      <select id="domain">
+        <option value="english">english</option>
+        <option value="python">python</option>
+        <option value="mysql">mysql</option>
+        <option value="pandas">pandas</option>
+      </select>
+
+      <label id="lblCat">카테고리</label>
+      <select id="cat">
+        <option value="vocab">vocab</option>
+        <option value="coding">coding</option>
+        <option value="pattern">pattern</option>
+        <option value="conversation">conversation</option>
+      </select>
+
+      <label id="lblLvl" class="">레벨</label>
+      <select id="level">
+        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+      </select>
+
+      <label>장수</label>
+      <select id="page">
+        <option>20</option><option selected>30</option><option>40</option><option>50</option>
+      </select>
+
+      <button id="start" class="accent">3회 루프 시작</button>
+    </div>
+    <small>영어는 라운드마다 랜덤, 세션 전체에서 중복 최소화 · 라운드 사이 2분 명상</small>
+  </header>
+
+  <!-- 진행 영역 -->
+  <section id="study" class="hidden">
+    <div class="row">
+      <div class="bar" style="flex:1"><i id="prog"></i></div>
+      <div id="state" class="mute">0/0 (0%)</div>
+    </div>
+
+    <div class="row">
+      <label>자동(초)</label>
+      <input id="interval" type="range" min="0.5" max="5.0" step="0.1" value="1.2" />
+      <span id="ival" class="mute">1.2s</span>
+      <button id="auto">▶ 자동</button>
+      <button id="prev">◀ 이전</button>
+      <button id="next">다음 ▶</button>
+      <button id="sayEn">🔊 EN</button>
+      <button id="sayKo">🔊 KO</button>
+      <label class="mute"><input id="autoTts" type="checkbox" checked> 자동읽기</label>
+      <button id="end">종료</button>
+    </div>
+
+    <div class="panels">
+      <div id="kw" class="box kw"></div>
+      <div id="mean" class="box mean"></div>
+      <div id="usage" class="box usage"></div>
+    </div>
+  </section>
+
+  <!-- 휴식/명상 -->
+  <section id="rest" class="hidden center">
+    <div>
+      <h2>휴식 & 호흡 (2:00)</h2>
+      <div class="rest">
+        <div class="ring"><i id="ball" style="width:40px;height:40px"></i></div>
+        <div>
+          <div class="box" style="min-width:260px">
+            <div class="mute">들이마시기 4초 → 멈춤 4초 → 내쉬기 6초</div>
+            <h3 id="phase">phase</h3>
+            <h3 id="left">남은 시간: 120초</h3>
+            <button id="skip">건너뛰기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 요약 -->
+  <section id="summary" class="hidden center">
+    <div class="box" style="min-width:280px">
+      <h2>오늘의 학습 요약</h2>
+      <p id="sumline"></p>
+      <div class="footer">
+        <button onclick="toHome()">메인으로</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+// ===== Language guess helpers =====
+function hasHangul(s){ return /[\uAC00-\uD7A3]/.test(s||""); }
+
+function guessLangForText(s){
+  s = (s||"").trim();
+
+  // 1) 한글 포함 → ko-KR
+  if (hasHangul(s)) return "ko-KR";
+
+  // 2) SQL/Python 키워드가 보이면 → en-US
+  const sqlLike = /\b(SELECT|FROM|WHERE|GROUP|ORDER|BY|JOIN|LEFT|RIGHT|INNER|OUTER|INSERT|UPDATE|DELETE|LIMIT|HAVING|COUNT|SUM|AVG|MIN|MAX)\b/i;
+  const pyLike  = /\b(def|class|lambda|yield|with|async|await|import|for|while|if|else|elif|try|except|return|in|is|and|or|not)\b/i;
+  if (sqlLike.test(s) || pyLike.test(s)) return "en-US";
+
+  // 3) 알파벳 비율이 높으면 → en-US (기본)
+  if (/[A-Za-z]/.test(s)) return "en-US";
+
+  // 4) 그 외(숫자/기호 위주) → en-US로 처리(보이스 고정)
+  return "en-US";
+}
+
+function langForMeaning(s){
+  // 의미는 보통 한국어지만, 혹시 영문 설명일 수도 있어 감지 적용
+  return hasHangul(s) ? "ko-KR" : guessLangForText(s);
+}
+
+/* ============= Data & State ============= */
+const DATA_DIR = "data";  // JSON은 data/ 폴더에 넣어주세요
+
+const EN_FILES = {
+  vocab: "english_vocab.json",
+  coding: "english_coding.json",
+  pattern: "english_pattern.json",
+  conversation: "english_conversation.json"
+};
+
+const state = {
+  domain: "english",
+  category: "vocab",
+  level: 1,
+  page: 30,
+  deck: [],
+  idx: 0,
+  round: 0,
+  auto: false,
+  interval: 1.2,
+  autoTTS: true,
+  seen: new Set(),        // 세션 전체 중복 최소화용(english)
+  lastSpoken: {round:-1, idx:-1},
+  startAt: 0,
+  startTime: 0,
+};
+
+const $domain = document.getElementById('domain');
+const $cat = document.getElementById('cat');
+const $level = document.getElementById('level');
+const $lblCat = document.getElementById('lblCat');
+const $lblLvl = document.getElementById('lblLvl');
+
+const $study = document.getElementById('study');
+const $rest = document.getElementById('rest');
+const $summary = document.getElementById('summary');
+
+const $prog = document.getElementById('prog');
+const $state = document.getElementById('state');
+const $kw = document.getElementById('kw');
+const $mean = document.getElementById('mean');
+const $usage = document.getElementById('usage');
+
+const $interval = document.getElementById('interval');
+const $ival = document.getElementById('ival');
+const $autoTts = document.getElementById('autoTts');
+
+/* ============= PWA 등록 ============= */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(()=>{});
+  });
+}
+
+/* ============= TTS (겹침 방지, EN→KO 순차) ============= */
+const synth = window.speechSynthesis;
+let speakToken = 0;
+
+function stopSpeech(){ try{synth.cancel();}catch{} }
+
+function speakChain(parts){
+  const my = ++speakToken;
+  stopSpeech();
+  return (async()=>{
+    for(const p of parts){
+      if(!p?.text) continue;
+      if(my!==speakToken) return;
+      await new Promise(res=>{
+        try{
+          const u = new SpeechSynthesisUtterance(p.text);
+          u.lang = p.lang || "en-US";
+          u.rate = 1.0;
+          u.onend = u.onerror = ()=>res();
+          synth.speak(u);
+        }catch{ res(); }
+      });
+    }
+  })();
+}
+
+function speakEN_KO_forCard(card){
+  if(!card) return;
+
+  if(state.domain === 'english'){
+    // 영어: EN → KO (문장/패턴 처리)
+    let en = card.usage_one_liner || card.keyword || "";
+    if (card.category === "pattern" && card.items){
+      en = [card.keyword]
+            .concat((card.items||[]).slice(0,3).map(it=>it.en))
+            .join(". ");
+    }
+    let ko = card.meaning || "";
+    if(!ko && card.items){ ko = (card.items||[]).slice(0,3).map(it=>it.ko).join(" "); }
+
+    return speakChain([
+      { text: en, lang: guessLangForText(en) || "en-US" },
+      { text: ko, lang: langForMeaning(ko) }
+    ]);
+  }
+
+  // 기술 도메인(파이썬/SQL/판다스): usage는 읽지 않고 "키워드 → 의미"만
+  const term = (card.keyword || "");
+  const ko   = (card.meaning || "");
+
+  return speakChain([
+    { text: term, lang: guessLangForText(term) },   // dict, GROUP BY, 슬라이싱 등 자동 판별
+    { text: ko,   lang: langForMeaning(ko) }
+  ]);
+}
+
+
+
+/* ============= 유틸 ============= */
+function show($el){ $el.classList.remove('hidden'); }
+function hide($el){ $el.classList.add('hidden'); }
+function clamp(n,min,max){ return Math.max(min, Math.min(max, n)); }
+function pct(n,total){ return total? Math.floor(n/total*100):0; }
+
+async function loadJSON(path){
+  try{
+    const r = await fetch(path, {cache:'no-cache'});
+    if(!r.ok) throw 0;
+    return await r.json();
+  }catch{
+    return [];
+  }
+}
+
+async function loadEnglish(category){
+  const fname = EN_FILES[category] || EN_FILES.vocab;
+  // data/ 밑에서 먼저 찾기
+  return await loadJSON(`${DATA_DIR}/${fname}`);
+}
+async function loadTech(domain, level){
+  // data/<domain>_L#.json 우선, 없으면 루트도 시도
+  let r = await loadJSON(`${DATA_DIR}/${domain}_L${level}.json`);
+  if(r.length) return r;
+  return await loadJSON(`${domain}_L${level}.json`);
+}
+
+function dedupKeepOrder(arr, keyFn){
+  const seen = new Set(), out=[];
+  for(const x of arr){
+    const k = keyFn(x);
+    if(!k || seen.has(k)) continue;
+    seen.add(k); out.push(x);
+  }
+  return out;
+}
+
+function pickRandomK(cards, k, seed){
+  // 간단 셔플
+  const a = cards.slice();
+  for(let i=a.length-1;i>0;i--){
+    const j = Math.floor(Math.random()* (i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a.slice(0, Math.min(k,a.length));
+}
+
+/* ============= 덱 구성 ============= */
+async function buildRound(round){
+  if(state.domain === 'english'){
+    // 항상 랜덤 + 세션 전체 중복 최소화
+    const all = await loadEnglish(state.category);
+    const pool = all.filter(c=> !state.seen.has(c.keyword));
+    let pick = pickRandomK(pool, state.page);
+    if(pick.length < state.page){
+      // 부족하면 전체에서 추가(중복 최소화)
+      const rest = dedupKeepOrder(all, c=>c.keyword)
+                   .filter(c=>!pick.find(p=>p.keyword===c.keyword));
+      pick = pick.concat(rest.slice(0, state.page-pick.length));
+    }
+    // 다음 라운드 중복 방지를 위해 미리 마킹은 하지 않고, 소비시점에 추가
+    return dedupKeepOrder(pick, c=>c.keyword);
+  } else {
+    // 간단: 항상 랜덤
+    const all = await loadTech(state.domain, state.level);
+    return pickRandomK(dedupKeepOrder(all, c=>c.keyword), state.page);
+  }
+}
+
+/* ============= 렌더링/진행 ============= */
+let autoTimer = null;
+
+function updateProgress(){
+  const t = state.deck.length, i = clamp(state.idx,0,t-1);
+  const p = pct(i+1, t);
+  $prog.style.width = `${p}%`;
+  $state.textContent = `${Math.min(i+1,t)}/${t} (${p}%) · ${state.domain}${state.domain==='english'?'/'+state.category:(' L'+state.level)} · ${state.round}/3`;
+}
+
+function renderCard(){
+  stopSpeech(); // 이전 음성 취소
+
+  const t = state.deck.length, i = clamp(state.idx,0,t-1);
+  const c = t? state.deck[i] : null;
+
+  $kw.textContent   = c?.keyword || "";
+  $mean.textContent = c?.meaning || "";
+
+  if(c){
+    if ((state.domain!=="english" || c.category==="pattern") && c.items){
+      const lines = c.items.slice(0,16)
+                     .map(it=>`• ${it.en} / ${it.ko}`)
+                     .join("\n");
+      $usage.textContent = lines;
+    } else {
+      $usage.textContent = c.usage_one_liner || "";
+    }
+  }else{
+    $usage.textContent = "";
+  }
+
+  updateProgress();
+
+  if(state.autoTTS && !(state.lastSpoken.round===state.round && state.lastSpoken.idx===state.idx)){
+    speakEN_KO_forCard(c);
+    state.lastSpoken = {round:state.round, idx:state.idx};
+  }
+}
+
+function startAuto(){
+  stopAuto();
+  state.auto = true;
+  autoTimer = setInterval(()=>{
+    if(state.idx < state.deck.length-1){
+      // 소비한 키워드 마킹(english)
+      const cur = state.deck[state.idx];
+      if(state.domain==='english' && cur?.keyword) state.seen.add(cur.keyword);
+
+      state.idx++; renderCard();
+    }else{
+      // 마지막 카드 소비 마킹
+      const cur = state.deck[state.idx];
+      if(state.domain==='english' && cur?.keyword) state.seen.add(cur.keyword);
+
+      stopAuto();
+      toRest();   // 라운드 끝 → 휴식
+    }
+  }, Math.max(500, state.interval*1000));
+}
+function stopAuto(){
+  state.auto = false;
+  if(autoTimer){ clearInterval(autoTimer); autoTimer=null; }
+}
+
+/* ============= 명상/휴식 ============= */
+const IN=4, HOLD=4, OUT=6, CYCLE=IN+HOLD+OUT;
+
+function toRest(){
+  hide($study); show($rest); hide($summary);
+  let left = 120;
+  let base = Date.now();
+  let anim = null;
+  document.getElementById('left').textContent = `남은 시간: ${left}초`;
+
+  function draw(){
+    const ball = document.getElementById('ball');
+    const phaseEl = document.getElementById('phase');
+    const t = (Date.now()/1000) % CYCLE;
+    let r=40, phase="들이마시기";
+    if(t<IN){ r = 40 + (100-40)*(t/IN); phase="들이마시기"; }
+    else if(t<IN+HOLD){ r=100; phase="멈춤"; }
+    else { const tt=(t-(IN+HOLD))/OUT; r= 100 - (100-40)*tt; phase="내쉬기"; }
+
+    ball.style.width = ball.style.height = `${r}px`;
+    phaseEl.textContent = phase;
+    anim = requestAnimationFrame(draw);
+  }
+  anim = requestAnimationFrame(draw);
+
+  const tick = setInterval(()=>{
+    const now = Date.now();
+    if(now - base >= 1000){
+      base = now; left--;
+      document.getElementById('left').textContent = `남은 시간: ${left}초`;
+      if(left<=0){
+        clearInterval(tick);
+        cancelAnimationFrame(anim);
+        nextRound();
+      }
+    }
+  }, 100);
+
+  document.getElementById('skip').onclick = ()=>{
+    clearInterval(tick); cancelAnimationFrame(anim);
+    nextRound();
+  };
+}
+
+async function nextRound(){
+  // 다음 라운드로
+  state.round++;
+  if(state.round<=3){
+    state.deck = await buildRound(state.round);
+    state.idx = 0;
+    state.lastSpoken = {round:-1, idx:-1};
+
+    hide($rest); show($study); hide($summary);
+    renderCard();
+    startAuto();
+  }else{
+    // 종료
+    state.endAt = Date.now();
+    hide($rest); hide($study); show($summary);
+    const sec = Math.floor((state.endAt - state.startTime)/1000);
+    const mm = Math.floor(sec/60), ss = sec%60;
+    const label = `${state.domain}${state.domain==='english'?'/'+state.category:(' L'+state.level)} / ${state.page}×3회 / 총 ${mm}분 ${ss}초`;
+    document.getElementById('sumline').textContent = label;
+  }
+}
+
+function toHome(){
+  stopAuto(); stopSpeech();
+  hide($study); hide($rest); hide($summary);
+}
+
+/* ============= 이벤트 바인딩 ============= */
+$domain.onchange = ()=>{
+  state.domain = $domain.value;
+  if(state.domain==='english'){
+    $lblCat.classList.remove('hidden'); $cat.classList.remove('hidden');
+    $lblLvl.classList.add('hidden');    $level.classList.add('hidden');
+  }else{
+    $lblLvl.classList.remove('hidden'); $level.classList.remove('hidden');
+    $lblCat.classList.add('hidden');    $cat.classList.add('hidden');
+  }
+};
+$cat.onchange = ()=> state.category = $cat.value;
+$level.onchange = ()=> state.level = +$level.value;
+document.getElementById('page').onchange = (e)=> state.page = +e.target.value;
+
+document.getElementById('start').onclick = async()=>{
+  // 초기화
+  state.seen.clear();
+  state.round = 0;
+  state.idx = 0;
+  state.startTime = Date.now();
+  state.interval = +$interval.value;
+  state.autoTTS = $autoTts.checked;
+
+  // 1라운드 구성 & 시작
+  state.deck = await buildRound(1);
+  state.round = 1;
+  hide($summary); hide($rest); show($study);
+  renderCard();
+  startAuto();
+};
+
+document.getElementById('prev').onclick = ()=>{
+  stopAuto();
+  if(state.idx>0){ state.idx--; renderCard(); }
+};
+document.getElementById('next').onclick = ()=>{
+  stopAuto();
+  if(state.idx < state.deck.length-1){
+    // 소비 마킹
+    const cur = state.deck[state.idx];
+    if(state.domain==='english' && cur?.keyword) state.seen.add(cur.keyword);
+    state.idx++; renderCard();
+  } else {
+    // 마지막도 마킹
+    const cur = state.deck[state.idx];
+    if(state.domain==='english' && cur?.keyword) state.seen.add(cur.keyword);
+    toRest();
+  }
+};
+document.getElementById('auto').onclick = ()=>{
+  state.interval = +$interval.value;
+  if(state.auto){ stopAuto(); } else { startAuto(); }
+};
+$interval.oninput = (e)=>{ $ival.textContent = `${e.target.value}s`; };
+$autoTts.onchange = ()=>{ state.autoTTS = $autoTts.checked; };
+
+document.getElementById('sayEn').onclick = ()=>{
+  const c = state.deck[state.idx]; if(!c) return;
+
+  if(state.domain === 'english'){
+    let en = c.usage_one_liner || c.keyword || "";
+    if(c.category === "pattern" && c.items){
+      en = [c.keyword].concat((c.items||[]).slice(0,3).map(it=>it.en)).join(". ");
+    }
+    speakChain([{ text: en, lang: guessLangForText(en) }]);
+  }else{
+    const term = (c.keyword||"");
+    speakChain([{ text: term, lang: guessLangForText(term) }]);
+  }
+};
+
+document.getElementById('sayKo').onclick = ()=>{
+  const c = state.deck[state.idx]; if(!c) return;
+  let ko = c.meaning || "";
+  if(state.domain === 'english' && !ko && c.items){
+    ko = (c.items||[]).slice(0,3).map(it=>it.ko).join(" ");
+  }
+  speakChain([{ text: ko, lang: langForMeaning(ko) }]);
+};
+
+
+document.getElementById('end').onclick = ()=> toHome();
+
+/* 초기 표시 상태 정리 */
+$domain.onchange();
+</script>
+</body>
+</html>
