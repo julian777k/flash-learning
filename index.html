@@ -205,17 +205,30 @@ function sample(a,k){const x=a.slice();shuffle(x);return x.slice(0,Math.min(k,x.
 function centerProgress(cur,total){ const p = total? Math.round(cur/total*100):0; el.prog.style.width = p+'%'; }
 function setStateText(){ const total=ctx.deck.length; const head = ctx.domain==='english' ? `${ctx.domain}` : `${ctx.domain} L${ctx.level}`; el.state.textContent = `${ctx.idx+1}/${total} · ${head} · ${ctx.round}/3`; }
 
-/* 루트/ data/ 자동 인식 로더 */
+/* 루트/ data/를 모두 시도 + 에러 메시지 노출 + 리포 경로 보정 */
 async function fetchJsonSmart(name){
-  // 1) data/ 우선
-  try{
-    const r = await fetch(`./data/${name}`, {cache:'no-cache'});
-    if(r.ok) return await r.json();
-  }catch{}
-  // 2) 루트
-  const r2 = await fetch(`./${name}`, {cache:'no-cache'});
-  if(!r2.ok) throw new Error('JSON not found: '+name);
-  return await r2.json();
+  const base = location.pathname.endsWith('/')
+    ? location.pathname
+    : location.pathname.replace(/\/[^/]*$/, '/'); // /flash-learning/
+
+  const paths = [
+    new URL('data/' + name, location.origin + base).toString(),
+    new URL(name,          location.origin + base).toString(),
+  ];
+
+  let lastErr = '';
+  for (const url of paths){
+    try{
+      const r = await fetch(url, {cache:'no-cache'});
+      if (r.ok) return await r.json();
+      lastErr = `[${r.status}] ${url}`;
+    }catch(e){
+      lastErr = `${url} :: ${e}`;
+    }
+  }
+  // 화면에 즉시 표시(무엇을 못 읽는지)
+  alert('데이터 파일을 불러오지 못했습니다:\n' + name + '\n' + lastErr);
+  throw new Error('JSON load failed: ' + name + ' :: ' + lastErr);
 }
 
 /* 도메인별 데이터 로드 */
