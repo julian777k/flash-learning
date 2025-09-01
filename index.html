@@ -205,30 +205,111 @@ function sample(a,k){const x=a.slice();shuffle(x);return x.slice(0,Math.min(k,x.
 function centerProgress(cur,total){ const p = total? Math.round(cur/total*100):0; el.prog.style.width = p+'%'; }
 function setStateText(){ const total=ctx.deck.length; const head = ctx.domain==='english' ? `${ctx.domain}` : `${ctx.domain} L${ctx.level}`; el.state.textContent = `${ctx.idx+1}/${total} · ${head} · ${ctx.round}/3`; }
 
-/* 루트/ data/를 모두 시도 + 에러 메시지 노출 + 리포 경로 보정 */
 async function fetchJsonSmart(name){
-  const base = location.pathname.endsWith('/')
-    ? location.pathname
-    : location.pathname.replace(/\/[^/]*$/, '/'); // /flash-learning/
-
+  const base = location.pathname.endsWith('/') ? location.pathname : location.pathname.replace(/\/[^/]*$/, '/'); // /flash-learning/
   const paths = [
     new URL('data/' + name, location.origin + base).toString(),
     new URL(name,          location.origin + base).toString(),
   ];
-
   let lastErr = '';
   for (const url of paths){
     try{
-      const r = await fetch(url, {cache:'no-cache'});
-      if (r.ok) return await r.json();
+      console.log('[fetchJsonSmart] try:', url);
+      const r = await fetch(url, { cache:'no-cache' });
+      if (r.ok){
+        const j = await r.json();
+        console.log('[fetchJsonSmart] ok:', url, Array.isArray(j) ? `rows=${j.length}` : j);
+        return j;
+      }
       lastErr = `[${r.status}] ${url}`;
     }catch(e){
       lastErr = `${url} :: ${e}`;
     }
   }
-  // 화면에 즉시 표시(무엇을 못 읽는지)
   alert('데이터 파일을 불러오지 못했습니다:\n' + name + '\n' + lastErr);
   throw new Error('JSON load failed: ' + name + ' :: ' + lastErr);
+}
+
+// ===== 2) 도우미 =====
+function shuffle(arr, seed) {
+  const rng = seed ? mulberry32(seed) : Math.random;
+  const a = arr.slice();
+  for (let i=a.length-1;i>0;i--){
+    const j = Math.floor((rng() * (i+1)));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+  return a;
+}
+function mulberry32(a){ return function(){ let t = a += 0x6D2B79F5; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };}
+function ensurePage(rows, master, page){
+  const seen = new Set(rows.map(x=>x.keyword));
+  const extra = master.filter(x=>!seen.has(x.keyword));
+  return rows.concat(extra).slice(0, page);
+}
+
+// ===== 3) 덱 만들기 + 시작 핸들러 =====
+async function loadDeck(dom, level, page, startPage, seed, fill, shuffleR1, category){
+  if (dom === 'english'){
+    // 영어는 카테고리별 파일 사용 (항상 랜덤)
+    const fname = ({
+      vocab:'english_vocab.json',
+      coding:'english_coding.json',
+      pattern:'english_pattern.json',
+      conversation:'english_conversation.json'
+    })[category] || 'english_vocab.json';
+    const rows = await fetchJsonSmart(fname);
+    const s = seed ?? (Date.now() & 0xffffffff);
+    const uniq = []; const seen = new Set();
+    for (const r of shuffle(rows, s)){
+      const k = r.keyword||r.usage_one_liner||JSON.stringify(r);
+      if (!seen.has(k)){ uniq.push(r); seen.add(k); }
+      if (uniq.length>=page) break;
+    }
+    return uniq;
+  } else {
+    // Python/MySQL/Pandas
+    const name = `${dom}_L${level}.json`;
+    let rows = await fetchJsonSmart(name);
+    if (!Array.isArray(rows)) throw new Error(`${name} 가 배열이 아닙니다`);
+    if (shuffleR1){
+      const s = seed ?? (Date.now() & 0xffffffff);
+      rows = shuffle(rows, s).slice(0, page);
+    } else {
+      const offset = (startPage|0) * (page|0);
+      rows = rows.slice(offset, offset + page);
+    }
+    if (fill && rows.length < page){
+      const master = await fetchJsonSmart(`${dom}_master.json`);
+      rows = ensurePage(rows, master, page);
+    }
+    return rows;
+  }
+}
+
+// === UI 쪽에서 호출하는 “3회 루프 시작” 핸들러 (필요한 변수명에 맞춰 호출) ===
+// 아래 함수 이름/호출부는 기존 코드에서 쓰던 이름으로 맞춰주세요.
+async function onStartThreeLoop(){
+  try{
+    const dom   = getDomain();                 // ex) 'python' | 'mysql' | 'pandas' | 'english'
+    const lvl   = (dom==='english') ? 0 : getLevel();
+    const page  = getPageCount();              // ex) 30
+    const seed  = getSeed();                   // 숫자 또는 null
+    const start = getStartPage();              // r1 순차 시작 페이지 (영어는 무의미)
+    const fill  = getFillFlag();               // 부족 시 마스터 보충 여부
+    const shuf  = getShuffleR1Flag();          // r1도 랜덤 섞기
+    const cat   = (dom==='english') ? getEnglishCategory() : null;
+
+    const deck = await loadDeck(dom, lvl, page, start, seed, fill, shuf, cat);
+    if (!deck.length){
+      alert(`카드가 0장입니다. (${dom} ${cat||('L'+lvl)})\n파일/이름/경로를 확인하세요.`);
+      return;
+    }
+    // === 여기서부터는 기존 “세션 시작” 로직 호출 ===
+    startSessionWithDeck(dom, lvl, deck);  // ← 당신 코드의 기존 시작 함수명으로 치환
+  }catch(e){
+    console.error('[onStartThreeLoop] error:', e);
+    alert('시작 실패: ' + e.message);
+  }
 }
 
 /* 도메인별 데이터 로드 */

@@ -1,5 +1,5 @@
 /* Lightweight runtime cache SW (network-first) */
-const CACHE = "flash-v13";   // ← 버전 올리면 강제 갱신됨
+const CACHE = "flash-v14";   // ← 버전 올리면 강제 갱신됨
 
 const SHELL = [
   "./",
