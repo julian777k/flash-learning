@@ -1,533 +1,521 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>Flash Learning — PWA + TTS</title>
 
-  <!-- 현재 파일명을 그대로 사용 -->
-  <link rel="manifest" href="manifest.webmanifest.json">
-  <link rel="icon" href="icon-192.png" />
-  <meta name="theme-color" content="#0f0f12" />
-
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0f0f12">
+  <link rel="icon" href="icon-192.png">
   <style>
-    :root{
-      --bg:#0f1116; --fg:#e6e6e6; --muted:#9aa0a6; --accent:#4c8bf5; --card:#141821;
-      --kw:#111; --mean:#111; --usage:#111;
+    :root {
+      --bg:#0f1116; --panel:#161a22; --muted:#9aa4b2; --text:#e7ecf3; --accent:#5aa0ff;
+      --card:#0d0f14; --line:#2a3242;
     }
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,Helvetica,Arial,sans-serif}
-    .wrap{max-width:1100px;margin:28px auto;padding:0 16px}
-    h1{font-size:24px;margin:0 0 16px}
-    .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-    select,button,input[type="range"]{
-      background:#1b2130;border:1px solid #2a3246;color:var(--fg);border-radius:10px;
-      padding:8px 10px;font-size:14px;outline:none
+    * { box-sizing: border-box; }
+    html,body { height:100%; }
+    body {
+      margin:0; background:var(--bg); color:var(--text); font-family:system-ui, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
     }
-    button{cursor:pointer}
-    .hint{color:var(--muted);font-size:13px;margin:12px 0}
-    .bar{height:8px;background:#1e2636;border-radius:999px;overflow:hidden}
-    .bar>i{display:block;height:100%;background:var(--accent);width:0%}
-    .sp{flex:1}
-    .grid{margin-top:14px;display:grid;gap:12px}
-    .card{
-      background:var(--card); border:1px solid #2a3246;border-radius:16px;
-      padding:22px; min-height:70px; display:flex; align-items:center; justify-content:center;
-      text-align:center; line-height:1.45; white-space:pre-wrap; word-break:break-word
+    .wrap { max-width:1100px; margin:24px auto 80px; padding:0 16px; }
+    h1 { margin:0 0 12px; font-size:24px; }
+    .controls {
+      display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:6px 0 10px;
     }
-    .kw   {font-size:42px;font-weight:800;background:#0d0f12}
-    .mean {font-size:26px;font-weight:700;background:#0d0f12}
-    .usage{font-size:20px;font-family:Consolas,ui-monospace,monospace;background:#0d0f12}
+    select,button,input[type="number"],input[type="range"]{
+      background:var(--panel); color:var(--text); border:1px solid var(--line);
+      padding:8px 10px; border-radius:10px; outline:none;
+    }
+    button { cursor:pointer; }
+    .hint { color:var(--muted); font-size:13px; margin:10px 0 16px; }
 
-    .ctrl{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
-    .pill{background:#243352;border:1px solid #2d4371;border-radius:999px;padding:6px 10px}
-    .ghost{background:transparent;border-color:#334;opacity:.85}
+    .topbar { display:flex; align-items:center; gap:14px; }
+    .progress {
+      display:flex; align-items:center; gap:8px; margin:10px 0 12px;
+    }
+    .bar { height:8px; background:#202737; border-radius:999px; flex:1; overflow:hidden; }
+    .bar > i { display:block; height:100%; width:0%; background:linear-gradient(90deg, #5aa0ff, #69e3ff); }
 
-    .overlay{
-      position:fixed;inset:0;background:rgba(0,0,0,.65);
-      display:none; place-items:center; z-index:99
+    .cards { display:flex; flex-direction:column; gap:10px; }
+    .card {
+      background:var(--card); border:1px solid var(--line); border-radius:16px; min-height:88px;
+      display:flex; align-items:center; justify-content:center; padding:18px;
+      text-align:center; white-space:pre-wrap; word-break:break-word;
+      font-weight:600; letter-spacing:.2px;
     }
-    .modal{
-      width:min(90vw,520px);background:#111826;border:1px solid #2a3246;border-radius:16px;
-      padding:22px;text-align:center
+    .card.key   { min-height:120px; font-size:42px; }
+    .card.mean  { min-height:76px;  font-size:24px; }
+    .card.usage { min-height:120px; font-size:18px; font-family:Consolas, ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+    .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:10px; }
+    .row .sp { flex:1 }
+    .muted { color:var(--muted) }
+
+    /* REST overlay */
+    .rest {
+      position:fixed; inset:0; background:rgba(0,0,0,.75);
+      display:none; align-items:center; justify-content:center; z-index:40;
     }
-    .bubble{
-      margin:14px auto 8px;width:220px;height:220px;border-radius:50%;
-      background:#2a2f3f;display:grid;place-items:center; font-weight:700
+    .rest .panel {
+      width:min(520px, calc(100% - 32px));
+      background:var(--panel); border:1px solid var(--line); border-radius:16px;
+      padding:22px; text-align:center;
+      box-shadow:0 10px 40px rgba(0,0,0,.35);
     }
-    .dim{opacity:.55}
+    .breath {
+      width:220px; height:220px; margin:16px auto; border-radius:50%;
+      background:#1f2635; display:grid; place-items:center; overflow:hidden;
+    }
+    .bubble { width:120px; height:120px; border-radius:50%; background:#88d5ff55; }
+    .timer { margin-top:6px; font:600 20px/1.2 system-ui, sans-serif }
+    .rest .sub { color:var(--muted); font-size:14px; }
+
+    .pill { background:#1a2230; padding:8px 12px; border-radius:999px; border:1px solid var(--line) }
+
+    @media (max-width:640px){
+      .card.key{ font-size:34px }
+      .card.mean{ font-size:20px }
+      .card.usage{ font-size:16px }
+    }
   </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>Flash Learning — PWA + TTS</h1>
+  <div class="wrap">
+    <div class="topbar">
+      <h1>Flash Learning — PWA + TTS</h1>
+      <span class="pill muted" id="stateText">–</span>
+    </div>
 
-  <div class="row">
-    <span class="pill">도메인</span>
-    <select id="domain">
-      <option value="python">python</option>
-      <option value="mysql">mysql</option>
-      <option value="pandas">pandas</option>
-      <option value="english">english</option>
-    </select>
+    <div class="controls" id="ctrl">
+      <label>도메인
+        <select id="domain">
+          <option value="python">python</option>
+          <option value="mysql">mysql</option>
+          <option value="pandas">pandas</option>
+          <option value="english">english</option>
+        </select>
+      </label>
 
-    <span class="pill" id="lv-label">레벨</span>
-    <select id="level">
-      <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
-    </select>
+      <label id="lvWrap">레벨
+        <select id="level">
+          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+        </select>
+      </label>
 
-    <span class="pill" id="cat-label" style="display:none">카테고리</span>
-    <select id="category" style="display:none">
-      <option value="vocab">vocab</option>
-      <option value="coding">coding</option>
-      <option value="pattern">pattern</option>
-      <option value="conversation">conversation</option>
-    </select>
+      <label id="catWrap" style="display:none">카테고리
+        <select id="cat">
+          <option value="vocab">vocab</option>
+          <option value="coding">coding</option>
+          <option value="pattern">pattern</option>
+          <option value="conversation">conversation</option>
+        </select>
+      </label>
 
-    <span class="pill">장수</span>
-    <select id="count">
-      <option>30</option><option>25</option><option>20</option><option>15</option><option>10</option>
-    </select>
+      <label>장수
+        <select id="page">
+          <option>20</option><option selected>30</option><option>40</option><option>50</option>
+        </select>
+      </label>
 
-    <button id="start" class="pill" style="background:#2e64ff;border-color:#2e64ff;color:#fff">3회 루프 시작</button>
+      <button id="start3" style="background:#143b74;border-color:#204a8f">3회 루프 시작</button>
+    </div>
+
+    <div class="hint">영어는 라운드마다 랜덤, 세션 전체에서 중복 최소화 · 라운드 사이 2분 명상</div>
+
+    <div class="progress">
+      <div class="bar"><i id="bar"></i></div>
+      <span class="muted" id="progText">0/0</span>
+    </div>
+
+    <div class="controls">
+      <span class="muted">자동(초)</span>
+      <input id="autoSec" type="range" min="0.5" max="5" step="0.1" value="1.2" style="width:240px">
+      <span class="muted" id="autoSecVal">1.2s</span>
+
+      <button id="prev">◀ 이전</button>
+      <button id="next">다음 ▶</button>
+      <button id="autoBtn">▶ 자동</button>
+      <button id="sayEN">🔊 EN</button>
+      <button id="sayKO">🔊 KO</button>
+      <label class="muted" style="display:flex;align-items:center;gap:6px">
+        <input id="autoRead" type="checkbox" checked> 자동읽기
+      </label>
+      <button id="finish">종료</button>
+      <span class="sp"></span>
+    </div>
+
+    <div class="cards">
+      <div class="card key"   id="keyBox">–</div>
+      <div class="card mean"  id="meanBox">–</div>
+      <div class="card usage" id="usageBox">–</div>
+    </div>
   </div>
 
-  <div class="hint">학습 방법 안내<br>이 플래시 훈련은 외워야 한다는 압박이 아닌<br>반복 노출 훈련입니다.<br>노출 시간은 짧고(1~1.5초), 3회 루프로 진행하며<br>회차 사이 2분 장기 기억장치에 저장하기 위한<br>명상 휴식이 들어갑니다.</div>
-
-  <div class="row">
-    <div class="bar" style="flex:1"><i id="prog"></i></div>
-    <div id="state" class="pill ghost">0/0</div>
+  <!-- 명상 휴식 -->
+  <div class="rest" id="rest">
+    <div class="panel">
+      <h3 style="margin:0 0 6px">명상 휴식</h3>
+      <div class="sub">들이마시기 4초 → 멈춤 4초 → 내쉬기 6초</div>
+      <div class="breath"><div class="bubble" id="bubble"></div></div>
+      <div class="timer" id="restLeft">–</div>
+      <div class="sub" id="phase" style="margin-top:6px">–</div>
+      <div style="margin-top:12px"><button id="skipRest">건너뛰기</button></div>
+    </div>
   </div>
 
-  <div class="ctrl">
-    <span class="pill ghost">자동(초)</span>
-    <input id="autoSec" type="range" min="0.5" max="5" step="0.1" value="1.2" style="width:180px" />
-    <span id="autoSecLabel">1.2s</span>
+  <script>
+  (function(run){
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
+    else run();
+  })(function(){
 
-    <button id="prev" class="pill ghost">◀ 이전</button>
-    <button id="next" class="pill ghost">다음 ▶</button>
-    <button id="auto" class="pill">▶ 자동</button>
+    /* ------------------------------ helpers ------------------------------ */
+    const $ = id => document.getElementById(id);
+    const sleep = ms => new Promise(r=>setTimeout(r, ms));
 
-    <button id="sayEN" class="pill ghost">🔈 EN</button>
-    <button id="sayKO" class="pill ghost">🔈 KO</button>
-    <label class="pill ghost"><input id="autoRead" type="checkbox" checked /> 자동읽기</label>
-
-    <div class="sp"></div>
-    <button id="quit" class="pill ghost">종료</button>
-  </div>
-
-  <div class="grid">
-    <div id="kw" class="card kw"></div>
-    <div id="mean" class="card mean"></div>
-    <div id="usage" class="card usage"></div>
-  </div>
-</div>
-
-<!-- 명상 오버레이 -->
-<div id="rest" class="overlay">
-  <div class="modal">
-    <div class="dim">명상 휴식</div>
-    <div style="margin:6px 0 12px" class="dim">들이마시기 4초 → 멈춤 4초 → 내쉬기 6초</div>
-    <div class="bubble" id="bubble">2:00</div>
-    <div id="phase" class="dim">들이마시기</div>
-    <div style="margin-top:12px"><button id="skip" class="pill">건너뛰기</button></div>
-  </div>
-</div>
-
-<script>
-/* ---------- PWA 등록 ---------- */
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(()=>{});
-}
-
-/* ---------- 상태 ---------- */
-const $ = (s)=>document.querySelector(s);
-const el = {
-  domain:  $('#domain'),
-  level:   $('#level'),
-  catLab:  $('#cat-label'),
-  cat:     $('#category'),
-  lvLab:   $('#lv-label'),
-  start:   $('#start'),
-  count:   $('#count'),
-  prog:    $('#prog'),
-  state:   $('#state'),
-  autoSec: $('#autoSec'),
-  autoSecLabel: $('#autoSecLabel'),
-  prev:    $('#prev'),
-  next:    $('#next'),
-  auto:    $('#auto'),
-  sayEN:   $('#sayEN'),
-  sayKO:   $('#sayKO'),
-  autoRead:$('#autoRead'),
-  kw:      $('#kw'),
-  mean:    $('#mean'),
-  usage:   $('#usage'),
-  rest:    $('#rest'),
-  bubble:  $('#bubble'),
-  phase:   $('#phase'),
-  skip:    $('#skip')
-};
-
-let ctx = {
-  domain:'python',
-  level:1,
-  category:'vocab',
-  page:30,
-  auto:false,
-  interval:1.2,
-  round:0,            // 1..3
-  idx:0,
-  deck:[],
-  seen:new Set(),     // 세션 전체 중복 방지
-  startTime:0
-};
-
-el.domain.addEventListener('change', onDomainChange);
-function onDomainChange(){
-  ctx.domain = el.domain.value;
-  if (ctx.domain==='english') {
-    el.level.style.display='none';
-    el.lvLab.style.display='none';
-    el.cat.style.display='';
-    el.catLab.style.display='';
-  } else {
-    el.level.style.display='';
-    el.lvLab.style.display='';
-    el.cat.style.display='none';
-    el.catLab.style.display='none';
-  }
-}
-onDomainChange();
-
-/* ---------- 유틸 ---------- */
-function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-function sample(a,k){const x=a.slice();shuffle(x);return x.slice(0,Math.min(k,x.length));}
-function centerProgress(cur,total){ const p = total? Math.round(cur/total*100):0; el.prog.style.width = p+'%'; }
-function setStateText(){ const total=ctx.deck.length; const head = ctx.domain==='english' ? `${ctx.domain}` : `${ctx.domain} L${ctx.level}`; el.state.textContent = `${ctx.idx+1}/${total} · ${head} · ${ctx.round}/3`; }
-
-async function fetchJsonSmart(name){
-  const base = location.pathname.endsWith('/') ? location.pathname : location.pathname.replace(/\/[^/]*$/, '/'); // /flash-learning/
-  const paths = [
-    new URL('data/' + name, location.origin + base).toString(),
-    new URL(name,          location.origin + base).toString(),
-  ];
-  let lastErr = '';
-  for (const url of paths){
-    try{
-      console.log('[fetchJsonSmart] try:', url);
-      const r = await fetch(url, { cache:'no-cache' });
-      if (r.ok){
-        const j = await r.json();
-        console.log('[fetchJsonSmart] ok:', url, Array.isArray(j) ? `rows=${j.length}` : j);
-        return j;
+    // JSON 경로: 같은 폴더 우선, 없으면 /data/ 폴더에서 재시도
+    function dataURL(domain, level, cat){
+      const file = (domain === 'english') ? `english_${cat||'vocab'}.json` : `${domain}_L${level}.json`;
+      const here = new URL(file, location.href).href;
+      const alt  = new URL('data/'+file, location.href).href;
+      return [here, alt];
+    }
+    async function fetchJSONSmart(urlA, urlB){
+      for (const u of [urlA, urlB]) {
+        try {
+          const r = await fetch(u, {cache:'no-cache'});
+          if (r.ok) return await r.json();
+        } catch(_) {}
       }
-      lastErr = `[${r.status}] ${url}`;
-    }catch(e){
-      lastErr = `${url} :: ${e}`;
+      return null;
     }
-  }
-  alert('데이터 파일을 불러오지 못했습니다:\n' + name + '\n' + lastErr);
-  throw new Error('JSON load failed: ' + name + ' :: ' + lastErr);
-}
-
-// ===== 2) 도우미 =====
-function shuffle(arr, seed) {
-  const rng = seed ? mulberry32(seed) : Math.random;
-  const a = arr.slice();
-  for (let i=a.length-1;i>0;i--){
-    const j = Math.floor((rng() * (i+1)));
-    [a[i],a[j]]=[a[j],a[i]];
-  }
-  return a;
-}
-function mulberry32(a){ return function(){ let t = a += 0x6D2B79F5; t = Math.imul(t ^ t >>> 15, t | 1); t ^= t + Math.imul(t ^ t >>> 7, t | 61); return ((t ^ t >>> 14) >>> 0) / 4294967296; };}
-function ensurePage(rows, master, page){
-  const seen = new Set(rows.map(x=>x.keyword));
-  const extra = master.filter(x=>!seen.has(x.keyword));
-  return rows.concat(extra).slice(0, page);
-}
-
-// ===== 3) 덱 만들기 + 시작 핸들러 =====
-async function loadDeck(dom, level, page, startPage, seed, fill, shuffleR1, category){
-  if (dom === 'english'){
-    // 영어는 카테고리별 파일 사용 (항상 랜덤)
-    const fname = ({
-      vocab:'english_vocab.json',
-      coding:'english_coding.json',
-      pattern:'english_pattern.json',
-      conversation:'english_conversation.json'
-    })[category] || 'english_vocab.json';
-    const rows = await fetchJsonSmart(fname);
-    const s = seed ?? (Date.now() & 0xffffffff);
-    const uniq = []; const seen = new Set();
-    for (const r of shuffle(rows, s)){
-      const k = r.keyword||r.usage_one_liner||JSON.stringify(r);
-      if (!seen.has(k)){ uniq.push(r); seen.add(k); }
-      if (uniq.length>=page) break;
+    function pickRandom(arr, k, seed){
+      const rng = seedRandom(seed);
+      const a = arr.slice();
+      for (let i=a.length-1;i>0;i--){
+        const j = Math.floor(rng()* (i+1));
+        [a[i],a[j]]=[a[j],a[i]];
+      }
+      return a.slice(0, Math.min(k,a.length));
     }
-    return uniq;
-  } else {
-    // Python/MySQL/Pandas
-    const name = `${dom}_L${level}.json`;
-    let rows = await fetchJsonSmart(name);
-    if (!Array.isArray(rows)) throw new Error(`${name} 가 배열이 아닙니다`);
-    if (shuffleR1){
-      const s = seed ?? (Date.now() & 0xffffffff);
-      rows = shuffle(rows, s).slice(0, page);
-    } else {
-      const offset = (startPage|0) * (page|0);
-      rows = rows.slice(offset, offset + page);
+    function seedRandom(seed){
+      let s = (seed ?? Date.now()) >>> 0;
+      return function(){ s = (s*1664525 + 1013904223)>>>0; return (s>>>8)/0x01000000; };
     }
-    if (fill && rows.length < page){
-      const master = await fetchJsonSmart(`${dom}_master.json`);
-      rows = ensurePage(rows, master, page);
-    }
-    return rows;
-  }
-}
 
-// === UI 쪽에서 호출하는 “3회 루프 시작” 핸들러 (필요한 변수명에 맞춰 호출) ===
-// 아래 함수 이름/호출부는 기존 코드에서 쓰던 이름으로 맞춰주세요.
-async function onStartThreeLoop(){
-  try{
-    const dom   = getDomain();                 // ex) 'python' | 'mysql' | 'pandas' | 'english'
-    const lvl   = (dom==='english') ? 0 : getLevel();
-    const page  = getPageCount();              // ex) 30
-    const seed  = getSeed();                   // 숫자 또는 null
-    const start = getStartPage();              // r1 순차 시작 페이지 (영어는 무의미)
-    const fill  = getFillFlag();               // 부족 시 마스터 보충 여부
-    const shuf  = getShuffleR1Flag();          // r1도 랜덤 섞기
-    const cat   = (dom==='english') ? getEnglishCategory() : null;
-
-    const deck = await loadDeck(dom, lvl, page, start, seed, fill, shuf, cat);
-    if (!deck.length){
-      alert(`카드가 0장입니다. (${dom} ${cat||('L'+lvl)})\n파일/이름/경로를 확인하세요.`);
-      return;
-    }
-    // === 여기서부터는 기존 “세션 시작” 로직 호출 ===
-    startSessionWithDeck(dom, lvl, deck);  // ← 당신 코드의 기존 시작 함수명으로 치환
-  }catch(e){
-    console.error('[onStartThreeLoop] error:', e);
-    alert('시작 실패: ' + e.message);
-  }
-}
-
-/* 도메인별 데이터 로드 */
-async function loadDeck(){
-  if (ctx.domain==='english'){
-    const map = {
-      vocab:'english_vocab.json',
-      coding:'english_coding.json',
-      pattern:'english_pattern.json',
-      conversation:'english_conversation.json'
+    /* ------------------------------ state ------------------------------ */
+    const state = {
+      domain: $('domain').value,
+      level:  Number($('level').value),
+      cat:    $('cat').value,
+      page:   Number($('page').value),
+      round:  0,
+      deck:   [],
+      idx:    0,
+      prev:   new Set(),  // 세션 전체 중복 최소화
+      auto:   false,
+      autoSec: Number($('autoSec').value),
+      autoRead: $('autoRead').checked,
+      restSec: 120,
+      shuffleR1: true,
+      startTime: 0
     };
-    return await fetchJsonSmart(map[ctx.category]);
-  }else{
-    const rows = await fetchJsonSmart(`${ctx.domain}_L${ctx.level}.json`);
-    return rows;
-  }
-}
 
-/* r3 혼합 (태그 우선, 중복 회피) */
-function pickRound3(rows, seen, k){
-  const pool = rows.filter(c=>!seen.has(c.keyword));
-  shuffle(pool);
-  const core = pool.filter(c=>Array.isArray(c.tags) && c.tags.includes('core'));
-  const applied = pool.filter(c=>Array.isArray(c.tags) && c.tags.includes('applied'));
-  const other = pool.filter(c=>!Array.isArray(c.tags) || (!c.tags.includes('core') && !c.tags.includes('applied')));
-  const out=[];
-  function take(list,n){for(const c of list){if(out.length>=k)break; if(!out.find(x=>x.keyword===c.keyword)) out.push(c);}}
-  take(core,Math.min(10,k));
-  take(applied,Math.min(20,k-out.length));
-  take(other,k-out.length);
-  // 부족 시 아무거나
-  if(out.length<k){
-    const fill = rows.filter(c=>!out.find(x=>x.keyword===c.keyword));
-    shuffle(fill); out.push(...fill.slice(0,k-out.length));
-  }
-  return out.slice(0,k);
-}
-
-/* ---------- TTS (겹침 방지) ---------- */
-const synth = window.speechSynthesis;
-function speak(text, lang){
-  if(!text) return;
-  try{ synth.cancel(); }catch{}
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = lang || 'en-US';
-  u.rate = 1.0; u.pitch = 1.0; u.volume = 1.0;
-  synth.speak(u);
-}
-function speakForCard(card){
-  // 영어: usage_one_liner(있으면) → 의미(ko)
-  if(ctx.domain==='english'){
-    const en = card.usage_one_liner || card.keyword || '';
-    speak(en,'en-US');
-    setTimeout(()=>{ speak(card.meaning||'', 'ko-KR'); }, 380);
-    return;
-  }
-  // 코딩/DB/판다스: 키워드만
-  speak(card.keyword||'', 'en-US');
-}
-
-/* ---------- 카드 렌더 ---------- */
-function render(){
-  const c = ctx.deck[ctx.idx] || {};
-  el.kw.textContent    = c.keyword || '';
-  el.mean.textContent  = c.meaning || '';
-  if (ctx.domain==='english' && Array.isArray(c.items) && c.items.length){
-    const lines = c.items.slice(0,12).map(it=>`• ${it.en||''} / ${it.ko||''}`);
-    el.usage.textContent = lines.join('\n');
-  } else {
-    el.usage.textContent = c.usage_one_liner || '';
-  }
-  centerProgress(ctx.idx+1, ctx.deck.length);
-  setStateText();
-  if (el.autoRead.checked) speakForCard(c);
-}
-
-/* ---------- 라운드/명상 ---------- */
-function showRest(sec=120){
-  return new Promise(resolve=>{
-    el.rest.style.display='grid';
-    let left = sec; let phase = '들이마시기'; let t0 = Date.now();
-    const tick = ()=>{
-      // 초 카운트
-      const d = Date.now()-t0;
-      if(d>=1000){ t0 = Date.now(); left--; }
-      // 호흡 애니
-      const mod = (Date.now()/1000)%14; // 4,4,6
-      if(mod<4) phase='들이마시기'; else if(mod<8) phase='멈춤'; else phase='내쉬기';
-      el.phase.textContent = phase;
-      const m = Math.floor(Math.max(0,left)/60), s = Math.max(0,left)%60;
-      el.bubble.textContent = `${m}:${(s+'').padStart(2,'0')}`;
-      if(left<=0) return resolve();
-      raf = requestAnimationFrame(tick);
-    };
-    let raf = requestAnimationFrame(tick);
-    el.skip.onclick = ()=>resolve();
-  }).finally(()=>{ el.rest.style.display='none'; });
-}
-
-async function startRound(r){
-  ctx.round = r;
-  ctx.idx = 0;
-
-  // 덱 구성
-  const rows = await loadDeck();
-  const k = +el.count.value;
-  if (ctx.domain==='english'){
-    // 영어는 매 라운드 랜덤 + 세션 중복 최소화
-    const unseen = rows.filter(c=>!ctx.seen.has(c.keyword));
-    let chosen = sample(unseen, k);
-    if (chosen.length<k){ // 부족하면 나머지에서 보충
-      const rest = rows.filter(c=>!chosen.find(x=>x.keyword===c.keyword));
-      chosen = chosen.concat(sample(rest, k-chosen.length));
+    function setDomainUI() {
+      const isEn = state.domain === 'english';
+      $('lvWrap').style.display  = isEn ? 'none' : '';
+      $('catWrap').style.display = isEn ? '' : 'none';
     }
-    ctx.deck = chosen.slice(0,k);
-  }else{
-    if (r===1){
-      // r1: 순차(가능하면 order_index 정렬)
-      const ordered = rows.slice().sort((a,b)=>(a.order_index??1e9)-(b.order_index??1e9));
-      ctx.deck = ordered.slice(0,k);
-    }else if (r===2){
-      // r2: 랜덤
-      ctx.deck = sample(rows,k);
-    }else{
-      // r3: 혼합
-      ctx.deck = pickRound3(rows, ctx.seen, k);
+    setDomainUI();
+
+    /* ------------------------------ TTS ------------------------------ */
+    let voices = [];
+    const loadVoices = () => voices = speechSynthesis.getVoices();
+    loadVoices();
+    speechSynthesis.onvoiceschanged = loadVoices;
+
+    function pickVoice(langHint){ // 'en' | 'ko'
+      const lc = (langHint||'').toLowerCase();
+      let best = null;
+      for (const v of voices){
+        const id =(v.name+' '+v.lang).toLowerCase();
+        if (id.includes(lc)) { best = v; break; }
+      }
+      return best;
     }
-  }
-  if (ctx.deck.length===0){
-    alert('선택한 데이터가 없습니다.');
-    return false;
-  }
-  render();
-  return true;
-}
 
-async function runSession(){
-  ctx.seen.clear();
-  ctx.startTime = Date.now();
-  // r1
-  if(!(await startRound(1))) return;
-  ctx.auto = true; loopAuto();
-}
-
-async function afterRoundAdvance(){
-  if (ctx.round===1 || ctx.round===2){
-    await showRest(120);
-    await startRound(ctx.round+1);
-  } else {
-    ctx.auto = false;
-    alert('3회 루프 완료!');
-  }
-}
-
-/* ---------- 자동 루프 ---------- */
-let autoTimer = 0;
-function loopAuto(){
-  clearTimeout(autoTimer);
-  if(!ctx.auto) return;
-  autoTimer = setTimeout(()=>{
-    if (ctx.idx < ctx.deck.length-1){
-      const cur = ctx.deck[ctx.idx];
-      if(cur?.keyword) ctx.seen.add(cur.keyword);
-      ctx.idx++; render();
-      loopAuto();
-    }else{
-      // 라운드 종료
-      const cur = ctx.deck[ctx.idx];
-      if(cur?.keyword) ctx.seen.add(cur.keyword);
-      afterRoundAdvance().then(()=>{ if(ctx.auto) loopAuto(); });
+    function speak(text, lang){
+      if (!text) return;
+      try{
+        speechSynthesis.cancel(); // 겹침 방지
+        const u = new SpeechSynthesisUtterance(text);
+        const vv = pickVoice(lang);
+        if (vv){ u.voice = vv; u.lang = vv.lang; }
+        else    u.lang  = (lang==='en'?'en-US':'ko-KR');
+        u.rate = (lang==='en') ? 1.0 : 1.0;
+        u.pitch= 1.0;
+        speechSynthesis.speak(u);
+      }catch(_){}
     }
-  }, Math.max(200, (ctx.interval*1000)|0));
-}
 
-/* ---------- 이벤트 ---------- */
-el.autoSec.addEventListener('input', ()=>{
-  ctx.interval = +el.autoSec.value;
-  el.autoSecLabel.textContent = ctx.interval.toFixed(1)+'s';
-});
+    function speakEN(){ const c = curCard(); if (!c) return;
+      if (state.domain==='english'){
+        if (c.category==='pattern' && Array.isArray(c.items) && c.items.length){
+          speak([c.keyword, ...c.items.slice(0,3).map(x=>x.en)].filter(Boolean).join('. '), 'en');
+        } else {
+          speak(c.keyword || c.usage_one_liner || '', 'en');
+        }
+      } else {
+        speak(c.keyword||'', 'en'); // 코딩 파트도 키워드만
+      }
+    }
+    function speakKO(){ const c = curCard(); if (!c) return;
+      if (state.domain==='english'){
+        if (c.category==='pattern' && Array.isArray(c.items) && c.items.length){
+          speak(c.items.slice(0,3).map(x=>x.ko).filter(Boolean).join(' / '), 'ko');
+        } else speak(c.meaning||'', 'ko');
+      } else speak(c.meaning||'', 'ko');
+    }
 
-el.start.addEventListener('click', async ()=>{
-  ctx.domain   = el.domain.value;
-  ctx.level    = +el.level.value;
-  ctx.category = el.category.value;
-  ctx.page     = +el.count.value;
-  ctx.auto     = false;
-  await runSession();
-});
+    /* ------------------------------ deck building ------------------------------ */
+    function curCard(){ return state.deck[state.idx]; }
+    function updateStateText(){
+      const t = `${state.domain} · ${state.domain==='english'? state.cat : 'L'+state.level} · ${state.round}/3 · ${Math.min(state.idx+1,state.deck.length)}/${Math.max(1,state.deck.length||1)}`;
+      $('stateText').textContent = t;
+    }
+    function updateProgress(){
+      const cur = Math.min(state.idx+1, state.deck.length||0);
+      const tot = state.deck.length||0;
+      $('progText').textContent = `${cur}/${tot}`;
+      $('bar').style.width = (tot? (cur/tot*100):0) + '%';
+      updateStateText();
+    }
+    function renderCard(){
+      const c = curCard();
+      if (!c){
+        $('keyBox').textContent  = '카드가 없습니다';
+        $('meanBox').textContent = '';
+        $('usageBox').textContent= '';
+        updateProgress(); return;
+      }
+      $('keyBox').textContent  = c.keyword || '';
+      $('meanBox').textContent = c.meaning || '';
 
-el.prev.addEventListener('click', ()=>{
-  ctx.idx = Math.max(0, ctx.idx-1); render();
-});
-el.next.addEventListener('click', ()=>{
-  if (ctx.idx < ctx.deck.length-1){
-    const cur = ctx.deck[ctx.idx];
-    if(cur?.keyword) ctx.seen.add(cur.keyword);
-    ctx.idx++; render();
-  }else{
-    const cur = ctx.deck[ctx.idx];
-    if(cur?.keyword) ctx.seen.add(cur.keyword);
-    afterRoundAdvance();
-  }
-});
-el.auto.addEventListener('click', ()=>{
-  ctx.auto = !ctx.auto;
-  el.auto.textContent = ctx.auto ? '⏸ 일시정지' : '▶ 자동';
-  if (ctx.auto) loopAuto();
-});
-el.sayEN.addEventListener('click', ()=>{
-  const c = ctx.deck[ctx.idx]||{};
-  if (ctx.domain==='english') speak(c.usage_one_liner||c.keyword||'','en-US');
-  else speak(c.keyword||'','en-US');
-});
-el.sayKO.addEventListener('click', ()=>{
-  const c = ctx.deck[ctx.idx]||{};
-  speak(c.meaning||'','ko-KR');
-});
-el.quit.addEventListener('click', ()=>{ location.reload(); });
-</script>
+      let usage = '';
+      if (state.domain==='english'){
+        if (c.category==='pattern' && Array.isArray(c.items)){
+          usage = c.items.map(it=>`• ${it.en}  /  ${it.ko}`).join('\n');
+        } else usage = c.usage_one_liner || '';
+      } else {
+        usage = c.usage_one_liner || '';
+      }
+      $('usageBox').textContent = usage;
+
+      updateProgress();
+
+      if (state.autoRead){
+        speakEN();
+        setTimeout(()=>speakKO(), 250);
+      }
+    }
+
+    // 영어는 항상 랜덤/중복 최소화
+    function pickEnglish(rows, k){
+      const unseen = rows.filter(r=>!state.prev.has(r.keyword));
+      const chosen = pickRandom(unseen, k);
+      if (chosen.length<k){
+        const rest = rows.filter(r=>!chosen.some(x=>x.keyword===r.keyword));
+        chosen.push(...pickRandom(rest, k-chosen.length));
+      }
+      chosen.forEach(c=> state.prev.add(c.keyword));
+      return chosen.slice(0,k);
+    }
+
+    function pickRound2(rows, k){
+      return pickRandom(rows, k);
+    }
+    function pickRound3(rows, k){
+      // 이전에 본 키워드 제외 우선 + 태그 가중치
+      const unseen = rows.filter(r=>!state.prev.has(r.keyword));
+      let pool = unseen.length ? unseen : rows.slice();
+      const core    = pool.filter(c=>(c.tags||[]).includes('core'));
+      const applied = pool.filter(c=>(c.tags||[]).includes('applied'));
+      const other   = pool.filter(c=>!(c.tags||[]).some(t=>t==='core'||t==='applied'));
+      const out = [];
+      out.push(...pickRandom(core, Math.min(10,k)));
+      out.push(...pickRandom(applied, Math.min(20, k-out.length)));
+      if (out.length<k) out.push(...pickRandom(other, k-out.length));
+      // 중복 제거
+      const uniq=[]; const seen=new Set();
+      for(const c of out){ if (!seen.has(c.keyword)){ uniq.push(c); seen.add(c.keyword); } }
+      return uniq.slice(0,k);
+    }
+
+    async function buildR1(rows){
+      if (state.domain==='english') return pickEnglish(rows, state.page);
+      if (state.shuffleR1) return pickRound2(rows, state.page);
+      return rows.slice(0, state.page);
+    }
+
+    async function loadRows(){
+      const [u1,u2] = dataURL(state.domain, state.level, state.cat);
+      const rows = await fetchJSONSmart(u1, u2);
+      if (!rows || !rows.length) throw new Error('데이터 로드 실패');
+      return rows;
+    }
+
+    /* ------------------------------ rest / flow ------------------------------ */
+    function showRest(sec){
+      $('rest').style.display='flex';
+      let left = sec;
+      $('restLeft').textContent = `${left}초`;
+      let t0 = performance.now();
+      let phase = 'inhale';
+      function frame(now){
+        const t = (now - t0)/1000; // sec
+        const cycle = 4+4+6;
+        const x = t % cycle;
+        if (x<4) { phase='들이마시기';  scaleBubble(x/4); }
+        else if (x<8){ phase='멈춤';     scaleBubble(1); }
+        else { phase='내쉬기';           scaleBubble(1 - (x-8)/6); }
+        $('phase').textContent = phase;
+
+        req = requestAnimationFrame(frame);
+      }
+      function scaleBubble(r){
+        const s = 0.55 + 0.45*r;
+        $('bubble').style.transform = `scale(${s})`;
+      }
+      let req = requestAnimationFrame(frame);
+
+      let tick = setInterval(()=>{
+        left--; $('restLeft').textContent = `${left}초`;
+        if (left<=0){ clearInterval(tick); cancelAnimationFrame(req); hideRest(); nextRound(); }
+      }, 1000);
+
+      $('skipRest').onclick = ()=>{ clearInterval(tick); cancelAnimationFrame(req); hideRest(); nextRound(); };
+    }
+    function hideRest(){ $('rest').style.display='none'; }
+
+    async function startSession(){
+      state.prev.clear();
+      state.round = 1;
+      state.idx = 0;
+      state.startTime = Date.now();
+      const rows = await loadRows();
+      state.deck = await buildR1(rows);
+      renderCard();
+      state.auto = true;
+    }
+
+    async function nextRound(){
+      state.round++;
+      if (state.round>3){
+        state.auto = false;
+        alert('3회 루프 완료!');
+        return;
+      }
+      const rows = await loadRows();
+      const seed = Date.now();
+      if (state.domain==='english'){
+        state.deck = pickEnglish(rows, state.page);
+      } else if (state.round===2){
+        state.deck = pickRound2(rows, state.page);
+      } else if (state.round===3){
+        state.deck = pickRound3(rows, state.page);
+      }
+      state.idx=0;
+      renderCard();
+      state.auto = true;
+    }
+
+    /* ------------------------------ events ------------------------------ */
+    $('domain').addEventListener('change', e=>{
+      state.domain = e.target.value;
+      setDomainUI();
+    });
+    $('level').addEventListener('change', e=> state.level = Number(e.target.value));
+    $('cat').addEventListener('change', e=> state.cat = e.target.value);
+    $('page').addEventListener('change', e=> state.page = Number(e.target.value));
+
+    $('autoSec').addEventListener('input', e=>{
+      state.autoSec = Number(e.target.value);
+      $('autoSecVal').textContent = state.autoSec.toFixed(1) + 's';
+    });
+    $('autoRead').addEventListener('change', e=> state.autoRead = e.target.checked);
+
+    $('start3').addEventListener('click', async ()=>{
+      try{
+        state.domain = $('domain').value;
+        state.level  = Number($('level').value);
+        state.cat    = $('cat').value;
+        state.page   = Number($('page').value);
+        await startSession();
+      }catch(err){
+        console.error(err);
+        alert('데이터를 불러오지 못했습니다.');
+      }
+    });
+
+    $('prev').addEventListener('click', ()=>{
+      if (state.idx>0){ state.idx--; renderCard(); }
+    });
+    $('next').addEventListener('click', ()=>{
+      if (!state.deck.length) return;
+      if (state.idx < state.deck.length-1){
+        state.prev.add(curCard().keyword||'');
+        state.idx++; renderCard();
+      } else {
+        state.prev.add(curCard().keyword||'');
+        if (state.round>=1) showRest(state.restSec);
+      }
+    });
+
+    $('autoBtn').addEventListener('click', ()=>{
+      state.auto = !state.auto;
+      $('autoBtn').textContent = state.auto? '⏸ 일시정지' : '▶ 자동';
+    });
+
+    $('sayEN').addEventListener('click', speakEN);
+    $('sayKO').addEventListener('click', speakKO);
+    $('finish').addEventListener('click', ()=>{ state.auto=false; alert('세션 종료'); });
+
+    // 자동 넘김 타이머
+    (function autoLoop(){
+      let last = performance.now();
+      function tick(now){
+        const dt = now - last;
+        if (state.auto && state.deck.length){
+          if (dt >= state.autoSec*1000){
+            last = now;
+            if (state.idx < state.deck.length-1){
+              state.prev.add(curCard().keyword||'');
+              state.idx++; renderCard();
+            } else {
+              state.prev.add(curCard().keyword||'');
+              state.auto = false;
+              showRest(state.restSec);
+            }
+          }
+        } else last = now;
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    })();
+
+    // 초기 표기
+    updateStateText(); updateProgress();
+
+    // PWA: 서비스워커 등록
+    if ('serviceWorker' in navigator){
+      window.addEventListener('load', ()=> {
+        navigator.serviceWorker.register('sw.js').catch(console.warn);
+      });
+    }
+  });
+  </script>
 </body>
 </html>
