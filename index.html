@@ -231,11 +231,39 @@
     }
     setDomainUI();
 
-    /* ------------------------------ TTS ------------------------------ */
+    /* ------------------------------ WebAudio(비프) ------------------------------ */
+    let audioCtx = null;
+    function ensureAudio(){
+      if (!audioCtx) {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (Ctx) audioCtx = new Ctx();
+      }
+      if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+    }
+    // 사용자 첫 클릭에서 오디오 해제
+    window.addEventListener('pointerdown', ()=>{ ensureAudio(); }, {once:true});
+
+    function beep(freq=880, ms=140, vol=0.12){
+      try{
+        ensureAudio(); if (!audioCtx) return;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        gain.gain.value = vol;
+        osc.type='sine'; osc.frequency.value=freq;
+        osc.connect(gain).connect(audioCtx.destination);
+        osc.start();
+        setTimeout(()=>{ osc.stop(); osc.disconnect(); gain.disconnect(); }, ms|0);
+      }catch(_){}
+    }
+
+    /* ------------------------------ TTS(Queue) ------------------------------ */
     let voices = [];
     const loadVoices = () => voices = speechSynthesis.getVoices();
     loadVoices();
     speechSynthesis.onvoiceschanged = loadVoices;
+
+    // 현재 TTS 시퀀스 토큰 (새 카드가 오면 증가 → 이전 재생은 무시)
+    let ttsToken = 0;
 
     function pickVoice(langHint){ // 'en' | 'ko'
       const lc = (langHint||'').toLowerCase();
@@ -247,37 +275,52 @@
       return best;
     }
 
-    function speak(text, lang){
-      if (!text) return;
-      try{
-        speechSynthesis.cancel(); // 겹침 방지
-        const u = new SpeechSynthesisUtterance(text);
-        const vv = pickVoice(lang);
-        if (vv){ u.voice = vv; u.lang = vv.lang; }
-        else    u.lang  = (lang==='en'?'en-US':'ko-KR');
-        u.rate = (lang==='en') ? 1.0 : 1.0;
-        u.pitch= 1.0;
-        speechSynthesis.speak(u);
-      }catch(_){}
+    function speakOnce(text, lang){
+      return new Promise(resolve=>{
+        if (!text){ resolve(); return; }
+        try{
+          speechSynthesis.cancel(); // 항상 이전 발화 중단
+          const u = new SpeechSynthesisUtterance(text);
+          const vv = pickVoice(lang);
+          if (vv){ u.voice = vv; u.lang = vv.lang; }
+          else    u.lang  = (lang==='en'?'en-US':'ko-KR');
+          u.rate = 1.0; u.pitch=1.0;
+          u.onend = u.onerror = ()=> resolve();
+          speechSynthesis.speak(u);
+        }catch(_){ resolve(); }
+      });
     }
 
-    function speakEN(){ const c = curCard(); if (!c) return;
+    function getEN(c){
+      if (!c) return '';
       if (state.domain==='english'){
         if (c.category==='pattern' && Array.isArray(c.items) && c.items.length){
-          speak([c.keyword, ...c.items.slice(0,3).map(x=>x.en)].filter(Boolean).join('. '), 'en');
-        } else {
-          speak(c.keyword || c.usage_one_liner || '', 'en');
+          return [c.keyword, ...c.items.slice(0,3).map(x=>x.en)].filter(Boolean).join('. ');
         }
-      } else {
-        speak(c.keyword||'', 'en'); // 코딩 파트도 키워드만
+        return c.keyword || c.usage_one_liner || '';
       }
+      return c.keyword || '';
     }
-    function speakKO(){ const c = curCard(); if (!c) return;
+    function getKO(c){
+      if (!c) return '';
       if (state.domain==='english'){
         if (c.category==='pattern' && Array.isArray(c.items) && c.items.length){
-          speak(c.items.slice(0,3).map(x=>x.ko).filter(Boolean).join(' / '), 'ko');
-        } else speak(c.meaning||'', 'ko');
-      } else speak(c.meaning||'', 'ko');
+          return c.items.slice(0,3).map(x=>x.ko).filter(Boolean).join(' / ');
+        }
+        return c.meaning || '';
+      }
+      return c.meaning || '';
+    }
+
+    async function speakPairAuto(){
+      if (!state.autoRead) return;
+      const token = ++ttsToken;          // 새 시퀀스 시작
+      const c = curCard(); if (!c) return;
+
+      await speakOnce(getEN(c),'en');
+      if (token !== ttsToken) return;    // 중간에 카드가 바뀐 경우 중단
+      await sleep(120);
+      await speakOnce(getKO(c),'ko');
     }
 
     /* ------------------------------ deck building ------------------------------ */
@@ -315,11 +358,7 @@
       $('usageBox').textContent = usage;
 
       updateProgress();
-
-      if (state.autoRead){
-        speakEN();
-        setTimeout(()=>speakKO(), 250);
-      }
+      speakPairAuto(); // 자동 읽기(EN→KO 순차)
     }
 
     // 영어는 항상 랜덤/중복 최소화
@@ -334,11 +373,8 @@
       return chosen.slice(0,k);
     }
 
-    function pickRound2(rows, k){
-      return pickRandom(rows, k);
-    }
+    function pickRound2(rows, k){ return pickRandom(rows, k); }
     function pickRound3(rows, k){
-      // 이전에 본 키워드 제외 우선 + 태그 가중치
       const unseen = rows.filter(r=>!state.prev.has(r.keyword));
       let pool = unseen.length ? unseen : rows.slice();
       const core    = pool.filter(c=>(c.tags||[]).includes('core'));
@@ -348,7 +384,6 @@
       out.push(...pickRandom(core, Math.min(10,k)));
       out.push(...pickRandom(applied, Math.min(20, k-out.length)));
       if (out.length<k) out.push(...pickRandom(other, k-out.length));
-      // 중복 제거
       const uniq=[]; const seen=new Set();
       for(const c of out){ if (!seen.has(c.keyword)){ uniq.push(c); seen.add(c.keyword); } }
       return uniq.slice(0,k);
@@ -373,30 +408,46 @@
       let left = sec;
       $('restLeft').textContent = `${left}초`;
       let t0 = performance.now();
-      let phase = 'inhale';
+      let lastPhase = '';
+
+      function scaleBubble(r){
+        const s = 0.55 + 0.45*r;
+        $('bubble').style.transform = `scale(${s})`;
+      }
       function frame(now){
         const t = (now - t0)/1000; // sec
         const cycle = 4+4+6;
         const x = t % cycle;
-        if (x<4) { phase='들이마시기';  scaleBubble(x/4); }
-        else if (x<8){ phase='멈춤';     scaleBubble(1); }
-        else { phase='내쉬기';           scaleBubble(1 - (x-8)/6); }
+        let phase, ratio;
+        if (x<4) { phase='들이마시기'; ratio = x/4; }
+        else if (x<8){ phase='멈춤'; ratio=1; }
+        else { phase='내쉬기'; ratio = 1 - (x-8)/6; }
         $('phase').textContent = phase;
+        scaleBubble(Math.max(0, Math.min(1, ratio)));
 
+        if (phase !== lastPhase){
+          lastPhase = phase;
+          // 단계 전환 비프
+          if (phase==='들이마시기') beep(880, 140);
+          else if (phase==='멈춤')  beep(660, 120);
+          else                      beep(440, 120);
+        }
         req = requestAnimationFrame(frame);
-      }
-      function scaleBubble(r){
-        const s = 0.55 + 0.45*r;
-        $('bubble').style.transform = `scale(${s})`;
       }
       let req = requestAnimationFrame(frame);
 
       let tick = setInterval(()=>{
         left--; $('restLeft').textContent = `${left}초`;
-        if (left<=0){ clearInterval(tick); cancelAnimationFrame(req); hideRest(); nextRound(); }
+        if (left<=0){ clearInterval(tick); cancelAnimationFrame(req); finishRest(); }
       }, 1000);
 
-      $('skipRest').onclick = ()=>{ clearInterval(tick); cancelAnimationFrame(req); hideRest(); nextRound(); };
+      $('skipRest').onclick = ()=>{ clearInterval(tick); cancelAnimationFrame(req); finishRest(); };
+
+      function finishRest(){
+        // 피니시 3톤
+        beep(660,120); setTimeout(()=>beep(880,120),150); setTimeout(()=>beep(550,180),330);
+        hideRest(); nextRound();
+      }
     }
     function hideRest(){ $('rest').style.display='none'; }
 
@@ -419,7 +470,6 @@
         return;
       }
       const rows = await loadRows();
-      const seed = Date.now();
       if (state.domain==='english'){
         state.deck = pickEnglish(rows, state.page);
       } else if (state.round===2){
@@ -434,8 +484,7 @@
 
     /* ------------------------------ events ------------------------------ */
     $('domain').addEventListener('change', e=>{
-      state.domain = e.target.value;
-      setDomainUI();
+      state.domain = e.target.value; setDomainUI();
     });
     $('level').addEventListener('change', e=> state.level = Number(e.target.value));
     $('cat').addEventListener('change', e=> state.cat = e.target.value);
@@ -466,10 +515,10 @@
     $('next').addEventListener('click', ()=>{
       if (!state.deck.length) return;
       if (state.idx < state.deck.length-1){
-        state.prev.add(curCard().keyword||'');
+        state.prev.add((curCard().keyword)||'');
         state.idx++; renderCard();
       } else {
-        state.prev.add(curCard().keyword||'');
+        state.prev.add((curCard().keyword)||'');
         if (state.round>=1) showRest(state.restSec);
       }
     });
@@ -479,8 +528,10 @@
       $('autoBtn').textContent = state.auto? '⏸ 일시정지' : '▶ 자동';
     });
 
-    $('sayEN').addEventListener('click', speakEN);
-    $('sayKO').addEventListener('click', speakKO);
+    // 버튼으로 말하기: 현재 큐 중단 후 해당 언어만 1회
+    $('sayEN').addEventListener('click', ()=>{ ttsToken++; speakOnce(getEN(curCard()), 'en'); });
+    $('sayKO').addEventListener('click', ()=>{ ttsToken++; speakOnce(getKO(curCard()), 'ko'); });
+
     $('finish').addEventListener('click', ()=>{ state.auto=false; alert('세션 종료'); });
 
     // 자동 넘김 타이머
@@ -492,10 +543,10 @@
           if (dt >= state.autoSec*1000){
             last = now;
             if (state.idx < state.deck.length-1){
-              state.prev.add(curCard().keyword||'');
+              state.prev.add((curCard().keyword)||'');
               state.idx++; renderCard();
             } else {
-              state.prev.add(curCard().keyword||'');
+              state.prev.add((curCard().keyword)||'');
               state.auto = false;
               showRest(state.restSec);
             }
