@@ -1,55 +1,38 @@
-// sw.js
-const CACHE = "flash-v7";    // 버전 바꿔주면 갱신
-const ASSETS = [
+/* Lightweight runtime cache SW (network-first) */
+const CACHE = "flash-v12";   // ← 버전 올리면 강제 갱신됨
+
+const SHELL = [
   "./",
   "./index.html",
-  "./manifest.webmanifest",
+  "./sw.js",
+  "./manifest.webmanifest.json", // 현재 파일명 유지
   "./icon-192.png",
-  "./icon-512.png",
-  // 데이터(필요한 것만 추가, 또는 폴더 전체를 서버에서 제공)
-  "./data/python_L1.json",
-  "./data/python_L2.json",
-  "./data/python_L3.json",
-  "./data/python_L4.json",
-  "./data/python_L5.json",
-  "./data/mysql_L1.json",
-  "./data/mysql_L2.json",
-  "./data/mysql_L3.json",
-  "./data/mysql_L4.json",
-  "./data/mysql_L5.json",
-  "./data/pandas_L1.json",
-  "./data/pandas_L2.json",
-  "./data/pandas_L3.json",
-  "./data/pandas_L4.json",
-  "./data/pandas_L5.json",
-  "./data/english_vocab.json",
-  "./data/english_coding.json",
-  "./data/english_pattern.json",
-  "./data/english_conversation.json",
+  "./icon-512.png"
 ];
 
 self.addEventListener("install", e=>{
   e.waitUntil(
-    caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())
+    caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())
   );
 });
 self.addEventListener("activate", e=>{
   e.waitUntil(
     caches.keys().then(keys=>Promise.all(keys.map(k=>k===CACHE?null:caches.delete(k))))
+      .then(()=>self.clients.claim())
   );
-  self.clients.claim();
 });
+
+// same-origin GET → network first, cache fallback
 self.addEventListener("fetch", e=>{
-  const req = e.request;
-  if(req.method !== "GET"){ return; }
+  const url = new URL(e.request.url);
+  if (e.request.method!=="GET" || url.origin!==location.origin) return;
   e.respondWith(
-    caches.match(req).then(cached=>{
-      if(cached) return cached;
-      return fetch(req).then(res=>{
+    fetch(e.request)
+      .then(res=>{
         const copy = res.clone();
-        caches.open(CACHE).then(c=>c.put(req, copy));
+        caches.open(CACHE).then(c=>c.put(e.request, copy));
         return res;
-      }).catch(()=>caches.match("./index.html"));
-    })
+      })
+      .catch(()=>caches.match(e.request))
   );
 });

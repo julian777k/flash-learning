@@ -2,88 +2,67 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Flash Learning — PWA + TTS</title>
 
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.webmanifest" />
+  <!-- 현재 파일명을 그대로 사용 -->
+  <link rel="manifest" href="manifest.webmanifest.json">
+  <link rel="icon" href="icon-192.png" />
   <meta name="theme-color" content="#0f0f12" />
-  <link rel="icon" href="icon-192.png" sizes="192x192" />
-  <link rel="apple-touch-icon" href="icon-192.png" />
 
   <style>
     :root{
-      --bg:#0f1116; --card:#101216; --line:#262a33; --fg:#e6e8ee; --mut:#99a1b3;
-      --accent:#4ea1ff; --accent-2:#2ecc71; --danger:#ff6b6b;
+      --bg:#0f1116; --fg:#e6e6e6; --muted:#9aa0a6; --accent:#4c8bf5; --card:#141821;
+      --kw:#111; --mean:#111; --usage:#111;
     }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Pretendard,Apple SD Gothic Neo,Malgun Gothic,sans-serif;
-      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-    }
-    .wrap{max-width:1000px; margin:28px auto; padding:0 16px}
-    h1{margin:0 0 12px; font-weight:800}
-    .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin:8px 0}
-    select,button,input[type="number"]{
-      background:#171a21; color:var(--fg); border:1px solid var(--line); border-radius:10px; padding:9px 12px; font-size:15px;
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,Helvetica,Arial,sans-serif}
+    .wrap{max-width:1100px;margin:28px auto;padding:0 16px}
+    h1{font-size:24px;margin:0 0 16px}
+    .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    select,button,input[type="range"]{
+      background:#1b2130;border:1px solid #2a3246;color:var(--fg);border-radius:10px;
+      padding:8px 10px;font-size:14px;outline:none
     }
     button{cursor:pointer}
-    .btn-primary{background:#1d5cff; border-color:#1d5cff; color:#fff}
-    .btn-ghost{background:#171a21}
-    .mut{color:var(--mut)}
+    .hint{color:var(--muted);font-size:13px;margin:12px 0}
+    .bar{height:8px;background:#1e2636;border-radius:999px;overflow:hidden}
+    .bar>i{display:block;height:100%;background:var(--accent);width:0%}
+    .sp{flex:1}
+    .grid{margin-top:14px;display:grid;gap:12px}
+    .card{
+      background:var(--card); border:1px solid #2a3246;border-radius:16px;
+      padding:22px; min-height:70px; display:flex; align-items:center; justify-content:center;
+      text-align:center; line-height:1.45; white-space:pre-wrap; word-break:break-word
+    }
+    .kw   {font-size:42px;font-weight:800;background:#0d0f12}
+    .mean {font-size:26px;font-weight:700;background:#0d0f12}
+    .usage{font-size:20px;font-family:Consolas,ui-monospace,monospace;background:#0d0f12}
 
-    /* progress */
-    .progbar{height:8px; width:100%; background:#171a21; border:1px solid var(--line); border-radius:999px; overflow:hidden}
-    .progbar > i{display:block; height:100%; width:0%; background:linear-gradient(90deg,#3c8cff,#73d0ff)}
+    .ctrl{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
+    .pill{background:#243352;border:1px solid #2d4371;border-radius:999px;padding:6px 10px}
+    .ghost{background:transparent;border-color:#334;opacity:.85}
 
-    /* === 카드 패널: 가운데 정렬(가로/세로) 고정 === */
-    .panel{
-      background:var(--card); border:1px solid var(--line); border-radius:14px;
-      padding:18px; min-height:76px;
-      display:flex; align-items:center; justify-content:center;   /* 센터 */
-      margin-top:12px;
+    .overlay{
+      position:fixed;inset:0;background:rgba(0,0,0,.65);
+      display:none; place-items:center; z-index:99
     }
-    .panel .txt{
-      width:100%;
-      text-align:center;
-      white-space:pre-wrap;           /* 개행 유지 + 자동 줄바꿈 */
-      word-break:break-word;          /* 긴 토큰 줄바꿈 */
+    .modal{
+      width:min(90vw,520px);background:#111826;border:1px solid #2a3246;border-radius:16px;
+      padding:22px;text-align:center
     }
-    .panel.kw .txt{
-      font-weight:800;
-      font-size:clamp(24px,5.8vw,44px);
+    .bubble{
+      margin:14px auto 8px;width:220px;height:220px;border-radius:50%;
+      background:#2a2f3f;display:grid;place-items:center; font-weight:700
     }
-    .panel.mean .txt{
-      font-weight:800;
-      font-size:clamp(16px,3.6vw,26px);
-    }
-    .panel.usage .txt{
-      font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
-      font-size:clamp(14px,3.3vw,20px);
-    }
-    /* <pre>를 쓰더라도 중앙 유지(iOS 대응) */
-    .panel.usage pre.txt{display:inline-block; margin:0 auto; white-space:pre-wrap;}
-
-    .right{margin-left:auto}
-    .chip{padding:6px 10px; border:1px solid var(--line); border-radius:999px; color:var(--mut)}
-    .row2{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
-    .slider{accent-color:#1d5cff}
-    .spacer{height:6px}
-
-    @media (max-width:520px){
-      .wrap{padding:0 10px}
-      select,button{font-size:14px}
-    }
+    .dim{opacity:.55}
   </style>
 </head>
 <body>
 <div class="wrap">
-
   <h1>Flash Learning — PWA + TTS</h1>
 
   <div class="row">
-    <span class="chip">도메인</span>
+    <span class="pill">도메인</span>
     <select id="domain">
       <option value="python">python</option>
       <option value="mysql">mysql</option>
@@ -91,413 +70,370 @@
       <option value="english">english</option>
     </select>
 
-    <span class="chip" id="lab-level">레벨</span>
+    <span class="pill" id="lv-label">레벨</span>
     <select id="level">
       <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
     </select>
 
-    <span class="chip" id="lab-cat" style="display:none">카테고리</span>
-    <select id="cat" style="display:none">
+    <span class="pill" id="cat-label" style="display:none">카테고리</span>
+    <select id="category" style="display:none">
       <option value="vocab">vocab</option>
       <option value="coding">coding</option>
       <option value="pattern">pattern</option>
       <option value="conversation">conversation</option>
     </select>
 
-    <span class="chip">장수</span>
-    <select id="page">
-      <option>30</option><option>25</option><option>20</option><option>15</option>
+    <span class="pill">장수</span>
+    <select id="count">
+      <option>30</option><option>25</option><option>20</option><option>15</option><option>10</option>
     </select>
 
-    <button class="btn-primary" id="start">3회 루프 시작</button>
+    <button id="start" class="pill" style="background:#2e64ff;border-color:#2e64ff;color:#fff">3회 루프 시작</button>
   </div>
 
-  <div class="mut">학습 방법 안내<br>이 플래시 훈련은 외워야 한다는 압박이 아닌<br>반복 노출 훈련입니다<br>노출 시간은 짧고(1~1.5초), 3회 루프로 진행하며<br>회차 사이 2분 장기 기억장치에 저장하기 위한<br>명상 휴식이 들어갑니다.</div>
+  <div class="hint">학습 방법 안내<br>이 플래시 훈련은 외워야 한다는 압박이 아닌<br>반복 노출 훈련입니다.<br>노출 시간은 짧고(1~1.5초), 3회 루프로 진행하며<br>회차 사이 2분 장기 기억장치에 저장하기 위한<br>명상 휴식이 들어갑니다.</div>
 
-  <div class="spacer"></div>
-  <div class="row2">
-    <div class="progbar" style="flex:1 1 360px"><i id="bar"></i></div>
-    <div class="mut" id="state">0/0 (0%)</div>
+  <div class="row">
+    <div class="bar" style="flex:1"><i id="prog"></i></div>
+    <div id="state" class="pill ghost">0/0</div>
   </div>
 
-  <div class="row2">
-    <span class="chip">자동(초)</span>
-    <input id="autoSec" class="slider" type="range" min="0.6" max="5" step="0.1" value="1.2" />
-    <b id="autoSecV">1.2s</b>
-    <button id="prev" class="btn-ghost">◀ 이전</button>
-    <button id="next" class="btn-ghost">다음 ▶</button>
-    <button id="autoplay" class="btn-ghost">▶ 자동</button>
-    <button id="sayEN" class="btn-ghost">🔊 EN</button>
-    <button id="sayKO" class="btn-ghost">🔊 KO</button>
-    <label style="display:flex;align-items:center;gap:6px">
-      <input id="autoTTS" type="checkbox" checked /> 자동읽기
-    </label>
-    <button id="stop" class="btn-ghost right" style="color:#fff;border-color:var(--danger)">종료</button>
+  <div class="ctrl">
+    <span class="pill ghost">자동(초)</span>
+    <input id="autoSec" type="range" min="0.5" max="5" step="0.1" value="1.2" style="width:180px" />
+    <span id="autoSecLabel">1.2s</span>
+
+    <button id="prev" class="pill ghost">◀ 이전</button>
+    <button id="next" class="pill ghost">다음 ▶</button>
+    <button id="auto" class="pill">▶ 자동</button>
+
+    <button id="sayEN" class="pill ghost">🔈 EN</button>
+    <button id="sayKO" class="pill ghost">🔈 KO</button>
+    <label class="pill ghost"><input id="autoRead" type="checkbox" checked /> 자동읽기</label>
+
+    <div class="sp"></div>
+    <button id="quit" class="pill ghost">종료</button>
   </div>
 
-  <!-- === 카드 표시 영역 (키워드 / 의미 / 예시) === -->
-  <div class="panel kw"><div id="kw" class="txt"></div></div>
-  <div class="panel mean"><div id="mean" class="txt"></div></div>
-  <div class="panel usage"><pre id="usage" class="txt"></pre></div>
+  <div class="grid">
+    <div id="kw" class="card kw"></div>
+    <div id="mean" class="card mean"></div>
+    <div id="usage" class="card usage"></div>
+  </div>
+</div>
 
+<!-- 명상 오버레이 -->
+<div id="rest" class="overlay">
+  <div class="modal">
+    <div class="dim">명상 휴식</div>
+    <div style="margin:6px 0 12px" class="dim">들이마시기 4초 → 멈춤 4초 → 내쉬기 6초</div>
+    <div class="bubble" id="bubble">2:00</div>
+    <div id="phase" class="dim">들이마시기</div>
+    <div style="margin-top:12px"><button id="skip" class="pill">건너뛰기</button></div>
+  </div>
 </div>
 
 <script>
-/* ----------------------------
-   데이터 매핑
------------------------------ */
-const EN_FILES = {
-  vocab: "english_vocab.json",
-  coding: "english_coding.json",
-  pattern: "english_pattern.json",
-  conversation: "english_conversation.json",
+/* ---------- PWA 등록 ---------- */
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(()=>{});
+}
+
+/* ---------- 상태 ---------- */
+const $ = (s)=>document.querySelector(s);
+const el = {
+  domain:  $('#domain'),
+  level:   $('#level'),
+  catLab:  $('#cat-label'),
+  cat:     $('#category'),
+  lvLab:   $('#lv-label'),
+  start:   $('#start'),
+  count:   $('#count'),
+  prog:    $('#prog'),
+  state:   $('#state'),
+  autoSec: $('#autoSec'),
+  autoSecLabel: $('#autoSecLabel'),
+  prev:    $('#prev'),
+  next:    $('#next'),
+  auto:    $('#auto'),
+  sayEN:   $('#sayEN'),
+  sayKO:   $('#sayKO'),
+  autoRead:$('#autoRead'),
+  kw:      $('#kw'),
+  mean:    $('#mean'),
+  usage:   $('#usage'),
+  rest:    $('#rest'),
+  bubble:  $('#bubble'),
+  phase:   $('#phase'),
+  skip:    $('#skip')
 };
-function levelFile(domain, level){
-  return `${domain}_L${level}.json`;
-}
 
-/* ----------------------------
-   상태
------------------------------ */
-const ctx = {
-  domain: "python",
-  level: 1,
-  cat: "vocab",
-  page: 30,
-  round: 0,           // 1..3
-  idx: 0,
-  deck: [],
-  seen: new Set(),    // 세션 중복 방지
-  auto: false,
-  autoMs: 1200,
-  startTs: 0,
+let ctx = {
+  domain:'python',
+  level:1,
+  category:'vocab',
+  page:30,
+  auto:false,
+  interval:1.2,
+  round:0,            // 1..3
+  idx:0,
+  deck:[],
+  seen:new Set(),     // 세션 전체 중복 방지
+  startTime:0
 };
 
-const el = (id)=>document.getElementById(id);
+el.domain.addEventListener('change', onDomainChange);
+function onDomainChange(){
+  ctx.domain = el.domain.value;
+  if (ctx.domain==='english') {
+    el.level.style.display='none';
+    el.lvLab.style.display='none';
+    el.cat.style.display='';
+    el.catLab.style.display='';
+  } else {
+    el.level.style.display='';
+    el.lvLab.style.display='';
+    el.cat.style.display='none';
+    el.catLab.style.display='none';
+  }
+}
+onDomainChange();
 
-/* ----------------------------
-   UI 요소
------------------------------ */
-const $domain = el("domain");
-const $level  = el("level");
-const $labLevel = el("lab-level");
-const $cat    = el("cat");
-const $labCat = el("lab-cat");
-const $page   = el("page");
-const $start  = el("start");
-const $bar    = el("bar");
-const $state  = el("state");
-const $kw     = el("kw");
-const $mean   = el("mean");
-const $usage  = el("usage");
-const $prev   = el("prev");
-const $next   = el("next");
-const $auto   = el("autoplay");
-const $autoSec= el("autoSec");
-const $autoSecV= el("autoSecV");
-const $sayEN  = el("sayEN");
-const $sayKO  = el("sayKO");
-const $autoTTS= el("autoTTS");
-const $stop   = el("stop");
+/* ---------- 유틸 ---------- */
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function sample(a,k){const x=a.slice();shuffle(x);return x.slice(0,Math.min(k,x.length));}
+function centerProgress(cur,total){ const p = total? Math.round(cur/total*100):0; el.prog.style.width = p+'%'; }
+function setStateText(){ const total=ctx.deck.length; const head = ctx.domain==='english' ? `${ctx.domain}` : `${ctx.domain} L${ctx.level}`; el.state.textContent = `${ctx.idx+1}/${total} · ${head} · ${ctx.round}/3`; }
 
-/* ----------------------------
-   도메인 선택 시 level/cat 토글
------------------------------ */
-function syncDomainUI(){
-  const d = $domain.value;
-  if(d === "english"){
-    $labLevel.style.display = "none";
-    $level.style.display    = "none";
-    $labCat.style.display   = "";
-    $cat.style.display      = "";
+/* 루트/ data/ 자동 인식 로더 */
+async function fetchJsonSmart(name){
+  // 1) data/ 우선
+  try{
+    const r = await fetch(`./data/${name}`, {cache:'no-cache'});
+    if(r.ok) return await r.json();
+  }catch{}
+  // 2) 루트
+  const r2 = await fetch(`./${name}`, {cache:'no-cache'});
+  if(!r2.ok) throw new Error('JSON not found: '+name);
+  return await r2.json();
+}
+
+/* 도메인별 데이터 로드 */
+async function loadDeck(){
+  if (ctx.domain==='english'){
+    const map = {
+      vocab:'english_vocab.json',
+      coding:'english_coding.json',
+      pattern:'english_pattern.json',
+      conversation:'english_conversation.json'
+    };
+    return await fetchJsonSmart(map[ctx.category]);
   }else{
-    $labLevel.style.display = "";
-    $level.style.display    = "";
-    $labCat.style.display   = "none";
-    $cat.style.display      = "none";
-  }
-}
-$domain.addEventListener("change", syncDomainUI);
-syncDomainUI();
-
-/* ----------------------------
-   데이터 로드
------------------------------ */
-async function loadCards(){
-  const d = $domain.value;
-  if(d === "english"){
-    const file = EN_FILES[$cat.value] || EN_FILES.vocab;
-    return fetchJSON(`data/${file}`);
-  }else{
-    const file = levelFile(d, $level.value);
-    return fetchJSON(`data/${file}`);
-  }
-}
-async function fetchJSON(url){
-  const r = await fetch(url, {cache:"no-store"});
-  if(!r.ok) throw new Error("데이터 로드 실패: "+url);
-  return r.json();
-}
-
-/* ----------------------------
-   덱 구성
-   - r1: 순차 (앞에서 page개)
-   - r2: 랜덤 (중복 제거)
-   - r3: 혼합(랜덤) + 이전 라운드와 중복 최소화
------------------------------ */
-function sample(arr, k){
-  const a = [...arr];
-  for(let i=a.length-1;i>0;--i){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
-  return a.slice(0, Math.min(k, a.length));
-}
-function mixRound3(rows, page, seen){
-  const pool = rows.filter(x=>!seen.has(x.keyword));
-  if(pool.length < page){
-    const rest = rows.filter(x=>!pool.includes(x));
-    pool.push(...sample(rest, page - pool.length));
-  }
-  // 태그(core/applied) 우선
-  const core = pool.filter(c => (c.tags||[]).includes("core"));
-  const applied = pool.filter(c => (c.tags||[]).includes("applied"));
-  const other = pool.filter(c => !(c.tags||[]).includes("core") && !(c.tags||[]).includes("applied"));
-  const out = [];
-  function take(list, k){
-    for(const c of list){
-      if(out.length>=page) break;
-      if(!out.find(x=>x.keyword===c.keyword)) out.push(c);
-    }
-  }
-  take(sample(core,10),10); take(sample(applied,10),10);
-  for(const c of sample(other, page*2)){ if(out.length>=page) break; if(!out.find(x=>x.keyword===c.keyword)) out.push(c); }
-  if(out.length<page){
-    for(const c of rows){ if(out.length>=page) break; if(!out.find(x=>x.keyword===c.keyword)) out.push(c); }
-  }
-  return out.slice(0,page);
-}
-
-/* ----------------------------
-   표시 + 진행바
------------------------------ */
-function showCard(){
-  const total = ctx.deck.length;
-  const cur = Math.min(ctx.idx+1, total);
-  const pct = total? Math.floor(cur/total*100) : 0;
-
-  $bar.style.width = pct + "%";
-  $state.textContent = `${cur}/${total} (${pct}%) · ${ctx.domain}${ctx.domain==="english"?"":(" L"+ctx.level)} · ${ctx.round}/3`;
-
-  const c = ctx.deck[ctx.idx] || {};
-  $kw.textContent   = c.keyword || "";
-  $mean.textContent = c.meaning || "";
-  $usage.textContent= c.usage_one_liner || "";
-
-  // 자동 읽기
-  if($autoTTS.checked){
-    autoSpeak(c);
+    const rows = await fetchJsonSmart(`${ctx.domain}_L${ctx.level}.json`);
+    return rows;
   }
 }
 
-/* ----------------------------
-   자동 진행
------------------------------ */
-let timer = 0;
-function setAuto(on){
-  ctx.auto = on;
-  $auto.textContent = on? "❚❚ 일시정지" : "▶ 자동";
-  if(timer){ clearInterval(timer); timer=0; }
-  if(on){
-    timer = setInterval(()=>{
-      if(ctx.idx < ctx.deck.length-1){
-        ctx.seen.add(ctx.deck[ctx.idx].keyword);
-        ctx.idx++; showCard();
-      }else{
-        // 라운드 종료 → 휴식 → 다음 라운드
-        nextRound();
-      }
-    }, ctx.autoMs);
+/* r3 혼합 (태그 우선, 중복 회피) */
+function pickRound3(rows, seen, k){
+  const pool = rows.filter(c=>!seen.has(c.keyword));
+  shuffle(pool);
+  const core = pool.filter(c=>Array.isArray(c.tags) && c.tags.includes('core'));
+  const applied = pool.filter(c=>Array.isArray(c.tags) && c.tags.includes('applied'));
+  const other = pool.filter(c=>!Array.isArray(c.tags) || (!c.tags.includes('core') && !c.tags.includes('applied')));
+  const out=[];
+  function take(list,n){for(const c of list){if(out.length>=k)break; if(!out.find(x=>x.keyword===c.keyword)) out.push(c);}}
+  take(core,Math.min(10,k));
+  take(applied,Math.min(20,k-out.length));
+  take(other,k-out.length);
+  // 부족 시 아무거나
+  if(out.length<k){
+    const fill = rows.filter(c=>!out.find(x=>x.keyword===c.keyword));
+    shuffle(fill); out.push(...fill.slice(0,k-out.length));
   }
-}
-$auto.addEventListener("click", ()=>setAuto(!ctx.auto));
-
-/* ----------------------------
-   라운드/휴식
------------------------------ */
-async function nextRound(){
-  speechSynthesis.cancel();
-  ctx.round++;
-  if(ctx.round===2 || ctx.round===3){
-    await restTimer(120); // 2분 휴식
-  }
-  if(ctx.round>3){
-    setAuto(false);
-    alert("3회 루프 완료!");
-    return;
-  }
-  // 새 덱 구성
-  const rows = await loadCards();
-  const page = parseInt($page.value,10);
-
-  if(ctx.domain==="english"){
-    if(ctx.round===1){
-      ctx.deck = sample(rows, page);
-    }else{
-      // 영어는 매 라운드 랜덤 + 세션 중복 최소화
-      const unseen = rows.filter(r=>!ctx.seen.has(r.keyword));
-      const take = sample(unseen, page);
-      if(take.length<page){
-        // 남은게 적으면 나머지 아무거나 채움(이미 뽑은 것 중복 최소화)
-        const rest = rows.filter(r=>!take.find(t=>t.keyword===r.keyword));
-        take.push(...sample(rest, page-take.length));
-      }
-      ctx.deck = take.slice(0,page);
-    }
-  }else{
-    if(ctx.round===1){
-      ctx.deck = rows.slice(0, page);
-    }else if(ctx.round===2){
-      ctx.deck = sample(rows, page);
-    }else{
-      ctx.deck = mixRound3(rows, page, ctx.seen);
-    }
-  }
-  ctx.idx=0;
-  showCard();
+  return out.slice(0,k);
 }
 
-function restTimer(s){
-  return new Promise(resolve=>{
-    const t0 = performance.now();
-    const dlg = document.createElement('div');
-    dlg.style.cssText = "position:fixed;inset:0;background:#0b0d12cc;backdrop-filter:blur(2px);display:flex;align-items:center;justify-content:center;z-index:99999";
-    dlg.innerHTML = `
-      <div style="background:#131722;border:1px solid #2a2f3a;border-radius:16px;padding:24px;min-width:260px;text-align:center;color:#e6e8ee">
-        <div style="font-size:20px;font-weight:800;margin-bottom:6px">명상 휴식</div>
-        <div class="mut">들이마시기 4초 → 멈춤 4초 → 내쉬기 6초</div>
-        <div id="restLeft" style="font:20px/1.2 ui-monospace,Consolas,monospace;margin:14px 0">남은 시간: ${s}초</div>
-        <button id="skip" class="btn-ghost" style="padding:10px 14px;border-radius:10px;border:1px solid #2a2f3a;color:#e6e8ee;background:#171a21">건너뛰기</button>
-      </div>`;
-    document.body.appendChild(dlg);
-    const $left = dlg.querySelector("#restLeft");
-    const $skip = dlg.querySelector("#skip");
-    let left = s, handle=0;
-
-    function tick(){
-      left--;
-      $left.textContent = `남은 시간: ${left}초`;
-      if(left<=0){ done(); }
-    }
-    handle = setInterval(tick, 1000);
-    $skip.onclick = done;
-
-    function done(){
-      clearInterval(handle);
-      dlg.remove();
-      resolve();
-    }
-  });
-}
-
-/* ----------------------------
-   이동/버튼
------------------------------ */
-$prev.addEventListener("click", ()=>{
-  speechSynthesis.cancel();
-  ctx.idx = Math.max(0, ctx.idx-1); showCard();
-});
-$next.addEventListener("click", ()=>{
-  speechSynthesis.cancel();
-  if(ctx.idx < ctx.deck.length-1){
-    ctx.seen.add(ctx.deck[ctx.idx].keyword);
-    ctx.idx++; showCard();
-  }else{
-    nextRound();
-  }
-});
-$stop.addEventListener("click", ()=>{
-  setAuto(false);
-  speechSynthesis.cancel();
-});
-
-/* ----------------------------
-   시작
------------------------------ */
-$start.addEventListener("click", async ()=>{
-  speechSynthesis.cancel();
-  ctx.domain = $domain.value;
-  ctx.level  = parseInt($level.value,10);
-  ctx.cat    = $cat.value;
-  ctx.page   = parseInt($page.value,10);
-  ctx.round  = 0; ctx.idx=0; ctx.seen.clear();
-  await nextRound();
-  // 자동 시작
-  setAuto(true);
-});
-
-/* ----------------------------
-   슬라이더
------------------------------ */
-$autoSec.addEventListener("input", ()=>{
-  $autoSecV.textContent = `${$autoSec.value}s`;
-  ctx.autoMs = Math.round(parseFloat($autoSec.value)*1000);
-  if(ctx.auto) setAuto(true);
-});
-
-/* ----------------------------
-   TTS (겹침 방지: 항상 cancel→speak)
------------------------------ */
+/* ---------- TTS (겹침 방지) ---------- */
+const synth = window.speechSynthesis;
 function speak(text, lang){
   if(!text) return;
-  try{
-    speechSynthesis.cancel(); // 겹침 방지
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = lang || 'en-US';
-    u.rate = 1.05;   // 자연 속도
-    speechSynthesis.speak(u);
-  }catch(e){}
+  try{ synth.cancel(); }catch{}
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = lang || 'en-US';
+  u.rate = 1.0; u.pitch = 1.0; u.volume = 1.0;
+  synth.speak(u);
 }
-function textEN(card){
-  // 영어 세션: 문장/단어(usage 우선), 그 외: 키워드에서 한글 제거 시도 후 낭독
-  if(ctx.domain === "english"){
-    return (card.usage_one_liner||card.keyword||"").trim();
-  }else{
-    const k = (card.keyword||"").trim();
-    const onlyEn = k.replace(/[가-힣]/g,'').trim();
-    return (onlyEn||k);
+function speakForCard(card){
+  // 영어: usage_one_liner(있으면) → 의미(ko)
+  if(ctx.domain==='english'){
+    const en = card.usage_one_liner || card.keyword || '';
+    speak(en,'en-US');
+    setTimeout(()=>{ speak(card.meaning||'', 'ko-KR'); }, 380);
+    return;
   }
+  // 코딩/DB/판다스: 키워드만
+  speak(card.keyword||'', 'en-US');
 }
-function textKO(card){
-  return (card.meaning||"").trim();
-}
-function autoSpeak(card){
-  if(!card) return;
-  if(ctx.domain==="english"){
-    // 영어는 EN만 자동
-    const t = textEN(card);
-    if(t) speak(t, 'en-US');
-  }else{
-    // 파이썬/판다스/SQL은 키워드(ko) 자동
-    const t = card.keyword || "";
-    if(t) speak(t, 'ko-KR');
-  }
-}
-$sayEN.addEventListener("click", ()=>{ const c=ctx.deck[ctx.idx]; speak(textEN(c),'en-US'); });
-$sayKO.addEventListener("click", ()=>{ const c=ctx.deck[ctx.idx]; speak(textKO(c),'ko-KR'); });
 
-/* ----------------------------
-   키보드(모바일 외부 키보드 포함)
------------------------------ */
-window.addEventListener("keydown",(e)=>{
-  if(e.key==="ArrowRight") $next.click();
-  else if(e.key==="ArrowLeft") $prev.click();
-  else if(e.key===" ") { e.preventDefault(); $auto.click(); }
+/* ---------- 카드 렌더 ---------- */
+function render(){
+  const c = ctx.deck[ctx.idx] || {};
+  el.kw.textContent    = c.keyword || '';
+  el.mean.textContent  = c.meaning || '';
+  if (ctx.domain==='english' && Array.isArray(c.items) && c.items.length){
+    const lines = c.items.slice(0,12).map(it=>`• ${it.en||''} / ${it.ko||''}`);
+    el.usage.textContent = lines.join('\n');
+  } else {
+    el.usage.textContent = c.usage_one_liner || '';
+  }
+  centerProgress(ctx.idx+1, ctx.deck.length);
+  setStateText();
+  if (el.autoRead.checked) speakForCard(c);
+}
+
+/* ---------- 라운드/명상 ---------- */
+function showRest(sec=120){
+  return new Promise(resolve=>{
+    el.rest.style.display='grid';
+    let left = sec; let phase = '들이마시기'; let t0 = Date.now();
+    const tick = ()=>{
+      // 초 카운트
+      const d = Date.now()-t0;
+      if(d>=1000){ t0 = Date.now(); left--; }
+      // 호흡 애니
+      const mod = (Date.now()/1000)%14; // 4,4,6
+      if(mod<4) phase='들이마시기'; else if(mod<8) phase='멈춤'; else phase='내쉬기';
+      el.phase.textContent = phase;
+      const m = Math.floor(Math.max(0,left)/60), s = Math.max(0,left)%60;
+      el.bubble.textContent = `${m}:${(s+'').padStart(2,'0')}`;
+      if(left<=0) return resolve();
+      raf = requestAnimationFrame(tick);
+    };
+    let raf = requestAnimationFrame(tick);
+    el.skip.onclick = ()=>resolve();
+  }).finally(()=>{ el.rest.style.display='none'; });
+}
+
+async function startRound(r){
+  ctx.round = r;
+  ctx.idx = 0;
+
+  // 덱 구성
+  const rows = await loadDeck();
+  const k = +el.count.value;
+  if (ctx.domain==='english'){
+    // 영어는 매 라운드 랜덤 + 세션 중복 최소화
+    const unseen = rows.filter(c=>!ctx.seen.has(c.keyword));
+    let chosen = sample(unseen, k);
+    if (chosen.length<k){ // 부족하면 나머지에서 보충
+      const rest = rows.filter(c=>!chosen.find(x=>x.keyword===c.keyword));
+      chosen = chosen.concat(sample(rest, k-chosen.length));
+    }
+    ctx.deck = chosen.slice(0,k);
+  }else{
+    if (r===1){
+      // r1: 순차(가능하면 order_index 정렬)
+      const ordered = rows.slice().sort((a,b)=>(a.order_index??1e9)-(b.order_index??1e9));
+      ctx.deck = ordered.slice(0,k);
+    }else if (r===2){
+      // r2: 랜덤
+      ctx.deck = sample(rows,k);
+    }else{
+      // r3: 혼합
+      ctx.deck = pickRound3(rows, ctx.seen, k);
+    }
+  }
+  if (ctx.deck.length===0){
+    alert('선택한 데이터가 없습니다.');
+    return false;
+  }
+  render();
+  return true;
+}
+
+async function runSession(){
+  ctx.seen.clear();
+  ctx.startTime = Date.now();
+  // r1
+  if(!(await startRound(1))) return;
+  ctx.auto = true; loopAuto();
+}
+
+async function afterRoundAdvance(){
+  if (ctx.round===1 || ctx.round===2){
+    await showRest(120);
+    await startRound(ctx.round+1);
+  } else {
+    ctx.auto = false;
+    alert('3회 루프 완료!');
+  }
+}
+
+/* ---------- 자동 루프 ---------- */
+let autoTimer = 0;
+function loopAuto(){
+  clearTimeout(autoTimer);
+  if(!ctx.auto) return;
+  autoTimer = setTimeout(()=>{
+    if (ctx.idx < ctx.deck.length-1){
+      const cur = ctx.deck[ctx.idx];
+      if(cur?.keyword) ctx.seen.add(cur.keyword);
+      ctx.idx++; render();
+      loopAuto();
+    }else{
+      // 라운드 종료
+      const cur = ctx.deck[ctx.idx];
+      if(cur?.keyword) ctx.seen.add(cur.keyword);
+      afterRoundAdvance().then(()=>{ if(ctx.auto) loopAuto(); });
+    }
+  }, Math.max(200, (ctx.interval*1000)|0));
+}
+
+/* ---------- 이벤트 ---------- */
+el.autoSec.addEventListener('input', ()=>{
+  ctx.interval = +el.autoSec.value;
+  el.autoSecLabel.textContent = ctx.interval.toFixed(1)+'s';
 });
 
-/* ----------------------------
-   PWA SW 등록
------------------------------ */
-if('serviceWorker' in navigator){
-  window.addEventListener('load', ()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
-}
+el.start.addEventListener('click', async ()=>{
+  ctx.domain   = el.domain.value;
+  ctx.level    = +el.level.value;
+  ctx.category = el.category.value;
+  ctx.page     = +el.count.value;
+  ctx.auto     = false;
+  await runSession();
+});
+
+el.prev.addEventListener('click', ()=>{
+  ctx.idx = Math.max(0, ctx.idx-1); render();
+});
+el.next.addEventListener('click', ()=>{
+  if (ctx.idx < ctx.deck.length-1){
+    const cur = ctx.deck[ctx.idx];
+    if(cur?.keyword) ctx.seen.add(cur.keyword);
+    ctx.idx++; render();
+  }else{
+    const cur = ctx.deck[ctx.idx];
+    if(cur?.keyword) ctx.seen.add(cur.keyword);
+    afterRoundAdvance();
+  }
+});
+el.auto.addEventListener('click', ()=>{
+  ctx.auto = !ctx.auto;
+  el.auto.textContent = ctx.auto ? '⏸ 일시정지' : '▶ 자동';
+  if (ctx.auto) loopAuto();
+});
+el.sayEN.addEventListener('click', ()=>{
+  const c = ctx.deck[ctx.idx]||{};
+  if (ctx.domain==='english') speak(c.usage_one_liner||c.keyword||'','en-US');
+  else speak(c.keyword||'','en-US');
+});
+el.sayKO.addEventListener('click', ()=>{
+  const c = ctx.deck[ctx.idx]||{};
+  speak(c.meaning||'','ko-KR');
+});
+el.quit.addEventListener('click', ()=>{ location.reload(); });
 </script>
 </body>
 </html>
