@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>Flash Learning — PWA + TTS</title>
 
-  <!-- PWA -->
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#0f0f12">
   <link rel="icon" href="icon-192.png">
@@ -14,72 +13,35 @@
       --bg:#0f1116; --panel:#161a22; --muted:#9aa4b2; --text:#e7ecf3; --accent:#5aa0ff;
       --card:#0d0f14; --line:#2a3242;
     }
-    * { box-sizing: border-box; }
-    html,body { height:100%; }
-    body {
-      margin:0; background:var(--bg); color:var(--text); font-family:system-ui, Segoe UI, Apple SD Gothic Neo, Malgun Gothic, sans-serif;
-      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-    }
-    .wrap { max-width:1100px; margin:24px auto 80px; padding:0 16px; }
-    h1 { margin:0 0 12px; font-size:24px; }
-    .controls {
-      display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:6px 0 10px;
-    }
-    select,button,input[type="number"],input[type="range"]{
-      background:var(--panel); color:var(--text); border:1px solid var(--line);
-      padding:8px 10px; border-radius:10px; outline:none;
-    }
-    button { cursor:pointer; }
-    .hint { color:var(--muted); font-size:13px; margin:10px 0 16px; }
-
-    .topbar { display:flex; align-items:center; gap:14px; }
-    .progress {
-      display:flex; align-items:center; gap:8px; margin:10px 0 12px;
-    }
-    .bar { height:8px; background:#202737; border-radius:999px; flex:1; overflow:hidden; }
-    .bar > i { display:block; height:100%; width:0%; background:linear-gradient(90deg, #5aa0ff, #69e3ff); }
-
-    .cards { display:flex; flex-direction:column; gap:10px; }
-    .card {
-      background:var(--card); border:1px solid var(--line); border-radius:16px; min-height:88px;
-      display:flex; align-items:center; justify-content:center; padding:18px;
-      text-align:center; white-space:pre-wrap; word-break:break-word;
-      font-weight:600; letter-spacing:.2px;
-    }
-    .card.key   { min-height:120px; font-size:42px; }
-    .card.mean  { min-height:76px;  font-size:24px; }
-    .card.usage { min-height:120px; font-size:18px; font-family:Consolas, ui-monospace, SFMono-Regular, Menlo, monospace; }
-
-    .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-top:10px; }
-    .row .sp { flex:1 }
-    .muted { color:var(--muted) }
-
-    /* REST overlay */
-    .rest {
-      position:fixed; inset:0; background:rgba(0,0,0,.75);
-      display:none; align-items:center; justify-content:center; z-index:40;
-    }
-    .rest .panel {
-      width:min(520px, calc(100% - 32px));
-      background:var(--panel); border:1px solid var(--line); border-radius:16px;
-      padding:22px; text-align:center;
-      box-shadow:0 10px 40px rgba(0,0,0,.35);
-    }
-    .breath {
-      width:220px; height:220px; margin:16px auto; border-radius:50%;
-      background:#1f2635; display:grid; place-items:center; overflow:hidden;
-    }
-    .bubble { width:120px; height:120px; border-radius:50%; background:#88d5ff55; }
-    .timer { margin-top:6px; font:600 20px/1.2 system-ui, sans-serif }
-    .rest .sub { color:var(--muted); font-size:14px; }
-
-    .pill { background:#1a2230; padding:8px 12px; border-radius:999px; border:1px solid var(--line) }
-
-    @media (max-width:640px){
-      .card.key{ font-size:34px }
-      .card.mean{ font-size:20px }
-      .card.usage{ font-size:16px }
-    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Apple SD Gothic Neo,Malgun Gothic,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    .wrap{max-width:1100px;margin:24px auto 80px;padding:0 16px}
+    h1{margin:0 0 12px;font-size:24px}
+    .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0 10px}
+    select,button,input[type="number"],input[type="range"]{background:var(--panel);color:var(--text);border:1px solid var(--line);padding:8px 10px;border-radius:10px;outline:none}
+    button{cursor:pointer}
+    .hint{color:var(--muted);font-size:13px;margin:10px 0 16px}
+    .topbar{display:flex;align-items:center;gap:14px}
+    .pill{background:#1a2230;padding:8px 12px;border-radius:999px;border:1px solid var(--line)}
+    .progress{display:flex;align-items:center;gap:8px;margin:10px 0 12px}
+    .bar{height:8px;background:#202737;border-radius:999px;flex:1;overflow:hidden}
+    .bar>i{display:block;height:100%;width:0%;background:linear-gradient(90deg,#5aa0ff,#69e3ff)}
+    .cards{display:flex;flex-direction:column;gap:10px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;min-height:88px;display:flex;align-items:center;justify-content:center;padding:18px;text-align:center;white-space:pre-wrap;word-break:break-word;font-weight:600;letter-spacing:.2px}
+    .card.key{min-height:120px;font-size:42px}
+    .card.mean{min-height:76px;font-size:24px}
+    .card.usage{min-height:120px;font-size:18px;font-family:Consolas,ui-monospace,SFMono-Regular,Menlo,monospace}
+    .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+    .row .sp{flex:1}
+    .muted{color:var(--muted)}
+    .rest{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;z-index:40}
+    .rest .panel{width:min(520px,calc(100% - 32px));background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+    .breath{width:220px;height:220px;margin:16px auto;border-radius:50%;background:#1f2635;display:grid;place-items:center;overflow:hidden}
+    .bubble{width:120px;height:120px;border-radius:50%;background:#88d5ff55}
+    .timer{margin-top:6px;font:600 20px/1.2 system-ui,sans-serif}
+    .rest .sub{color:var(--muted);font-size:14px}
+    @media (max-width:640px){.card.key{font-size:34px}.card.mean{font-size:20px}.card.usage{font-size:16px}}
   </style>
 </head>
 <body>
@@ -89,7 +51,7 @@
       <span class="pill muted" id="stateText">–</span>
     </div>
 
-    <div class="controls" id="ctrl">
+    <div class="controls">
       <label>도메인
         <select id="domain">
           <option value="python">python</option>
@@ -123,7 +85,7 @@
       <button id="start3" style="background:#143b74;border-color:#204a8f">3회 루프 시작</button>
     </div>
 
-    <div class="hint">학습 방법 안내<br>이 플래시 훈련은 외워야 한다는 압박이 아닌<br>반복 노출 훈련입니다.<br>노출 시간은 짧고(1~1.5초), 3회 루프로 진행하며<br>회차 사이 2분간 장기 기억장치에 저장하기 위한<br>명상 휴식이 들어갑니다.</div>
+    <div class="hint">영어는 라운드마다 랜덤, 세션 전체에서 중복 최소화 · 라운드 사이 2분 명상</div>
 
     <div class="progress">
       <div class="bar"><i id="bar"></i></div>
@@ -141,7 +103,7 @@
       <button id="sayEN">🔊 EN</button>
       <button id="sayKO">🔊 KO</button>
       <label class="muted" style="display:flex;align-items:center;gap:6px">
-        <input id="autoRead" type="checkbox" checked> 자동읽기
+        <input id="autoRead" type="checkbox" checked> 자동읽기(EN 키워드)
       </label>
       <button id="finish">종료</button>
       <span class="sp"></span>
@@ -154,7 +116,7 @@
     </div>
   </div>
 
-  <!-- 명상 휴식 -->
+  <!-- REST overlay -->
   <div class="rest" id="rest">
     <div class="panel">
       <h3 style="margin:0 0 6px">명상 휴식</h3>
@@ -172,42 +134,39 @@
     else run();
   })(function(){
 
-    /* ------------------------------ helpers ------------------------------ */
+    /* ------------------------------ utils ------------------------------ */
     const $ = id => document.getElementById(id);
     const sleep = ms => new Promise(r=>setTimeout(r, ms));
 
-    // JSON 경로: 같은 폴더 우선, 없으면 /data/ 폴더에서 재시도
+    // 같은 폴더 우선, 없으면 /data/ 폴더에서 재시도
     function dataURL(domain, level, cat){
-      const file = (domain === 'english') ? `english_${cat||'vocab'}.json` : `${domain}_L${level}.json`;
-      const here = new URL(file, location.href).href;
-      const alt  = new URL('data/'+file, location.href).href;
-      return [here, alt];
+      const file = (domain==='english') ? `english_${cat||'vocab'}.json` : `${domain}_L${level}.json`;
+      return [new URL(file, location.href).href, new URL('data/'+file, location.href).href];
     }
-    async function fetchJSONSmart(urlA, urlB){
-      for (const u of [urlA, urlB]) {
-        try {
-          const r = await fetch(u, {cache:'no-cache'});
-          if (r.ok) return await r.json();
-        } catch(_) {}
+    async function fetchJSONSmart(a,b){
+      for (const u of [a,b]) {
+        try{ const r = await fetch(u,{cache:'no-cache'}); if (r.ok) return await r.json(); }catch(_){}
       }
       return null;
     }
-    function pickRandom(arr, k, seed){
+
+    function seedRandom(seed){ let s=(seed??Date.now())>>>0; return ()=>{ s=(s*1664525+1013904223)>>>0; return (s>>>8)/0x01000000; }; }
+    function shuffle(arr, rng){ const a=arr.slice(); for(let i=a.length-1;i>0;i--){ const j=(rng?Math.floor(rng()*(i+1)):Math.floor(Math.random()*(i+1))); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+
+    // 항상 k장을 보장 (데이터가 부족하면 순환 보충)
+    function ensureKRandom(rows, k, seed){
       const rng = seedRandom(seed);
-      const a = arr.slice();
-      for (let i=a.length-1;i>0;i--){
-        const j = Math.floor(rng()* (i+1));
-        [a[i],a[j]]=[a[j],a[i]];
-      }
-      return a.slice(0, Math.min(k,a.length));
-    }
-    function seedRandom(seed){
-      let s = (seed ?? Date.now()) >>> 0;
-      return function(){ s = (s*1664525 + 1013904223)>>>0; return (s>>>8)/0x01000000; };
+      const uniq = []; const seen=new Set();
+      for (const r of rows){ const key = r.keyword||r.id||JSON.stringify(r).slice(0,50); if(!seen.has(key)){ uniq.push(r); seen.add(key); } }
+      if (uniq.length >= k) return shuffle(uniq, rng).slice(0,k);
+      if (!uniq.length) return [];
+      let pool = uniq.slice();
+      while (pool.length < k) pool = pool.concat(uniq);
+      return shuffle(pool, rng).slice(0,k);
     }
 
     /* ------------------------------ state ------------------------------ */
-    const state = {
+    const st = {
       domain: $('domain').value,
       level:  Number($('level').value),
       cat:    $('cat').value,
@@ -215,356 +174,239 @@
       round:  0,
       deck:   [],
       idx:    0,
-      prev:   new Set(),  // 세션 전체 중복 최소화
+      prev:   new Set(),
       auto:   false,
       autoSec: Number($('autoSec').value),
-      autoRead: $('autoRead').checked,
+      autoRead: $('autoRead').checked, // EN만 자동
       restSec: 120,
-      shuffleR1: true,
       startTime: 0
     };
-
-    function setDomainUI() {
-      const isEn = state.domain === 'english';
+    function setDomainUI(){
+      const isEn = st.domain==='english';
       $('lvWrap').style.display  = isEn ? 'none' : '';
       $('catWrap').style.display = isEn ? '' : 'none';
     }
     setDomainUI();
 
-    /* ------------------------------ WebAudio(비프) ------------------------------ */
-    let audioCtx = null;
+    /* ------------------------------ WebAudio beep ------------------------------ */
+    let audioCtx=null;
     function ensureAudio(){
-      if (!audioCtx) {
-        const Ctx = window.AudioContext || window.webkitAudioContext;
-        if (Ctx) audioCtx = new Ctx();
-      }
-      if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+      if(!audioCtx){ const C=window.AudioContext||window.webkitAudioContext; if(C) audioCtx=new C(); }
+      if(audioCtx && audioCtx.state==='suspended') audioCtx.resume();
     }
-    // 사용자 첫 클릭에서 오디오 해제
     window.addEventListener('pointerdown', ()=>{ ensureAudio(); }, {once:true});
-
     function beep(freq=880, ms=140, vol=0.12){
-      try{
-        ensureAudio(); if (!audioCtx) return;
-        const osc = audioCtx.createOscillator();
-        const gain = audioCtx.createGain();
-        gain.gain.value = vol;
-        osc.type='sine'; osc.frequency.value=freq;
-        osc.connect(gain).connect(audioCtx.destination);
-        osc.start();
-        setTimeout(()=>{ osc.stop(); osc.disconnect(); gain.disconnect(); }, ms|0);
+      try{ ensureAudio(); if(!audioCtx) return;
+        const osc=audioCtx.createOscillator(), g=audioCtx.createGain();
+        g.gain.value=vol; osc.type='sine'; osc.frequency.value=freq;
+        osc.connect(g).connect(audioCtx.destination); osc.start();
+        setTimeout(()=>{ osc.stop(); osc.disconnect(); g.disconnect(); }, ms|0);
       }catch(_){}
     }
 
-    /* ------------------------------ TTS(Queue) ------------------------------ */
-    let voices = [];
-    const loadVoices = () => voices = speechSynthesis.getVoices();
-    loadVoices();
-    speechSynthesis.onvoiceschanged = loadVoices;
-
-    // 현재 TTS 시퀀스 토큰 (새 카드가 오면 증가 → 이전 재생은 무시)
-    let ttsToken = 0;
-
-    function pickVoice(langHint){ // 'en' | 'ko'
-      const lc = (langHint||'').toLowerCase();
-      let best = null;
-      for (const v of voices){
-        const id =(v.name+' '+v.lang).toLowerCase();
-        if (id.includes(lc)) { best = v; break; }
-      }
-      return best;
+    /* ------------------------------ TTS (EN only auto) ------------------------------ */
+    let voices=[]; const loadVoices=()=>voices=speechSynthesis.getVoices(); loadVoices(); speechSynthesis.onvoiceschanged=loadVoices;
+    let ttsToken=0;
+    function pickVoice(lang){
+      const lc=(lang||'').toLowerCase();
+      for(const v of voices){ const id=(v.name+' '+v.lang).toLowerCase(); if(id.includes(lc)) return v; }
+      return null;
     }
-
     function speakOnce(text, lang){
       return new Promise(resolve=>{
-        if (!text){ resolve(); return; }
+        if(!text){ resolve(); return; }
         try{
-          speechSynthesis.cancel(); // 항상 이전 발화 중단
-          const u = new SpeechSynthesisUtterance(text);
-          const vv = pickVoice(lang);
-          if (vv){ u.voice = vv; u.lang = vv.lang; }
-          else    u.lang  = (lang==='en'?'en-US':'ko-KR');
-          u.rate = 1.0; u.pitch=1.0;
-          u.onend = u.onerror = ()=> resolve();
+          speechSynthesis.cancel();
+          const u=new SpeechSynthesisUtterance(text);
+          const vv=pickVoice(lang);
+          if(vv){ u.voice=vv; u.lang=vv.lang; } else u.lang=(lang==='en'?'en-US':'ko-KR');
+          u.rate=1.0; u.pitch=1.0;
+          u.onend=u.onerror=()=>resolve();
           speechSynthesis.speak(u);
         }catch(_){ resolve(); }
       });
     }
-
-    function getEN(c){
-      if (!c) return '';
-      if (state.domain==='english'){
-        if (c.category==='pattern' && Array.isArray(c.items) && c.items.length){
-          return [c.keyword, ...c.items.slice(0,3).map(x=>x.en)].filter(Boolean).join('. ');
-        }
-        return c.keyword || c.usage_one_liner || '';
-      }
-      return c.keyword || '';
+    // 자동 읽기는 EN 키워드만
+    async function speakAutoEN(){
+      if(!st.autoRead) return;
+      const token=++ttsToken;
+      const c=cur(); if(!c) return;
+      await speakOnce(getENKeyword(c),'en');
+      if(token!==ttsToken) return;
     }
-    function getKO(c){
-      if (!c) return '';
-      if (state.domain==='english'){
-        if (c.category==='pattern' && Array.isArray(c.items) && c.items.length){
-          return c.items.slice(0,3).map(x=>x.ko).filter(Boolean).join(' / ');
-        }
+
+    /* ------------------------------ deck build ------------------------------ */
+    function cur(){ return st.deck[st.idx]; }
+    function updateState(){
+      const t=`${st.domain} · ${st.domain==='english'?st.cat:('L'+st.level)} · ${st.round}/3 · ${Math.min(st.idx+1,st.deck.length)}/${Math.max(1,st.deck.length||1)}`;
+      $('stateText').textContent=t;
+      const cur=Math.min(st.idx+1, st.deck.length||0), tot=st.deck.length||0;
+      $('progText').textContent=`${cur}/${tot}`;
+      $('bar').style.width=(tot? (cur/tot*100):0)+'%';
+    }
+    function getENKeyword(c){ return (c && c.keyword) ? String(c.keyword) : ''; }
+    function getKOText(c){
+      if(!c) return '';
+      if(st.domain==='english'){
+        if(c.category==='pattern' && Array.isArray(c.items)) return c.items.slice(0,3).map(x=>x.ko).filter(Boolean).join(' / ');
         return c.meaning || '';
       }
       return c.meaning || '';
     }
-
-    async function speakPairAuto(){
-      if (!state.autoRead) return;
-      const token = ++ttsToken;          // 새 시퀀스 시작
-      const c = curCard(); if (!c) return;
-
-      await speakOnce(getEN(c),'en');
-      if (token !== ttsToken) return;    // 중간에 카드가 바뀐 경우 중단
-      await sleep(120);
-      await speakOnce(getKO(c),'ko');
-    }
-
-    /* ------------------------------ deck building ------------------------------ */
-    function curCard(){ return state.deck[state.idx]; }
-    function updateStateText(){
-      const t = `${state.domain} · ${state.domain==='english'? state.cat : 'L'+state.level} · ${state.round}/3 · ${Math.min(state.idx+1,state.deck.length)}/${Math.max(1,state.deck.length||1)}`;
-      $('stateText').textContent = t;
-    }
-    function updateProgress(){
-      const cur = Math.min(state.idx+1, state.deck.length||0);
-      const tot = state.deck.length||0;
-      $('progText').textContent = `${cur}/${tot}`;
-      $('bar').style.width = (tot? (cur/tot*100):0) + '%';
-      updateStateText();
-    }
     function renderCard(){
-      const c = curCard();
-      if (!c){
-        $('keyBox').textContent  = '카드가 없습니다';
-        $('meanBox').textContent = '';
-        $('usageBox').textContent= '';
-        updateProgress(); return;
+      const c=cur();
+      if(!c){
+        $('keyBox').textContent='카드가 없습니다'; $('meanBox').textContent=''; $('usageBox').textContent='';
+        updateState(); return;
       }
-      $('keyBox').textContent  = c.keyword || '';
+      $('keyBox').textContent = c.keyword || '';
       $('meanBox').textContent = c.meaning || '';
-
-      let usage = '';
-      if (state.domain==='english'){
-        if (c.category==='pattern' && Array.isArray(c.items)){
-          usage = c.items.map(it=>`• ${it.en}  /  ${it.ko}`).join('\n');
-        } else usage = c.usage_one_liner || '';
-      } else {
-        usage = c.usage_one_liner || '';
-      }
+      let usage='';
+      if(st.domain==='english'){
+        if(c.category==='pattern' && Array.isArray(c.items)) usage = c.items.map(it=>`• ${it.en}  /  ${it.ko}`).join('\n');
+        else usage = c.usage_one_liner || '';
+      }else usage = c.usage_one_liner || '';
       $('usageBox').textContent = usage;
-
-      updateProgress();
-      speakPairAuto(); // 자동 읽기(EN→KO 순차)
+      updateState();
+      speakAutoEN(); // EN 키워드만 자동 읽기
     }
 
-    // 영어는 항상 랜덤/중복 최소화
     function pickEnglish(rows, k){
-      const unseen = rows.filter(r=>!state.prev.has(r.keyword));
-      const chosen = pickRandom(unseen, k);
-      if (chosen.length<k){
+      const rng = seedRandom(Date.now());
+      // 세션 전체에서 중복 최소화 후, 부족하면 순환 보충
+      const unseen = rows.filter(r=>!st.prev.has(r.keyword));
+      let chosen = shuffle(unseen, rng).slice(0,k);
+      chosen.forEach(c=> st.prev.add(c.keyword));
+      if (chosen.length < k){
+        // 나머지는 전체에서 보충
         const rest = rows.filter(r=>!chosen.some(x=>x.keyword===r.keyword));
-        chosen.push(...pickRandom(rest, k-chosen.length));
+        chosen = chosen.concat(shuffle(rest, rng).slice(0, k-chosen.length));
       }
-      chosen.forEach(c=> state.prev.add(c.keyword));
+      if (chosen.length < k){
+        // 그래도 부족하면 순환
+        chosen = ensureKRandom(chosen.length?chosen:rows, k, Date.now());
+      }
       return chosen.slice(0,k);
     }
 
-    function pickRound2(rows, k){ return pickRandom(rows, k); }
-    function pickRound3(rows, k){
-      const unseen = rows.filter(r=>!state.prev.has(r.keyword));
-      let pool = unseen.length ? unseen : rows.slice();
-      const core    = pool.filter(c=>(c.tags||[]).includes('core'));
-      const applied = pool.filter(c=>(c.tags||[]).includes('applied'));
-      const other   = pool.filter(c=>!(c.tags||[]).some(t=>t==='core'||t==='applied'));
-      const out = [];
-      out.push(...pickRandom(core, Math.min(10,k)));
-      out.push(...pickRandom(applied, Math.min(20, k-out.length)));
-      if (out.length<k) out.push(...pickRandom(other, k-out.length));
-      const uniq=[]; const seen=new Set();
-      for(const c of out){ if (!seen.has(c.keyword)){ uniq.push(c); seen.add(c.keyword); } }
-      return uniq.slice(0,k);
-    }
-
-    async function buildR1(rows){
-      if (state.domain==='english') return pickEnglish(rows, state.page);
-      if (state.shuffleR1) return pickRound2(rows, state.page);
-      return rows.slice(0, state.page);
-    }
-
     async function loadRows(){
-      const [u1,u2] = dataURL(state.domain, state.level, state.cat);
+      const [u1,u2] = dataURL(st.domain, st.level, st.cat);
       const rows = await fetchJSONSmart(u1, u2);
-      if (!rows || !rows.length) throw new Error('데이터 로드 실패');
+      if(!rows || !rows.length) throw new Error('데이터 로드 실패');
       return rows;
     }
 
-    /* ------------------------------ rest / flow ------------------------------ */
+    async function buildR1(rows){
+      // ✅ R1도 항상 섞어서 k장 보장
+      return ensureKRandom(rows, st.page, Date.now());
+    }
+    function buildR2(rows){ return ensureKRandom(rows, st.page, Date.now()); }
+    function buildR3(rows){
+      // core/applied 우대 + 부족 시 보충
+      const core    = rows.filter(c=>(c.tags||[]).includes('core'));
+      const applied = rows.filter(c=>(c.tags||[]).includes('applied'));
+      const other   = rows.filter(c=>!(c.tags||[]).some(t=>t==='core'||t==='applied'));
+      let out=[]; const rng=seedRandom(Date.now());
+      out = out.concat(shuffle(core, rng).slice(0, Math.min(10, st.page)));
+      if(out.length<st.page) out = out.concat(shuffle(applied, rng).slice(0, Math.min(20, st.page-out.length)));
+      if(out.length<st.page) out = out.concat(shuffle(other, rng).slice(0, st.page-out.length));
+      if(out.length<st.page) out = ensureKRandom(out.length?out:rows, st.page, Date.now());
+      return out.slice(0,st.page);
+    }
+
+    /* ------------------------------ rest flow ------------------------------ */
     function showRest(sec){
       $('rest').style.display='flex';
-      let left = sec;
-      $('restLeft').textContent = `${left}초`;
-      let t0 = performance.now();
-      let lastPhase = '';
-
-      function scaleBubble(r){
-        const s = 0.55 + 0.45*r;
-        $('bubble').style.transform = `scale(${s})`;
-      }
+      let left=sec; $('restLeft').textContent=`${left}초`;
+      let t0=performance.now(); let last='';
+      function bubbleScale(r){ $('bubble').style.transform=`scale(${0.55+0.45*Math.max(0,Math.min(1,r))})`; }
       function frame(now){
-        const t = (now - t0)/1000; // sec
-        const cycle = 4+4+6;
-        const x = t % cycle;
+        const t=(now-t0)/1000, cycle=14, x=t%cycle;
         let phase, ratio;
-        if (x<4) { phase='들이마시기'; ratio = x/4; }
-        else if (x<8){ phase='멈춤'; ratio=1; }
-        else { phase='내쉬기'; ratio = 1 - (x-8)/6; }
-        $('phase').textContent = phase;
-        scaleBubble(Math.max(0, Math.min(1, ratio)));
-
-        if (phase !== lastPhase){
-          lastPhase = phase;
-          // 단계 전환 비프
-          if (phase==='들이마시기') beep(880, 140);
-          else if (phase==='멈춤')  beep(660, 120);
-          else                      beep(440, 120);
-        }
-        req = requestAnimationFrame(frame);
+        if(x<4){ phase='들이마시기'; ratio=x/4; }
+        else if(x<8){ phase='멈춤'; ratio=1; }
+        else { phase='내쉬기'; ratio=1-(x-8)/6; }
+        $('phase').textContent=phase; bubbleScale(ratio);
+        if(phase!==last){ last=phase; if(phase==='들이마시기')beep(880,140); else if(phase==='멈춤')beep(660,120); else beep(440,120); }
+        req=requestAnimationFrame(frame);
       }
-      let req = requestAnimationFrame(frame);
-
-      let tick = setInterval(()=>{
-        left--; $('restLeft').textContent = `${left}초`;
-        if (left<=0){ clearInterval(tick); cancelAnimationFrame(req); finishRest(); }
-      }, 1000);
-
-      $('skipRest').onclick = ()=>{ clearInterval(tick); cancelAnimationFrame(req); finishRest(); };
-
-      function finishRest(){
-        // 피니시 3톤
-        beep(660,120); setTimeout(()=>beep(880,120),150); setTimeout(()=>beep(550,180),330);
-        hideRest(); nextRound();
-      }
+      let req=requestAnimationFrame(frame);
+      let tick=setInterval(()=>{ left--; $('restLeft').textContent=`${left}초`; if(left<=0){clearInterval(tick); cancelAnimationFrame(req); finish();}},1000);
+      $('skipRest').onclick=()=>{clearInterval(tick); cancelAnimationFrame(req); finish();};
+      function finish(){ beep(660,120); setTimeout(()=>beep(880,120),150); setTimeout(()=>beep(550,180),330); hideRest(); nextRound(); }
     }
     function hideRest(){ $('rest').style.display='none'; }
 
     async function startSession(){
-      state.prev.clear();
-      state.round = 1;
-      state.idx = 0;
-      state.startTime = Date.now();
-      const rows = await loadRows();
-      state.deck = await buildR1(rows);
-      renderCard();
-      state.auto = true;
+      st.prev.clear(); st.round=1; st.idx=0; st.startTime=Date.now();
+      const rows=await loadRows();
+      st.deck = (st.domain==='english') ? pickEnglish(rows, st.page) : await buildR1(rows);
+      renderCard(); st.auto=true;
     }
-
     async function nextRound(){
-      state.round++;
-      if (state.round>3){
-        state.auto = false;
-        alert('3회 루프 완료!');
-        return;
+      st.round++;
+      if(st.round>3){ st.auto=false; alert('3회 루프 완료!'); return; }
+      const rows=await loadRows();
+      if(st.domain==='english'){
+        st.deck = pickEnglish(rows, st.page);
+      }else if(st.round===2){
+        st.deck = buildR2(rows);
+      }else{
+        st.deck = buildR3(rows);
       }
-      const rows = await loadRows();
-      if (state.domain==='english'){
-        state.deck = pickEnglish(rows, state.page);
-      } else if (state.round===2){
-        state.deck = pickRound2(rows, state.page);
-      } else if (state.round===3){
-        state.deck = pickRound3(rows, state.page);
-      }
-      state.idx=0;
-      renderCard();
-      state.auto = true;
+      st.idx=0; renderCard(); st.auto=true;
     }
 
     /* ------------------------------ events ------------------------------ */
-    $('domain').addEventListener('change', e=>{
-      state.domain = e.target.value; setDomainUI();
-    });
-    $('level').addEventListener('change', e=> state.level = Number(e.target.value));
-    $('cat').addEventListener('change', e=> state.cat = e.target.value);
-    $('page').addEventListener('change', e=> state.page = Number(e.target.value));
-
-    $('autoSec').addEventListener('input', e=>{
-      state.autoSec = Number(e.target.value);
-      $('autoSecVal').textContent = state.autoSec.toFixed(1) + 's';
-    });
-    $('autoRead').addEventListener('change', e=> state.autoRead = e.target.checked);
+    $('domain').addEventListener('change', e=>{ st.domain=e.target.value; setDomainUI(); });
+    $('level').addEventListener('change', e=> st.level=Number(e.target.value));
+    $('cat').addEventListener('change', e=> st.cat=e.target.value);
+    $('page').addEventListener('change', e=> st.page=Number(e.target.value));
+    $('autoSec').addEventListener('input', e=>{ st.autoSec=Number(e.target.value); $('autoSecVal').textContent=st.autoSec.toFixed(1)+'s'; });
+    $('autoRead').addEventListener('change', e=> st.autoRead=e.target.checked);
 
     $('start3').addEventListener('click', async ()=>{
       try{
-        state.domain = $('domain').value;
-        state.level  = Number($('level').value);
-        state.cat    = $('cat').value;
-        state.page   = Number($('page').value);
+        st.domain=$('domain').value; st.level=Number($('level').value); st.cat=$('cat').value; st.page=Number($('page').value);
         await startSession();
-      }catch(err){
-        console.error(err);
-        alert('데이터를 불러오지 못했습니다.');
-      }
+      }catch(err){ console.error(err); alert('데이터를 불러오지 못했습니다.'); }
     });
 
-    $('prev').addEventListener('click', ()=>{
-      if (state.idx>0){ state.idx--; renderCard(); }
+    $('prev').addEventListener('click', ()=>{ if(st.idx>0){ st.idx--; renderCard(); } });
+    $('next').addEventListener('click', ()=>{ if(!st.deck.length) return;
+      if(st.idx<st.deck.length-1){ st.prev.add((cur().keyword)||''); st.idx++; renderCard(); }
+      else{ st.prev.add((cur().keyword)||''); if(st.round>=1) showRest(st.restSec); }
     });
-    $('next').addEventListener('click', ()=>{
-      if (!state.deck.length) return;
-      if (state.idx < state.deck.length-1){
-        state.prev.add((curCard().keyword)||'');
-        state.idx++; renderCard();
-      } else {
-        state.prev.add((curCard().keyword)||'');
-        if (state.round>=1) showRest(state.restSec);
-      }
-    });
+    $('autoBtn').addEventListener('click', ()=>{ st.auto=!st.auto; $('autoBtn').textContent=st.auto?'⏸ 일시정지':'▶ 자동'; });
 
-    $('autoBtn').addEventListener('click', ()=>{
-      state.auto = !state.auto;
-      $('autoBtn').textContent = state.auto? '⏸ 일시정지' : '▶ 자동';
-    });
+    // 수동 읽기: 큐 끊고 해당 언어 1회
+    $('sayEN').addEventListener('click', ()=>{ ttsToken++; speakOnce(getENKeyword(cur()),'en'); });
+    $('sayKO').addEventListener('click', ()=>{ ttsToken++; speakOnce(getKOText(cur()),'ko'); });
 
-    // 버튼으로 말하기: 현재 큐 중단 후 해당 언어만 1회
-    $('sayEN').addEventListener('click', ()=>{ ttsToken++; speakOnce(getEN(curCard()), 'en'); });
-    $('sayKO').addEventListener('click', ()=>{ ttsToken++; speakOnce(getKO(curCard()), 'ko'); });
+    $('finish').addEventListener('click', ()=>{ st.auto=false; alert('세션 종료'); });
 
-    $('finish').addEventListener('click', ()=>{ state.auto=false; alert('세션 종료'); });
-
-    // 자동 넘김 타이머
+    // 자동 넘김 루프
     (function autoLoop(){
-      let last = performance.now();
+      let last=performance.now();
       function tick(now){
-        const dt = now - last;
-        if (state.auto && state.deck.length){
-          if (dt >= state.autoSec*1000){
-            last = now;
-            if (state.idx < state.deck.length-1){
-              state.prev.add((curCard().keyword)||'');
-              state.idx++; renderCard();
-            } else {
-              state.prev.add((curCard().keyword)||'');
-              state.auto = false;
-              showRest(state.restSec);
-            }
+        const dt=now-last;
+        if(st.auto && st.deck.length){
+          if(dt>=st.autoSec*1000){
+            last=now;
+            if(st.idx<st.deck.length-1){ st.prev.add((cur().keyword)||''); st.idx++; renderCard(); }
+            else{ st.prev.add((cur().keyword)||''); st.auto=false; showRest(st.restSec); }
           }
-        } else last = now;
+        }else last=now;
         requestAnimationFrame(tick);
       }
       requestAnimationFrame(tick);
     })();
 
-    // 초기 표기
-    updateStateText(); updateProgress();
+    updateState();
 
-    // PWA: 서비스워커 등록
-    if ('serviceWorker' in navigator){
-      window.addEventListener('load', ()=> {
-        navigator.serviceWorker.register('sw.js').catch(console.warn);
-      });
+    // SW
+    if('serviceWorker' in navigator){
+      window.addEventListener('load', ()=>navigator.serviceWorker.register('sw.js').catch(console.warn));
     }
   });
   </script>
