@@ -22,7 +22,7 @@
     select,button,input[type="number"],input[type="range"]{background:var(--panel);color:var(--text);border:1px solid var(--line);padding:8px 10px;border-radius:10px;outline:none}
     button{cursor:pointer}
     .hint{color:var(--muted);font-size:13px;margin:10px 0 16px}
-    .topbar{display:flex;align-items:center;gap:14px}
+    .topbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
     .pill{background:#1a2230;padding:8px 12px;border-radius:999px;border:1px solid var(--line)}
     .progress{display:flex;align-items:center;gap:8px;margin:10px 0 12px}
     .bar{height:8px;background:#202737;border-radius:999px;flex:1;overflow:hidden}
@@ -41,7 +41,28 @@
     .bubble{width:120px;height:120px;border-radius:50%;background:#88d5ff55}
     .timer{margin-top:6px;font:600 20px/1.2 system-ui,sans-serif}
     .rest .sub{color:var(--muted);font-size:14px}
-    @media (max-width:640px){.card.key{font-size:34px}.card.mean{font-size:20px}.card.usage{font-size:16px}}
+    .hidden{display:none!important}
+
+    /* Output */
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}
+    .out-title{font-size:20px;margin:0 0 8px}
+    .out-desc{color:var(--muted);font-size:14px;line-height:1.6}
+    .out-key{font-size:38px;font-weight:800;text-align:center;margin:10px 0 6px}
+    .out-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+    textarea{width:100%;min-height:140px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:14px;padding:12px;font-family:system-ui,Segoe UI,sans-serif}
+
+    /* Manual Modal */
+    .modal{position:fixed;inset:0;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;z-index:50}
+    .modal .box{width:min(860px,calc(100% - 34px));max-height:86vh;overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+    .modal h2{margin:0 0 10px;font-size:22px}
+    .modal h3{margin:18px 0 8px}
+    .modal p,.modal li{color:#c9d2df;line-height:1.7}
+    .modal .close{position:sticky;top:0;display:flex;justify-content:flex-end;margin:-8px -8px 6px}
+    .modal .close>button{background:#2a3242}
+
+    @media (max-width:640px){
+      .card.key{font-size:34px}.card.mean{font-size:20px}.card.usage{font-size:16px}.out-key{font-size:30px}
+    }
   </style>
 </head>
 <body>
@@ -49,74 +70,151 @@
     <div class="topbar">
       <h1>Flash Learning — PWA + TTS</h1>
       <span class="pill muted" id="stateText">–</span>
-    </div>
-
-    <div class="controls">
-      <label>도메인
-        <select id="domain">
-          <option value="python">python</option>
-          <option value="mysql">mysql</option>
-          <option value="pandas">pandas</option>
-          <option value="english">english</option>
-        </select>
-      </label>
-
-      <label id="lvWrap">레벨
-        <select id="level">
-          <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
-        </select>
-      </label>
-
-      <label id="catWrap" style="display:none">카테고리
-        <select id="cat">
-          <option value="vocab">vocab</option>
-          <option value="coding">coding</option>
-          <option value="pattern">pattern</option>
-          <option value="conversation">conversation</option>
-        </select>
-      </label>
-
-      <label>장수
-        <select id="page">
-          <option>20</option><option selected>30</option><option>40</option><option>50</option>
-        </select>
-      </label>
-
-      <button id="start3" style="background:#143b74;border-color:#204a8f">3회 루프 시작</button>
-    </div>
-
-    <div class="hint">영어는 라운드마다 랜덤, 세션 전체에서 중복 최소화 · 라운드 사이 2분 명상</div>
-
-    <div class="progress">
-      <div class="bar"><i id="bar"></i></div>
-      <span class="muted" id="progText">0/0</span>
-    </div>
-
-    <div class="controls">
-      <span class="muted">자동(초)</span>
-      <input id="autoSec" type="range" min="0.5" max="5" step="0.1" value="1.2" style="width:240px">
-      <span class="muted" id="autoSecVal">1.2s</span>
-
-      <button id="prev">◀ 이전</button>
-      <button id="next">다음 ▶</button>
-      <button id="autoBtn">▶ 자동</button>
-      <button id="sayEN">🔊 EN</button>
-      <button id="sayKO">🔊 KO</button>
-      <label class="muted" style="display:flex;align-items:center;gap:6px">
-        <input id="autoRead" type="checkbox" checked> 자동읽기(EN 키워드)
-      </label>
-      <button id="finish">종료</button>
       <span class="sp"></span>
+      <button id="openManual">메뉴얼</button>
+      <button id="toLearn" class="hidden">학습 모드</button>
+      <button id="toOutput">OUTPUT 모드</button>
     </div>
 
-    <div class="cards">
-      <div class="card key"   id="keyBox">–</div>
-      <div class="card mean"  id="meanBox">–</div>
-      <div class="card usage" id="usageBox">–</div>
-    </div>
+    <!-- ====== 학습 모드 ====== -->
+    <section id="learnSec">
+      <div class="controls">
+        <label>도메인
+          <select id="domain">
+            <option value="python">python</option>
+            <option value="mysql">mysql</option>
+            <option value="pandas">pandas</option>
+            <option value="english">english</option>
+          </select>
+        </label>
+
+        <label id="lvWrap">레벨
+          <select id="level">
+            <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+          </select>
+        </label>
+
+        <label id="catWrap" style="display:none">카테고리
+          <select id="cat">
+            <option value="vocab">vocab</option>
+            <option value="coding">coding</option>
+            <option value="pattern">pattern</option>
+            <option value="conversation">conversation</option>
+          </select>
+        </label>
+
+        <label>장수
+          <select id="page">
+            <option>20</option><option selected>30</option><option>40</option><option>50</option>
+          </select>
+        </label>
+
+        <button id="start3" style="background:#143b74;border-color:#204a8f">3회 루프 시작</button>
+      </div>
+
+      <div class="hint">학습 방법 안내<br>플래쉬 훈련은 억지로 외우려 하지 마세요.<br>짧은 노출이 반복될 때, 뇌가 스스로 패턴을 형성합니다.<br>3회 루프 구조로 구성되어 있으며,<br>1차 장기기억의 '뼈대'를 만들어줍니다.<br>2차 불규칙성으로 자동 회상 하는 학습니다.<br>3차 응용 조합으로 시냅스의 연결을 자극합니다. <br>루프의 각 차수 사이에 명상 휴식을 합니다.<br>이는 장기 기억력을 높혀주는 중요한 요소입니다. </div>
+
+      <div class="progress">
+        <div class="bar"><i id="bar"></i></div>
+        <span class="muted" id="progText">0/0</span>
+      </div>
+
+      <div class="controls">
+        <span class="muted">자동(초)</span>
+        <input id="autoSec" type="range" min="0.5" max="5" step="0.1" value="1.2" style="width:240px">
+        <span class="muted" id="autoSecVal">1.2s</span>
+
+        <button id="prev">◀ 이전</button>
+        <button id="next">다음 ▶</button>
+        <button id="autoBtn">▶ 자동</button>
+        <button id="sayEN">🔊 EN</button>
+        <button id="sayKO">🔊 KO</button>
+        <label class="muted" style="display:flex;align-items:center;gap:6px">
+          <input id="autoRead" type="checkbox" checked> 자동읽기(EN 키워드)
+        </label>
+        <button id="finish">종료</button>
+        <span class="sp"></span>
+      </div>
+
+      <div class="cards">
+        <div class="card key"   id="keyBox">–</div>
+        <div class="card mean"  id="meanBox">–</div>
+        <div class="card usage" id="usageBox">–</div>
+      </div>
+    </section>
+
+    <!-- ====== OUTPUT 모드 ====== -->
+    <section id="outputSec" class="hidden">
+      <!-- 메뉴 -->
+      <div id="outMenu" class="panel">
+        <h3 class="out-title">Output Practice (인출 연습)</h3>
+        <div class="out-desc">
+          <p><b>구성:</b> 학습 후 <b>말하기(Speaking, 30초)</b> 또는 <b>서술(Writing, 60초)</b> 모드로 학습한 개념을 표현합니다.</p>
+          <p><b>왜?</b> 정보를 꺼내는 과정 자체가 뇌의 기억 흔적을 강화합니다. 정답 여부보다 <b>회상 시도</b> 자체가 중요합니다.</p>
+          <p><b>뇌과학 근거</b></p>
+          <ul>
+            <li><b>Testing Effect(시험 효과)</b>: 단순히 다시 보는 것보다 <b>스스로 회상</b>하는 것이 기억에 훨씬 강력합니다.</li>
+            <li><b>Generation Effect(생성 효과)</b>: 직접 설명하거나 문장으로 만들어내면 신경망 연결이 두텁게 형성됩니다.</li>
+          </ul>
+          <p><b>효과:</b> “입력(Input)” 중심 학습에 <b>출력(Output)</b>을 포함하면 기억은 더 오래가고 더 유연하게 활용됩니다.</p>
+        </div>
+
+        <div class="controls">
+          <label>도메인
+            <select id="outDomain">
+              <option value="python">python</option>
+              <option value="mysql">mysql</option>
+              <option value="pandas">pandas</option>
+              <option value="english">english</option>
+            </select>
+          </label>
+
+          <label id="outLvWrap">레벨
+            <select id="outLevel">
+              <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+            </select>
+          </label>
+
+          <label id="outCatWrap" style="display:none">카테고리
+            <select id="outCat">
+              <option value="vocab">vocab</option>
+              <option value="coding">coding</option>
+              <option value="pattern">pattern</option>
+              <option value="conversation">conversation</option>
+            </select>
+          </label>
+
+          <label>장수
+            <select id="outPage">
+              <option>10</option><option selected>20</option><option>30</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="out-controls">
+          <button id="startSay"  style="background:#204a8f;border-color:#2b64c1">말하기 30초 시작</button>
+          <button id="startWrite" style="background:#2a6a3d;border-color:#32844b">서술 60초 시작</button>
+        </div>
+      </div>
+
+      <!-- 실행 화면 -->
+      <div id="outRun" class="hidden panel">
+        <div class="muted" id="outState">–</div>
+        <div class="out-key" id="outKeyword">–</div>
+        <div id="outPrompt" class="muted" style="margin-bottom:8px">–</div>
+        <div class="timer" id="outTimer">00:30</div>
+        <textarea id="outTextarea" class="hidden" placeholder="간단히 핵심만 적어 보세요."></textarea>
+        <div class="out-controls">
+          <button id="outPrev">◀ 이전</button>
+          <button id="outNext">다음 ▶</button>
+          <button id="outToggle">▶ 시작</button>
+          <button id="outDone">종료</button>
+        </div>
+      </div>
+    </section>
   </div>
 
-  <!-- REST overlay -->
+  <!-- ====== REST overlay ====== -->
   <div class="rest" id="rest">
     <div class="panel">
       <h3 style="margin:0 0 6px">명상 휴식</h3>
@@ -125,6 +223,54 @@
       <div class="timer" id="restLeft">–</div>
       <div class="sub" id="phase" style="margin-top:6px">–</div>
       <div style="margin-top:12px"><button id="skipRest">건너뛰기</button></div>
+    </div>
+  </div>
+
+  <!-- ====== Manual Modal ====== -->
+  <div class="modal" id="manual">
+    <div class="box">
+      <div class="close"><button id="closeManual">닫기</button></div>
+      <h2>플래시카드 학습 방법</h2>
+      <p class="muted">“짧은 노출 → 세 번의 루프 → 짧은 휴식 → 직접 꺼내보기. 뇌과학이 검증한 최적의 기억 설계입니다.”</p>
+
+      <h3>1) Short Exposure (짧은 노출)</h3>
+      <p>카드 한 장은 1~1.5초 동안만 노출됩니다.</p>
+      <p><b>왜?</b> 인간의 <b>Working Memory(작업기억)</b>는 용량이 매우 제한적입니다(약 7±2 단위).</p>
+      <p><b>효과:</b> 키워드·의미·사용 예시가 한눈에 들어오면 <b>Cognitive Load(인지 부하)</b>를 최소화하고 자동으로 패턴을 학습합니다.</p>
+      <p><b>뇌과학 근거:</b> 반복되는 짧은 자극은 시냅스 연결을 강화(Hebbian Learning).</p>
+
+      <h3>2) Triple Loop (3회 루프 학습)</h3>
+      <p>한 세션은 순차 → 랜덤 → 혼합, 총 3회 루프로 진행됩니다.</p>
+      <ul>
+        <li><b>Sequential:</b> 기본 흐름으로 <b>Schema</b> 형성</li>
+        <li><b>Random:</b> 순서를 섞어 <b>Retrieval Pathway</b> 강화</li>
+        <li><b>Mixed:</b> 응용 + 랜덤으로 <b>Transfer</b> 향상</li>
+      </ul>
+      <p><b>뇌과학 근거:</b> Interleaving / Encoding Variability.</p>
+
+      <h3>3) Meditation Break (명상 휴식)</h3>
+      <p>각 회차 사이에 2분 호흡. 들이마시기 3–5초 → 멈춤 3–5초 → 내쉬기 6–7초.</p>
+      <p><b>근거:</b> <b>Memory Consolidation</b>, <b>Default Mode Network</b>가 정보를 정리·재구성.</p>
+
+      <h3>4) Output Practice (인출 연습)</h3>
+      <p>말하기 30초 / 서술 60초로 학습한 개념을 직접 꺼내봅니다.</p>
+      <p><b>근거:</b> Testing Effect, Generation Effect.</p>
+
+      <h3>5) Core Principles</h3>
+      <ul>
+        <li>Expose shortly → 작업기억 부하 최소화</li>
+        <li>Repeat in 3 Loops → 다양한 경로로 저장</li>
+        <li>Pause with meditation → 기억 공고화</li>
+        <li>Practice retrieval → Testing Effect</li>
+      </ul>
+
+      <h3>6) User Tips</h3>
+      <ul>
+        <li>억지 암기보다 익숙함을 목표로</li>
+        <li>2분 휴식 건너뛰지 않기</li>
+        <li>Output은 정답보다 시도가 목적</li>
+        <li>하루 10~15분, 아침·저녁 1~2회 권장</li>
+      </ul>
     </div>
   </div>
 
@@ -137,8 +283,10 @@
     /* ------------------------------ utils ------------------------------ */
     const $ = id => document.getElementById(id);
     const sleep = ms => new Promise(r=>setTimeout(r, ms));
+    const show   = id => $(id).classList.remove('hidden');
+    const hide   = id => $(id).classList.add('hidden');
 
-    // 같은 폴더 우선, 없으면 /data/ 폴더에서 재시도
+    // 같은 폴더 우선, 없으면 /data/ 폴더 재시도
     function dataURL(domain, level, cat){
       const file = (domain==='english') ? `english_${cat||'vocab'}.json` : `${domain}_L${level}.json`;
       return [new URL(file, location.href).href, new URL('data/'+file, location.href).href];
@@ -152,8 +300,6 @@
 
     function seedRandom(seed){ let s=(seed??Date.now())>>>0; return ()=>{ s=(s*1664525+1013904223)>>>0; return (s>>>8)/0x01000000; }; }
     function shuffle(arr, rng){ const a=arr.slice(); for(let i=a.length-1;i>0;i--){ const j=(rng?Math.floor(rng()*(i+1)):Math.floor(Math.random()*(i+1))); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-
-    // 항상 k장을 보장 (데이터가 부족하면 순환 보충)
     function ensureKRandom(rows, k, seed){
       const rng = seedRandom(seed);
       const uniq = []; const seen=new Set();
@@ -165,7 +311,7 @@
       return shuffle(pool, rng).slice(0,k);
     }
 
-    /* ------------------------------ state ------------------------------ */
+    /* ------------------------------ learn state ------------------------------ */
     const st = {
       domain: $('domain').value,
       level:  Number($('level').value),
@@ -181,6 +327,7 @@
       restSec: 120,
       startTime: 0
     };
+
     function setDomainUI(){
       const isEn = st.domain==='english';
       $('lvWrap').style.display  = isEn ? 'none' : '';
@@ -195,6 +342,7 @@
       if(audioCtx && audioCtx.state==='suspended') audioCtx.resume();
     }
     window.addEventListener('pointerdown', ()=>{ ensureAudio(); }, {once:true});
+
     function beep(freq=880, ms=140, vol=0.12){
       try{ ensureAudio(); if(!audioCtx) return;
         const osc=audioCtx.createOscillator(), g=audioCtx.createGain();
@@ -202,6 +350,9 @@
         osc.connect(g).connect(audioCtx.destination); osc.start();
         setTimeout(()=>{ osc.stop(); osc.disconnect(); g.disconnect(); }, ms|0);
       }catch(_){}
+    }
+    function beepTrio(){
+      beep(660,140); setTimeout(()=>beep(880,140),180); setTimeout(()=>beep(520,180),360);
     }
 
     /* ------------------------------ TTS (EN only auto) ------------------------------ */
@@ -226,7 +377,6 @@
         }catch(_){ resolve(); }
       });
     }
-    // 자동 읽기는 EN 키워드만
     async function speakAutoEN(){
       if(!st.autoRead) return;
       const token=++ttsToken;
@@ -240,9 +390,9 @@
     function updateState(){
       const t=`${st.domain} · ${st.domain==='english'?st.cat:('L'+st.level)} · ${st.round}/3 · ${Math.min(st.idx+1,st.deck.length)}/${Math.max(1,st.deck.length||1)}`;
       $('stateText').textContent=t;
-      const cur=Math.min(st.idx+1, st.deck.length||0), tot=st.deck.length||0;
-      $('progText').textContent=`${cur}/${tot}`;
-      $('bar').style.width=(tot? (cur/tot*100):0)+'%';
+      const curI=Math.min(st.idx+1, st.deck.length||0), tot=st.deck.length||0;
+      $('progText').textContent=`${curI}/${tot}`;
+      $('bar').style.width=(tot? (curI/tot*100):0)+'%';
     }
     function getENKeyword(c){ return (c && c.keyword) ? String(c.keyword) : ''; }
     function getKOText(c){
@@ -273,36 +423,29 @@
 
     function pickEnglish(rows, k){
       const rng = seedRandom(Date.now());
-      // 세션 전체에서 중복 최소화 후, 부족하면 순환 보충
       const unseen = rows.filter(r=>!st.prev.has(r.keyword));
       let chosen = shuffle(unseen, rng).slice(0,k);
       chosen.forEach(c=> st.prev.add(c.keyword));
       if (chosen.length < k){
-        // 나머지는 전체에서 보충
         const rest = rows.filter(r=>!chosen.some(x=>x.keyword===r.keyword));
         chosen = chosen.concat(shuffle(rest, rng).slice(0, k-chosen.length));
       }
       if (chosen.length < k){
-        // 그래도 부족하면 순환
         chosen = ensureKRandom(chosen.length?chosen:rows, k, Date.now());
       }
       return chosen.slice(0,k);
     }
 
-    async function loadRows(){
-      const [u1,u2] = dataURL(st.domain, st.level, st.cat);
+    async function loadRows(dom=st.domain, lv=st.level, cat=st.cat){
+      const [u1,u2] = dataURL(dom, lv, cat);
       const rows = await fetchJSONSmart(u1, u2);
       if(!rows || !rows.length) throw new Error('데이터 로드 실패');
       return rows;
     }
 
-    async function buildR1(rows){
-      // ✅ R1도 항상 섞어서 k장 보장
-      return ensureKRandom(rows, st.page, Date.now());
-    }
+    async function buildR1(rows){ return ensureKRandom(rows, st.page, Date.now()); }
     function buildR2(rows){ return ensureKRandom(rows, st.page, Date.now()); }
     function buildR3(rows){
-      // core/applied 우대 + 부족 시 보충
       const core    = rows.filter(c=>(c.tags||[]).includes('core'));
       const applied = rows.filter(c=>(c.tags||[]).includes('applied'));
       const other   = rows.filter(c=>!(c.tags||[]).some(t=>t==='core'||t==='applied'));
@@ -333,7 +476,7 @@
       let req=requestAnimationFrame(frame);
       let tick=setInterval(()=>{ left--; $('restLeft').textContent=`${left}초`; if(left<=0){clearInterval(tick); cancelAnimationFrame(req); finish();}},1000);
       $('skipRest').onclick=()=>{clearInterval(tick); cancelAnimationFrame(req); finish();};
-      function finish(){ beep(660,120); setTimeout(()=>beep(880,120),150); setTimeout(()=>beep(550,180),330); hideRest(); nextRound(); }
+      function finish(){ beepTrio(); hideRest(); nextRound(); }
     }
     function hideRest(){ $('rest').style.display='none'; }
 
@@ -357,7 +500,10 @@
       st.idx=0; renderCard(); st.auto=true;
     }
 
-    /* ------------------------------ events ------------------------------ */
+    /* ------------------------------ learn events ------------------------------ */
+    $('openManual').onclick=()=>{ document.getElementById('manual').style.display='flex'; };
+    $('closeManual').onclick=()=>{ document.getElementById('manual').style.display='none'; };
+
     $('domain').addEventListener('change', e=>{ st.domain=e.target.value; setDomainUI(); });
     $('level').addEventListener('change', e=> st.level=Number(e.target.value));
     $('cat').addEventListener('change', e=> st.cat=e.target.value);
@@ -379,7 +525,6 @@
     });
     $('autoBtn').addEventListener('click', ()=>{ st.auto=!st.auto; $('autoBtn').textContent=st.auto?'⏸ 일시정지':'▶ 자동'; });
 
-    // 수동 읽기: 큐 끊고 해당 언어 1회
     $('sayEN').addEventListener('click', ()=>{ ttsToken++; speakOnce(getENKeyword(cur()),'en'); });
     $('sayKO').addEventListener('click', ()=>{ ttsToken++; speakOnce(getKOText(cur()),'ko'); });
 
@@ -402,9 +547,116 @@
       requestAnimationFrame(tick);
     })();
 
-    updateState();
+    /* ------------------------------ OUTPUT mode ------------------------------ */
+    const toOutputBtn = $('toOutput'), toLearnBtn = $('toLearn');
+    let out = {
+      domain: 'python', level:1, cat:'vocab', page:20,
+      deck:[], idx:0, kind:'say', seconds:30, timer:null, running:false, left:30
+    };
 
-    // SW
+    function setOutDomainUI(){
+      const isEn = out.domain==='english';
+      $('outLvWrap').style.display  = isEn ? 'none' : '';
+      $('outCatWrap').style.display = isEn ? '' : 'none';
+    }
+    function enterOutput(){
+      hide('learnSec'); show('outputSec'); hide('outRun'); show('outMenu');
+      toLearnBtn.classList.remove('hidden'); toOutputBtn.classList.add('hidden');
+      $('outDomain').value = st.domain;
+      $('outLevel').value  = String(st.level);
+      $('outCat').value    = st.cat;
+      $('outPage').value   = String(Math.max(10, Math.min(30, st.page)));
+      out.domain=$('outDomain').value; out.level=Number($('outLevel').value); out.cat=$('outCat').value; out.page=Number($('outPage').value);
+      setOutDomainUI();
+    }
+    function exitOutput(){
+      show('learnSec'); hide('outputSec');
+      toLearnBtn.classList.add('hidden'); toOutputBtn.classList.remove('hidden');
+      if(out.timer){ clearInterval(out.timer); out.timer=null; }
+      out.running=false;
+    }
+
+    toOutputBtn.addEventListener('click', ()=>{ st.auto=false; enterOutput(); });
+    toLearnBtn.addEventListener('click', ()=>{ exitOutput(); });
+
+    $('outDomain').addEventListener('change', e=>{ out.domain=e.target.value; setOutDomainUI(); });
+    $('outLevel').addEventListener('change', e=> out.level=Number(e.target.value));
+    $('outCat').addEventListener('change', e=> out.cat=e.target.value);
+    $('outPage').addEventListener('change', e=> out.page=Number(e.target.value));
+
+    async function buildOutputDeck(){
+      const rows = await loadRows(out.domain, out.level, out.cat);
+      out.deck = ensureKRandom(rows, out.page, Date.now());
+      out.idx = 0;
+    }
+    function outCur(){ return out.deck[out.idx]; }
+    function renderOut(){
+      const c = outCur();
+      $('outState').textContent = `${out.domain} · ${out.domain==='english'?out.cat:('L'+out.level)} · ${out.idx+1}/${out.deck.length}`;
+      $('outKeyword').textContent = c?.keyword || '—';
+      if(out.kind==='say'){
+        $('outPrompt').textContent = '키워드를 설명해 보세요. (말하기 30초)';
+        $('outTextarea').classList.add('hidden');
+      }else{
+        $('outPrompt').textContent = '키워드를 1–2문장으로 요약해 보세요. (서술 60초)';
+        $('outTextarea').classList.remove('hidden');
+        $('outTextarea').value='';
+      }
+      $('outToggle').textContent = out.running ? '⏸ 정지' : '▶ 시작';
+      $('outTimer').textContent  = fmt(out.left);
+    }
+    function startOutTimer(){
+      if(out.timer){ clearInterval(out.timer); }
+      out.running=true;
+      beep(820,120); // 시작 비프 1회
+      $('outToggle').textContent='⏸ 정지';
+      out.timer = setInterval(()=>{
+        if(!out.running) return;
+        out.left--; $('outTimer').textContent = fmt(out.left);
+        if(out.left<=0){
+          clearInterval(out.timer); out.timer=null; out.running=false;
+          beepTrio(); // 자동 종료 비프 3회
+          $('outToggle').textContent='▶ 시작';
+        }
+      },1000);
+    }
+    function stopOutTimer(){
+      out.running=false;
+      if(out.timer){ clearInterval(out.timer); out.timer=null; }
+      $('outToggle').textContent='▶ 시작';
+    }
+    const fmt = s=>`${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`;
+
+    $('startSay').addEventListener('click', async ()=>{
+      out.kind='say'; out.seconds=30; out.left=30;
+      await buildOutputDeck();
+      hide('outMenu'); show('outRun');
+      renderOut(); // 사용자가 ▶ 시작으로 제어
+    });
+    $('startWrite').addEventListener('click', async ()=>{
+      out.kind='write'; out.seconds=60; out.left=60;
+      await buildOutputDeck();
+      hide('outMenu'); show('outRun');
+      renderOut(); // 사용자가 ▶ 시작으로 제어
+    });
+
+    $('outToggle').addEventListener('click', ()=>{
+      if(out.running) stopOutTimer();
+      else startOutTimer();
+    });
+
+    $('outPrev').addEventListener('click', ()=>{
+      if(out.idx>0){ out.idx--; out.left=out.seconds; renderOut(); }
+    });
+    $('outNext').addEventListener('click', ()=>{
+      if(out.idx<out.deck.length-1){ out.idx++; out.left=out.seconds; renderOut(); }
+      else { beepTrio(); alert('Output 연습 완료!'); hide('outRun'); show('outMenu'); }
+    });
+    $('outDone').addEventListener('click', ()=>{
+      stopOutTimer(); hide('outRun'); show('outMenu');
+    });
+
+    /* ------------------------------ SW ------------------------------ */
     if('serviceWorker' in navigator){
       window.addEventListener('load', ()=>navigator.serviceWorker.register('sw.js').catch(console.warn));
     }
